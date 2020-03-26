@@ -1,5 +1,5 @@
 Drill report for G:\Zeug\KiCAD\projects\Larson SC64anner\Larson SC64anner.kicad_pcb
-Created on 21.03.2020 19:40:12
+Created on 25/03/2020 19:20:22
 
 Copper Layer Stackup:
     =============================================================
@@ -10,12 +10,13 @@ Copper Layer Stackup:
 Drill file 'Larson SC64anner-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
-    T1  0,60mm  0,024"  (3 holes)
-    T2  0,75mm  0,030"  (80 holes)
-    T3  0,80mm  0,031"  (58 holes)
-    T4  1,00mm  0,039"  (122 holes)
+    T1  0.35mm  0.014"  (8 holes)
+    T2  0.40mm  0.016"  (1 hole)
+    T3  0.75mm  0.030"  (80 holes)
+    T4  0.80mm  0.031"  (80 holes)
+    T5  1.00mm  0.039"  (135 holes)
 
-    Total plated holes count 263
+    Total plated holes count 304
 
 
 Drill file 'Larson SC64anner-NPTH-drl.gbr' contains
