@@ -45,8 +45,8 @@ So, to set the colours of the LED:
 - Blue: Connect the bottom middle pin to the top middle pin.
 - Green: Connect the bottom right pin to the top right pin.
 
-**Caution: Enabling more than one colour may result in the LED not lighting up at all. That is due to the output capacity of the Attiny85.
-**I recommend you only have one colour per LED enabled at all times.
+**Caution: Enabling more than one colour may result in the LED not lighting up at all. That is due to the output capacity of the Attiny85.**
+**I recommend you only have one colour per LED enabled at all times.**
 
 Thanks to Luc Volders for the explanations and examples on how to build a charlieplexed Larson Scanner: [Luc's Tech Blog post about his Larson Scanner](https://lucstechblog.blogspot.com/2017/09/charlieplexing.html)
 
