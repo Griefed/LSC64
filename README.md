@@ -26,7 +26,6 @@ Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [Inter
 - Connect your switch to J23 and to pin 1 of the Expansion Port on your C64
 
 For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
-
 Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Deluxe-Reset](http://pitsch.de/stuff/c64/index_c64.htm#A24)
 
 ### Larson Scanner
