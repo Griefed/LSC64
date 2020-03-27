@@ -1873,7 +1873,7 @@ F 6 "https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-2
 F 7 "10,19" H 20300 2050 50  0001 C CNN "Price"
 F 8 "CPU Brake" H 20300 2050 50  0001 C CNN "Family"
 	1    20300 2050
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Timer:NE555 U2
@@ -1930,10 +1930,10 @@ F 8 "CPU Brake" H 20650 2350 50  0001 C CNN "Family"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J26
+L Connector:Conn_01x01_Male J25
 U 1 1 5EA768C3
 P 18900 5150
-F 0 "J26" H 19008 5331 50  0000 C CNN
+F 0 "J25" H 19008 5331 50  0000 C CNN
 F 1 "1x01" H 19000 5250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 18900 5150 50  0001 C CNN
 F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 18900 5150 50  0001 C CNN
@@ -1946,28 +1946,12 @@ F 8 "CPU Brake" H 18900 5150 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J25
-U 1 1 5EAA3C5C
-P 22200 4500
-F 0 "J25" H 22308 4681 50  0000 C CNN
-F 1 "1x01" H 22300 4600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 22200 4500 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 22200 4500 50  0001 C CNN
-F 4 "Pin Header" H 22200 4500 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 22200 4500 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 22200 4500 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 22200 4500 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 22200 4500 50  0001 C CNN "Family"
-	1    22200 4500
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 5EAB8B01
 P 20300 4150
 F 0 "C4" H 20415 4241 50  0000 L CNN
 F 1 "10nF" H 20415 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 20415 4059 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 20415 4059 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/28535/vy2series.pdf" H 20300 4150 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836" H 20300 4150 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Kondensator" H 20300 4150 50  0001 C CNN "Category"
@@ -1993,36 +1977,10 @@ F 8 "CPU Brake" H 18150 2600 50  0001 C CNN "Family"
 	1    18150 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J27
-U 1 1 5EAFC628
-P 18950 2350
-F 0 "J27" H 18868 2025 50  0000 C CNN
-F 1 "1x02" H 18868 2116 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 18950 2350 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 18950 2350 50  0001 C CNN
-F 4 "Pin Header" H 18950 2350 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 18950 2350 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 18950 2350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,55" H 18950 2350 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 18950 2350 50  0001 C CNN "Family"
-	1    18950 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	18350 2600 18950 2600
-Wire Wire Line
-	18950 2600 18950 2550
-Wire Wire Line
-	19050 2550 19050 2600
-Wire Wire Line
-	19050 2600 19350 2600
 Wire Wire Line
 	19350 2600 19350 2050
 Wire Wire Line
 	19350 2050 20150 2050
-Wire Wire Line
-	20300 2200 20300 2250
 Wire Wire Line
 	20500 2350 20300 2350
 Connection ~ 20300 2350
@@ -2122,14 +2080,12 @@ Wire Wire Line
 	22300 3400 22300 5150
 Wire Wire Line
 	22300 5150 19100 5150
-Connection ~ 22000 4500
 Wire Wire Line
 	20450 2050 20500 2050
 Wire Wire Line
 	20500 2050 20500 2250
 Wire Wire Line
 	20500 2250 20300 2250
-Connection ~ 20300 2250
 Wire Wire Line
 	20300 2250 20300 2350
 Wire Wire Line
@@ -2139,4 +2095,27 @@ Wire Wire Line
 Wire Wire Line
 	19700 3850 19700 3200
 Connection ~ 19700 3200
+Wire Wire Line
+	18350 2600 19350 2600
+Wire Wire Line
+	20300 1900 20500 1900
+Wire Wire Line
+	20500 1900 20500 2050
+Connection ~ 20500 2050
+$Comp
+L Connector:Conn_01x01_Male J26
+U 1 1 5E8C2806
+P 19250 4500
+F 0 "J26" H 19358 4681 50  0000 C CNN
+F 1 "1x01" H 19350 4600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 19250 4500 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 19250 4500 50  0001 C CNN
+F 4 "Pin Header" H 19250 4500 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 19250 4500 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 19250 4500 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 19250 4500 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 19250 4500 50  0001 C CNN "Family"
+	1    19250 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
