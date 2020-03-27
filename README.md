@@ -25,7 +25,8 @@ Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [Inter
 - Connect the bottom pin of J22 to pin 9 of the Expansion Port on your C64
 - Connect your switch to J23 and to pin 1 of the Expansion Port on your C64
 
-For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
+For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port) 
+
 Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Deluxe-Reset](http://pitsch.de/stuff/c64/index_c64.htm#A24)
 
 ### Larson Scanner
@@ -45,7 +46,8 @@ So, to set the colours of the LED:
 - Blue: Connect the bottom middle pin to the top middle pin.
 - Green: Connect the bottom right pin to the top right pin.
 
-**Caution: Enabling more than one colour may result in the LED not lighting up at all. That is due to the output capacity of the Attiny85.**
+**Caution: Enabling more than one colour may result in the LED not lighting up at all. That is due to the output capacity of the Attiny85.** 
+
 **I recommend you only have one colour per LED enabled at all times.**
 
 Thanks to Luc Volders for the explanations and examples on how to build a charlieplexed Larson Scanner: [Luc's Tech Blog post about his Larson Scanner](https://lucstechblog.blogspot.com/2017/09/charlieplexing.html)
