@@ -25,7 +25,7 @@ Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [Inter
 - Connect the bottom pin of J22 to pin 9 of the Expansion Port on your C64
 - Connect your switch to J23 and to pin 1 of the Expansion Port on your C64
 
-For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port) 
+For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
 
 Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Deluxe-Reset](http://pitsch.de/stuff/c64/index_c64.htm#A24)
 
@@ -38,15 +38,15 @@ Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Delux
 
 For information about the pin layout of the power connector, check out: [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)
 
-The bottom 3 pins of J1 to J20 are all the same. The top 3 pins of J1 to J20 represent one colour of the RGB LED each. 
+The bottom 3 pins of J1 to J20 are all the same. The top 3 pins of J1 to J20 represent one colour of the RGB LED each.
 From left to right: red, blue green.
-So, to set the colours of the LED: 
+So, to set the colours of the LED:
 
-- Red: Connect the bottom left pin to the top left pin. 
+- Red: Connect the bottom left pin to the top left pin.
 - Blue: Connect the bottom middle pin to the top middle pin.
 - Green: Connect the bottom right pin to the top right pin.
 
-**Caution: Enabling more than one colour may result in the LED not lighting up at all. That is due to the output capacity of the Attiny85.** 
+**Caution: Enabling more than one colour may result in the LED not lighting up at all. That is due to the output capacity of the Attiny85.**
 
 **I recommend you only have one colour per LED enabled at all times.**
 
@@ -62,3 +62,13 @@ Thanks to Luc Volders for the explanations and examples on how to build a charli
 - Connect J25 to pin 4 of the Expansion Port on your C64
 
 For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
+
+### Mono-Stereo Headphone examples
+
+![Amp](Mono-Stereo-Headphone-Amp.PNG)
+
+Not shown on the schematic nor the pcb are the **4x3 rotary switch**(e.g.:[Symbol](Rotary_Switch4x3.PNG), [Datasheet, Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440) and the **potentiometer to change the volume**(e.g.:[Symbol](Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
+
+-
+-
+-
