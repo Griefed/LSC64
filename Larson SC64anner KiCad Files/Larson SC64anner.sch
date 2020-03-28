@@ -4,2118 +4,2649 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "LSC64"
+Date "2020-03-28"
+Rev "2.18"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "Larson Scanner with RBG LEDs"
+Comment2 "Reset Button"
+Comment3 "CPU Brake"
+Comment4 "Headphone Amp"
 $EndDescr
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED1
 U 1 1 5E840BFD
-P 6900 4100
-F 0 "LED1" V 6900 3770 50  0000 R CNN
-F 1 "LED_CRGB" V 6855 3770 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 6900 4050 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 6900 4050 50  0001 C CNN
-F 4 "LED" H 6900 4100 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 6900 4100 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 6900 4100 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 6900 4100 50  0001 C CNN "Price"
-F 8 "LSC" H 6900 4100 50  0001 C CNN "Family"
-	1    6900 4100
+P 2950 7450
+F 0 "LED1" V 2950 7120 50  0000 R CNN
+F 1 "LED_CRGB" V 2905 7120 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 2950 7400 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 2950 7400 50  0001 C CNN
+F 4 "LED" H 2950 7450 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 2950 7450 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 2950 7450 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 2950 7450 50  0001 C CNN "Price"
+F 8 "LSC" H 2950 7450 50  0001 C CNN "Family"
+	1    2950 7450
 	0    1    1    0   
 $EndComp
-Connection ~ 9600 2200
+Connection ~ 5650 5550
 Wire Wire Line
-	6150 7850 6900 7850
+	2200 11200 2950 11200
 Wire Wire Line
-	6150 7950 7400 7950
+	2200 11300 3450 11300
 Wire Wire Line
-	6150 8050 7200 8050
+	2200 11400 3250 11400
 Wire Wire Line
-	7200 8050 7200 8500
+	3250 11400 3250 11850
 Wire Wire Line
-	6150 8150 6950 8150
+	2200 11500 3000 11500
 Wire Wire Line
-	6950 8150 6950 8750
-Connection ~ 15500 7200
-Connection ~ 13350 4600
-Connection ~ 9000 2200
+	3000 11500 3000 12100
+Connection ~ 11550 10550
+Connection ~ 9400 7950
+Connection ~ 5050 5550
 Wire Wire Line
-	9000 2200 9600 2200
+	5050 5550 5650 5550
 Wire Wire Line
-	9600 2200 10100 2200
-Connection ~ 10100 2200
+	5650 5550 6150 5550
+Connection ~ 6150 5550
 Wire Wire Line
-	10100 2200 10700 2200
+	6150 5550 6750 5550
 Wire Wire Line
-	15500 7200 16050 7200
+	11550 10550 12100 10550
 Wire Wire Line
-	13350 4600 13850 4600
-Connection ~ 13850 4600
+	9400 7950 9900 7950
+Connection ~ 9900 7950
 Wire Wire Line
-	13850 4600 14450 4600
-Connection ~ 12750 4600
+	9900 7950 10500 7950
+Connection ~ 8800 7950
 Wire Wire Line
-	12750 4600 13350 4600
+	8800 7950 9400 7950
 Wire Wire Line
-	7400 7950 7400 7800
-Connection ~ 14900 7200
+	3450 11300 3450 11150
+Connection ~ 10950 10550
 Wire Wire Line
-	14900 7200 15500 7200
-Connection ~ 16050 7200
+	10950 10550 11550 10550
+Connection ~ 12100 10550
 Wire Wire Line
-	16050 7200 16650 7200
+	12100 10550 12700 10550
 Wire Wire Line
-	18400 9900 17800 9900
-Connection ~ 17800 9900
-Connection ~ 13850 12350
+	14450 13250 13850 13250
+Connection ~ 13850 13250
+Connection ~ 9900 15700
 Wire Wire Line
-	13850 12350 14450 12350
-Connection ~ 14450 12350
+	9900 15700 10500 15700
+Connection ~ 10500 15700
 Wire Wire Line
-	14450 12350 16050 12350
-Connection ~ 16050 12350
+	10500 15700 12100 15700
+Connection ~ 12100 15700
 Wire Wire Line
-	16050 12350 16650 12350
-Connection ~ 16650 12350
+	12100 15700 12700 15700
+Connection ~ 12700 15700
 Wire Wire Line
-	16650 12350 17800 12350
-Connection ~ 17800 12350
+	12700 15700 13850 15700
+Connection ~ 13850 15700
 Wire Wire Line
-	17800 12350 18400 12350
+	13850 15700 14450 15700
 $Comp
 L Device:R R22
 U 1 1 607D2065
-P 6900 7350
-F 0 "R22" H 6970 7396 50  0000 L CNN
-F 1 "10 Ohm" H 6970 7305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6830 7350 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 6900 7350 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 6900 7350 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 6900 7350 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 6900 7350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,53" H 6900 7350 50  0001 C CNN "Price"
-F 8 "LSC" H 6900 7350 50  0001 C CNN "Family"
-	1    6900 7350
+P 2950 10700
+F 0 "R22" H 3020 10746 50  0000 L CNN
+F 1 "10 Ohm" H 3020 10655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2880 10700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 2950 10700 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 2950 10700 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 2950 10700 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 2950 10700 50  0001 C CNN "DK_Product_Page"
+F 7 "0,53" H 2950 10700 50  0001 C CNN "Price"
+F 8 "LSC" H 2950 10700 50  0001 C CNN "Family"
+	1    2950 10700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R23
 U 1 1 607E5EAC
-P 7400 7650
-F 0 "R23" H 7470 7696 50  0000 L CNN
-F 1 "10 Ohm" H 7470 7605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7330 7650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 7400 7650 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 7400 7650 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 7400 7650 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 7400 7650 50  0001 C CNN "DK_Product_Page"
-F 7 "0,53" H 7400 7650 50  0001 C CNN "Price"
-F 8 "LSC" H 7400 7650 50  0001 C CNN "Family"
-	1    7400 7650
+P 3450 11000
+F 0 "R23" H 3520 11046 50  0000 L CNN
+F 1 "10 Ohm" H 3520 10955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3380 11000 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 3450 11000 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3450 11000 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 3450 11000 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3450 11000 50  0001 C CNN "DK_Product_Page"
+F 7 "0,53" H 3450 11000 50  0001 C CNN "Price"
+F 8 "LSC" H 3450 11000 50  0001 C CNN "Family"
+	1    3450 11000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R24
 U 1 1 607F9CCD
-P 7200 8650
-F 0 "R24" H 7270 8696 50  0000 L CNN
-F 1 "10 Ohm" H 7270 8605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7130 8650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 7200 8650 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 7200 8650 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 7200 8650 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 7200 8650 50  0001 C CNN "DK_Product_Page"
-F 7 "0,53" H 7200 8650 50  0001 C CNN "Price"
-F 8 "LSC" H 7200 8650 50  0001 C CNN "Family"
-	1    7200 8650
+P 3250 12000
+F 0 "R24" H 3320 12046 50  0000 L CNN
+F 1 "10 Ohm" H 3320 11955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3180 12000 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 3250 12000 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3250 12000 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 3250 12000 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3250 12000 50  0001 C CNN "DK_Product_Page"
+F 7 "0,53" H 3250 12000 50  0001 C CNN "Price"
+F 8 "LSC" H 3250 12000 50  0001 C CNN "Family"
+	1    3250 12000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R25
 U 1 1 6080DBDB
-P 6950 8900
-F 0 "R25" H 7020 8946 50  0000 L CNN
-F 1 "10 Ohm" H 7020 8855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6880 8900 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 6950 8900 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 6950 8900 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 6950 8900 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 6950 8900 50  0001 C CNN "DK_Product_Page"
-F 7 "0,53" H 6950 8900 50  0001 C CNN "Price"
-F 8 "LSC" H 6950 8900 50  0001 C CNN "Family"
-	1    6950 8900
+P 3000 12250
+F 0 "R25" H 3070 12296 50  0000 L CNN
+F 1 "10 Ohm" H 3070 12205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2930 12250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 3000 12250 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3000 12250 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 3000 12250 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3000 12250 50  0001 C CNN "DK_Product_Page"
+F 7 "0,53" H 3000 12250 50  0001 C CNN "Price"
+F 8 "LSC" H 3000 12250 50  0001 C CNN "Family"
+	1    3000 12250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 7750 6150 7100
+	2200 11100 2200 10450
 Wire Wire Line
-	6900 7500 6900 7850
+	2950 10850 2950 11200
 Wire Wire Line
-	7400 7500 7400 7200
+	3450 10850 3450 10550
 Wire Wire Line
-	7200 8800 7200 9900
+	3250 12150 3250 13250
 Wire Wire Line
-	6950 9050 6950 12350
+	3000 12400 3000 15700
 Wire Wire Line
-	6150 6800 6150 2200
-Connection ~ 14900 9900
+	2200 10150 2200 5550
+Connection ~ 10950 13250
 $Comp
 L Device:R R21
 U 1 1 607BE1DC
-P 6150 6950
-F 0 "R21" H 6220 6996 50  0000 L CNN
-F 1 "10 Ohm" H 6220 6905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6080 6950 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 6150 6950 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 6150 6950 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 6150 6950 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 6150 6950 50  0001 C CNN "DK_Product_Page"
-F 7 "0,53" H 6150 6950 50  0001 C CNN "Price"
-F 8 "LSC" H 6150 6950 50  0001 C CNN "Family"
-	1    6150 6950
+P 2200 10300
+F 0 "R21" H 2270 10346 50  0000 L CNN
+F 1 "10 Ohm" H 2270 10255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2130 10300 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 2200 10300 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 2200 10300 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 2200 10300 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 2200 10300 50  0001 C CNN "DK_Product_Page"
+F 7 "0,53" H 2200 10300 50  0001 C CNN "Price"
+F 8 "LSC" H 2200 10300 50  0001 C CNN "Family"
+	1    2200 10300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 2200 6900 2200
+	2200 5550 2950 5550
 Wire Wire Line
-	14900 9900 15500 9900
+	10950 13250 11550 13250
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 5EBEF93D
-P 6900 2600
-F 0 "J1" V 6950 2780 50  0000 L CNN
-F 1 "2x03" V 6995 2780 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6900 2600 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 6900 2600 50  0001 C CNN
-F 4 "Pin Header" H 6900 2600 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 6900 2600 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 6900 2600 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 6900 2600 50  0001 C CNN "Price"
-F 8 "LSC" H 6900 2600 50  0001 C CNN "Family"
-	1    6900 2600
+P 2950 5950
+F 0 "J1" V 3000 6130 50  0000 L CNN
+F 1 "2x03" V 3045 6130 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2950 5950 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 2950 5950 50  0001 C CNN
+F 4 "Pin Header" H 2950 5950 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 2950 5950 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 2950 5950 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 2950 5950 50  0001 C CNN "Price"
+F 8 "LSC" H 2950 5950 50  0001 C CNN "Family"
+	1    2950 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5F63E54C
-P 7000 3350
-F 0 "R1" H 7070 3396 50  0000 L CNN
-F 1 "80 Ohm" H 7070 3305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6930 3350 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 7000 3350 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 7000 3350 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 7000 3350 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 7000 3350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 7000 3350 50  0001 C CNN "Price"
-F 8 "LSC" H 7000 3350 50  0001 C CNN "Family"
-	1    7000 3350
+P 3050 6700
+F 0 "R1" H 3120 6746 50  0000 L CNN
+F 1 "80 Ohm" H 3120 6655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2980 6700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 3050 6700 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 3050 6700 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 3050 6700 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 3050 6700 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 3050 6700 50  0001 C CNN "Price"
+F 8 "LSC" H 3050 6700 50  0001 C CNN "Family"
+	1    3050 6700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6900 4600 6900 7200
-Connection ~ 6900 4600
+	2950 7950 2950 10550
+Connection ~ 2950 7950
 Wire Wire Line
-	6800 2400 6800 2300
+	2850 5750 2850 5650
 Wire Wire Line
-	6800 2300 6900 2300
+	2850 5650 2950 5650
 Wire Wire Line
-	6900 2300 6900 2200
+	2950 5650 2950 5550
 Wire Wire Line
-	6900 2300 6900 2400
-Connection ~ 6900 2300
+	2950 5650 2950 5750
+Connection ~ 2950 5650
 Wire Wire Line
-	6900 2300 7000 2300
+	2950 5650 3050 5650
 Wire Wire Line
-	7000 2300 7000 2400
+	3050 5650 3050 5750
 Wire Wire Line
-	7950 4850 7850 4850
-Connection ~ 7950 4850
+	4000 8200 3900 8200
+Connection ~ 4000 8200
 Wire Wire Line
-	7950 4850 8050 4850
-Connection ~ 15500 9900
+	4000 8200 4100 8200
+Connection ~ 11550 13250
 Wire Wire Line
-	15500 9900 17800 9900
+	11550 13250 13850 13250
 $Comp
 L Connector_Generic:Conn_01x02 J21
 U 1 1 605FE02C
-P 4650 8100
-F 0 "J21" H 4568 7775 50  0000 C CNN
-F 1 "1x02" H 4568 7866 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 8100 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 4650 8100 50  0001 C CNN
-F 4 "Pin Header" H 4650 8100 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 4650 8100 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 4650 8100 50  0001 C CNN "DK_Product_Page"
-F 7 "0,55" H 4650 8100 50  0001 C CNN "Price"
-F 8 "LSC" H 4650 8100 50  0001 C CNN "Family"
-	1    4650 8100
+P 700 11450
+F 0 "J21" H 618 11125 50  0000 C CNN
+F 1 "1x02" H 618 11216 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 700 11450 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 700 11450 50  0001 C CNN
+F 4 "Pin Header" H 700 11450 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11450 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,55" H 700 11450 50  0001 C CNN "Price"
+F 8 "LSC" H 700 11450 50  0001 C CNN "Family"
+	1    700  11450
 	-1   0    0    1   
 $EndComp
 $Comp
 L MCU_Microchip_ATtiny:ATtiny85-20PU U1
 U 1 1 5E654218
-P 5550 8050
-F 0 "U1" H 5020 8096 50  0000 R CNN
-F 1 "ATtiny85V-20PU" H 5020 8005 50  0001 R CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5550 8050 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" H 5550 8050 50  0001 C CNN
-F 4 "IC" H 5550 8050 50  0001 C CNN "Category"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469" H 5550 8050 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469?cur=EUR&lang=de" H 5550 8050 50  0001 C CNN "DK_Product_Page"
-F 7 "1,10" H 5550 8050 50  0001 C CNN "Price"
-F 8 "LSC" H 5550 8050 50  0001 C CNN "Family"
-	1    5550 8050
+P 1600 11400
+F 0 "U1" H 1070 11446 50  0000 R CNN
+F 1 "ATtiny85V-20PU" H 1070 11355 50  0001 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 1600 11400 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" H 1600 11400 50  0001 C CNN
+F 4 "IC" H 1600 11400 50  0001 C CNN "Category"
+F 5 "https://www.digikey.com/product-detail/en/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469" H 1600 11400 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/microchip-technology/ATTINY85-20PU/ATTINY85-20PU-ND/735469?cur=EUR&lang=de" H 1600 11400 50  0001 C CNN "DK_Product_Page"
+F 7 "1,10" H 1600 11400 50  0001 C CNN "Price"
+F 8 "LSC" H 1600 11400 50  0001 C CNN "Family"
+	1    1600 11400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 8100 4950 8100
+	900  11450 1000 11450
 Wire Wire Line
-	4950 8100 4950 8650
+	1000 11450 1000 12000
 Wire Wire Line
-	4950 8650 5550 8650
+	1000 12000 1600 12000
 Wire Wire Line
-	4850 8000 4950 8000
+	900  11350 1000 11350
 Wire Wire Line
-	4950 8000 4950 7450
+	1000 11350 1000 10800
 Wire Wire Line
-	4950 7450 5550 7450
-NoConn ~ 6150 8250
+	1000 10800 1600 10800
+NoConn ~ 2200 11600
 Wire Wire Line
-	6900 4300 6900 4600
+	2950 7650 2950 7950
 Wire Wire Line
-	7000 2900 7000 3200
-Connection ~ 6900 2200
+	3050 6250 3050 6550
+Connection ~ 2950 5550
 Wire Wire Line
-	6900 2900 6900 3800
+	2950 6250 2950 7150
 Wire Wire Line
-	6800 2900 6800 3800
+	2850 6250 2850 7150
 Wire Wire Line
-	7000 3500 7000 3800
+	3050 6850 3050 7150
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED2
 U 1 1 60AF3763
-P 7550 2700
-F 0 "LED2" V 7550 2370 50  0000 R CNN
-F 1 "LED_CRGB" V 7505 2370 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 7550 2650 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 7550 2650 50  0001 C CNN
-F 4 "LED" H 7550 2700 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 7550 2700 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 7550 2700 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 7550 2700 50  0001 C CNN "Price"
-F 8 "LSC" H 7550 2700 50  0001 C CNN "Family"
-	1    7550 2700
+P 3600 6050
+F 0 "LED2" V 3600 5720 50  0000 R CNN
+F 1 "LED_CRGB" V 3555 5720 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 3600 6000 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 3600 6000 50  0001 C CNN
+F 4 "LED" H 3600 6050 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 3600 6050 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 3600 6050 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 3600 6050 50  0001 C CNN "Price"
+F 8 "LSC" H 3600 6050 50  0001 C CNN "Family"
+	1    3600 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 60AF3769
-P 7550 4200
-F 0 "J2" V 7600 4012 50  0000 R CNN
-F 1 "2x03" V 7645 4380 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7550 4200 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 7550 4200 50  0001 C CNN
-F 4 "Pin Header" H 7550 4200 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 7550 4200 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 7550 4200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 7550 4200 50  0001 C CNN "Price"
-F 8 "LSC" H 7550 4200 50  0001 C CNN "Family"
-	1    7550 4200
+P 3600 7550
+F 0 "J2" V 3650 7362 50  0000 R CNN
+F 1 "2x03" V 3695 7730 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3600 7550 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 3600 7550 50  0001 C CNN
+F 4 "Pin Header" H 3600 7550 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 3600 7550 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 3600 7550 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 3600 7550 50  0001 C CNN "Price"
+F 8 "LSC" H 3600 7550 50  0001 C CNN "Family"
+	1    3600 7550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 60AF376F
-P 7450 3450
-F 0 "R2" H 7520 3496 50  0000 L CNN
-F 1 "80 Ohm" H 7520 3405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7380 3450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 7450 3450 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 7450 3450 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 7450 3450 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 7450 3450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 7450 3450 50  0001 C CNN "Price"
-F 8 "LSC" H 7450 3450 50  0001 C CNN "Family"
-	1    7450 3450
+P 3500 6800
+F 0 "R2" H 3570 6846 50  0000 L CNN
+F 1 "80 Ohm" H 3570 6755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3430 6800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 3500 6800 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 3500 6800 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 3500 6800 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 3500 6800 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 3500 6800 50  0001 C CNN "Price"
+F 8 "LSC" H 3500 6800 50  0001 C CNN "Family"
+	1    3500 6800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 4400 7650 4500
+	3700 7750 3700 7850
 Wire Wire Line
-	7650 4500 7550 4500
+	3700 7850 3600 7850
 Wire Wire Line
-	7550 4500 7550 4600
+	3600 7850 3600 7950
 Wire Wire Line
-	7550 4500 7550 4400
-Connection ~ 7550 4500
+	3600 7850 3600 7750
+Connection ~ 3600 7850
 Wire Wire Line
-	7550 4500 7450 4500
+	3600 7850 3500 7850
 Wire Wire Line
-	7450 4500 7450 4400
+	3500 7850 3500 7750
 Wire Wire Line
-	7450 3900 7450 3600
+	3500 7250 3500 6950
 Wire Wire Line
-	7550 3900 7550 3000
+	3600 7250 3600 6350
 Wire Wire Line
-	7650 3900 7650 3000
+	3700 7250 3700 6350
 Wire Wire Line
-	7450 3300 7450 3000
+	3500 6650 3500 6350
 Wire Wire Line
-	7400 7200 7950 7200
+	3450 10550 4000 10550
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED3
 U 1 1 60B60991
-P 7950 6650
-F 0 "LED3" V 7950 6320 50  0000 R CNN
-F 1 "LED_CRGB" V 7905 6320 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 7950 6600 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 7950 6600 50  0001 C CNN
-F 4 "LED" H 7950 6650 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 7950 6650 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 7950 6650 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 7950 6650 50  0001 C CNN "Price"
-F 8 "LSC" H 7950 6650 50  0001 C CNN "Family"
-	1    7950 6650
+P 4000 10000
+F 0 "LED3" V 4000 9670 50  0000 R CNN
+F 1 "LED_CRGB" V 3955 9670 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 4000 9950 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 4000 9950 50  0001 C CNN
+F 4 "LED" H 4000 10000 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 4000 10000 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 4000 10000 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 4000 10000 50  0001 C CNN "Price"
+F 8 "LSC" H 4000 10000 50  0001 C CNN "Family"
+	1    4000 10000
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 60B60997
-P 7950 5150
-F 0 "J3" V 8000 5330 50  0000 L CNN
-F 1 "2x03" V 8045 5330 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7950 5150 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 7950 5150 50  0001 C CNN
-F 4 "Pin Header" H 7950 5150 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 7950 5150 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 7950 5150 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 7950 5150 50  0001 C CNN "Price"
-F 8 "LSC" H 7950 5150 50  0001 C CNN "Family"
-	1    7950 5150
+P 4000 8500
+F 0 "J3" V 4050 8680 50  0000 L CNN
+F 1 "2x03" V 4095 8680 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4000 8500 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 4000 8500 50  0001 C CNN
+F 4 "Pin Header" H 4000 8500 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 4000 8500 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 4000 8500 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 4000 8500 50  0001 C CNN "Price"
+F 8 "LSC" H 4000 8500 50  0001 C CNN "Family"
+	1    4000 8500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 60B6099D
-P 8050 5900
-F 0 "R3" H 8120 5946 50  0000 L CNN
-F 1 "80 Ohm" H 8120 5855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7980 5900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 8050 5900 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8050 5900 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 8050 5900 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8050 5900 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 8050 5900 50  0001 C CNN "Price"
-F 8 "LSC" H 8050 5900 50  0001 C CNN "Family"
-	1    8050 5900
+P 4100 9250
+F 0 "R3" H 4170 9296 50  0000 L CNN
+F 1 "80 Ohm" H 4170 9205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4030 9250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 4100 9250 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 4100 9250 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 4100 9250 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 4100 9250 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 4100 9250 50  0001 C CNN "Price"
+F 8 "LSC" H 4100 9250 50  0001 C CNN "Family"
+	1    4100 9250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7850 4950 7850 4850
+	3900 8300 3900 8200
 Wire Wire Line
-	7950 4850 7950 4950
+	4000 8200 4000 8300
 Wire Wire Line
-	8050 4850 8050 4950
+	4100 8200 4100 8300
 Wire Wire Line
-	8050 5450 8050 5750
+	4100 8800 4100 9100
 Wire Wire Line
-	7950 5450 7950 6350
+	4000 8800 4000 9700
 Wire Wire Line
-	7850 5450 7850 6350
+	3900 8800 3900 9700
 Wire Wire Line
-	8050 6050 8050 6350
-Connection ~ 7950 2200
+	4100 9400 4100 9700
+Connection ~ 4000 5550
 Wire Wire Line
-	7950 2200 7950 4850
+	4000 5550 4000 8200
 Wire Wire Line
-	7950 6850 7950 7200
-Connection ~ 7950 7200
+	4000 10200 4000 10550
+Connection ~ 4000 10550
 Wire Wire Line
-	7950 7200 8550 7200
+	4000 10550 4600 10550
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED4
 U 1 1 60C374AC
-P 8550 5300
-F 0 "LED4" V 8550 4970 50  0000 R CNN
-F 1 "LED_CRGB" V 8505 4970 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 8550 5250 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 8550 5250 50  0001 C CNN
-F 4 "LED" H 8550 5300 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 8550 5300 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 8550 5300 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 8550 5300 50  0001 C CNN "Price"
-F 8 "LSC" H 8550 5300 50  0001 C CNN "Family"
-	1    8550 5300
+P 4600 8650
+F 0 "LED4" V 4600 8320 50  0000 R CNN
+F 1 "LED_CRGB" V 4555 8320 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 4600 8600 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 4600 8600 50  0001 C CNN
+F 4 "LED" H 4600 8650 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 4600 8650 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 4600 8650 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 4600 8650 50  0001 C CNN "Price"
+F 8 "LSC" H 4600 8650 50  0001 C CNN "Family"
+	1    4600 8650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 60C374B2
-P 8550 6800
-F 0 "J4" V 8600 6612 50  0000 R CNN
-F 1 "2x03" V 8645 6980 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8550 6800 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 8550 6800 50  0001 C CNN
-F 4 "Pin Header" H 8550 6800 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 8550 6800 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 8550 6800 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 8550 6800 50  0001 C CNN "Price"
-F 8 "LSC" H 8550 6800 50  0001 C CNN "Family"
-	1    8550 6800
+P 4600 10150
+F 0 "J4" V 4650 9962 50  0000 R CNN
+F 1 "2x03" V 4695 10330 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4600 10150 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 4600 10150 50  0001 C CNN
+F 4 "Pin Header" H 4600 10150 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 4600 10150 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 4600 10150 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 4600 10150 50  0001 C CNN "Price"
+F 8 "LSC" H 4600 10150 50  0001 C CNN "Family"
+	1    4600 10150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 60C374B8
-P 8450 6050
-F 0 "R4" H 8520 6096 50  0000 L CNN
-F 1 "80 Ohm" H 8520 6005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8380 6050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 8450 6050 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8450 6050 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 8450 6050 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8450 6050 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 8450 6050 50  0001 C CNN "Price"
-F 8 "LSC" H 8450 6050 50  0001 C CNN "Family"
-	1    8450 6050
+P 4500 9400
+F 0 "R4" H 4570 9446 50  0000 L CNN
+F 1 "80 Ohm" H 4570 9355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4430 9400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 4500 9400 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 4500 9400 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 4500 9400 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 4500 9400 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 4500 9400 50  0001 C CNN "Price"
+F 8 "LSC" H 4500 9400 50  0001 C CNN "Family"
+	1    4500 9400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 7000 8650 7100
+	4700 10350 4700 10450
 Wire Wire Line
-	8650 7100 8550 7100
+	4700 10450 4600 10450
 Wire Wire Line
-	8550 7100 8550 7000
-Connection ~ 8550 7100
+	4600 10450 4600 10350
+Connection ~ 4600 10450
 Wire Wire Line
-	8550 7100 8450 7100
+	4600 10450 4500 10450
 Wire Wire Line
-	8450 7100 8450 7000
+	4500 10450 4500 10350
 Wire Wire Line
-	8450 6500 8450 6200
+	4500 9850 4500 9550
 Wire Wire Line
-	8550 6500 8550 5600
+	4600 9850 4600 8950
 Wire Wire Line
-	8650 6500 8650 5600
+	4700 9850 4700 8950
 Wire Wire Line
-	8450 5900 8450 5600
+	4500 9250 4500 8950
 Wire Wire Line
-	7950 2200 8550 2200
+	4000 5550 4600 5550
 Wire Wire Line
-	8550 5100 8550 2200
-Connection ~ 8550 2200
+	4600 8450 4600 5550
+Connection ~ 4600 5550
 Wire Wire Line
-	8550 2200 9000 2200
+	4600 5550 5050 5550
 Wire Wire Line
-	8550 7100 8550 7200
-Connection ~ 8550 7200
+	4600 10450 4600 10550
+Connection ~ 4600 10550
 Wire Wire Line
-	7200 9900 9000 9900
+	3250 13250 5050 13250
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED5
 U 1 1 60D0BAAD
-P 9000 9200
-F 0 "LED5" V 9000 8870 50  0000 R CNN
-F 1 "LED_CRGB" V 8955 8870 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 9000 9150 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 9000 9150 50  0001 C CNN
-F 4 "LED" H 9000 9200 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9000 9200 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9000 9200 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 9000 9200 50  0001 C CNN "Price"
-F 8 "LSC" H 9000 9200 50  0001 C CNN "Family"
-	1    9000 9200
+P 5050 12550
+F 0 "LED5" V 5050 12220 50  0000 R CNN
+F 1 "LED_CRGB" V 5005 12220 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 5050 12500 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 5050 12500 50  0001 C CNN
+F 4 "LED" H 5050 12550 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 5050 12550 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 5050 12550 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 5050 12550 50  0001 C CNN "Price"
+F 8 "LSC" H 5050 12550 50  0001 C CNN "Family"
+	1    5050 12550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J5
 U 1 1 60D0BAB3
-P 9000 7700
-F 0 "J5" V 9050 7880 50  0000 L CNN
-F 1 "2x03" V 9095 7880 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9000 7700 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 9000 7700 50  0001 C CNN
-F 4 "Pin Header" H 9000 7700 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9000 7700 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9000 7700 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 9000 7700 50  0001 C CNN "Price"
-F 8 "LSC" H 9000 7700 50  0001 C CNN "Family"
-	1    9000 7700
+P 5050 11050
+F 0 "J5" V 5100 11230 50  0000 L CNN
+F 1 "2x03" V 5145 11230 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5050 11050 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 5050 11050 50  0001 C CNN
+F 4 "Pin Header" H 5050 11050 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 5050 11050 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 5050 11050 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 5050 11050 50  0001 C CNN "Price"
+F 8 "LSC" H 5050 11050 50  0001 C CNN "Family"
+	1    5050 11050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 60D0BAB9
-P 9100 8450
-F 0 "R5" H 9170 8496 50  0000 L CNN
-F 1 "80 Ohm" H 9170 8405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9030 8450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 9100 8450 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 9100 8450 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 9100 8450 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 9100 8450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 9100 8450 50  0001 C CNN "Price"
-F 8 "LSC" H 9100 8450 50  0001 C CNN "Family"
-	1    9100 8450
+P 5150 11800
+F 0 "R5" H 5220 11846 50  0000 L CNN
+F 1 "80 Ohm" H 5220 11755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5080 11800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 5150 11800 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 5150 11800 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 5150 11800 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 5150 11800 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 5150 11800 50  0001 C CNN "Price"
+F 8 "LSC" H 5150 11800 50  0001 C CNN "Family"
+	1    5150 11800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8900 7500 8900 7400
+	4950 10850 4950 10750
 Wire Wire Line
-	8900 7400 9000 7400
+	4950 10750 5050 10750
 Wire Wire Line
-	9000 7400 9000 7500
-Connection ~ 9000 7400
+	5050 10750 5050 10850
+Connection ~ 5050 10750
 Wire Wire Line
-	9000 7400 9100 7400
+	5050 10750 5150 10750
 Wire Wire Line
-	9100 7400 9100 7500
+	5150 10750 5150 10850
 Wire Wire Line
-	9100 8000 9100 8300
+	5150 11350 5150 11650
 Wire Wire Line
-	9000 8000 9000 8900
+	5050 11350 5050 12250
 Wire Wire Line
-	8900 8000 8900 8900
+	4950 11350 4950 12250
 Wire Wire Line
-	9100 8600 9100 8900
+	5150 11950 5150 12250
 Wire Wire Line
-	9000 2200 9000 7400
+	5050 5550 5050 10750
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED6
 U 1 1 60D3DB20
-P 9600 7800
-F 0 "LED6" V 9600 7470 50  0000 R CNN
-F 1 "LED_CRGB" V 9555 7470 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 9600 7750 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 9600 7750 50  0001 C CNN
-F 4 "LED" H 9600 7800 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9600 7800 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9600 7800 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 9600 7800 50  0001 C CNN "Price"
-F 8 "LSC" H 9600 7800 50  0001 C CNN "Family"
-	1    9600 7800
+P 5650 11150
+F 0 "LED6" V 5650 10820 50  0000 R CNN
+F 1 "LED_CRGB" V 5605 10820 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 5650 11100 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 5650 11100 50  0001 C CNN
+F 4 "LED" H 5650 11150 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 5650 11150 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 5650 11150 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 5650 11150 50  0001 C CNN "Price"
+F 8 "LSC" H 5650 11150 50  0001 C CNN "Family"
+	1    5650 11150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J6
 U 1 1 60D3DB26
-P 9600 9300
-F 0 "J6" V 9650 9112 50  0000 R CNN
-F 1 "2x03" V 9695 9480 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9600 9300 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 9600 9300 50  0001 C CNN
-F 4 "Pin Header" H 9600 9300 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9600 9300 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9600 9300 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 9600 9300 50  0001 C CNN "Price"
-F 8 "LSC" H 9600 9300 50  0001 C CNN "Family"
-	1    9600 9300
+P 5650 12650
+F 0 "J6" V 5700 12462 50  0000 R CNN
+F 1 "2x03" V 5745 12830 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5650 12650 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 5650 12650 50  0001 C CNN
+F 4 "Pin Header" H 5650 12650 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 5650 12650 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 5650 12650 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 5650 12650 50  0001 C CNN "Price"
+F 8 "LSC" H 5650 12650 50  0001 C CNN "Family"
+	1    5650 12650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 60D3DB2C
-P 9500 8550
-F 0 "R6" H 9570 8596 50  0000 L CNN
-F 1 "80 Ohm" H 9570 8505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9430 8550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 9500 8550 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 9500 8550 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 9500 8550 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 9500 8550 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 9500 8550 50  0001 C CNN "Price"
-F 8 "LSC" H 9500 8550 50  0001 C CNN "Family"
-	1    9500 8550
+P 5550 11900
+F 0 "R6" H 5620 11946 50  0000 L CNN
+F 1 "80 Ohm" H 5620 11855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5480 11900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 5550 11900 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 5550 11900 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 5550 11900 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 5550 11900 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 5550 11900 50  0001 C CNN "Price"
+F 8 "LSC" H 5550 11900 50  0001 C CNN "Family"
+	1    5550 11900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 9500 9700 9600
+	5750 12850 5750 12950
 Wire Wire Line
-	9700 9600 9600 9600
+	5750 12950 5650 12950
 Wire Wire Line
-	9600 9600 9600 9500
-Connection ~ 9600 9600
+	5650 12950 5650 12850
+Connection ~ 5650 12950
 Wire Wire Line
-	9600 9600 9500 9600
+	5650 12950 5550 12950
 Wire Wire Line
-	9500 9600 9500 9500
+	5550 12950 5550 12850
 Wire Wire Line
-	9500 9000 9500 8700
+	5550 12350 5550 12050
 Wire Wire Line
-	9600 9000 9600 8100
+	5650 12350 5650 11450
 Wire Wire Line
-	9700 9000 9700 8100
+	5750 12350 5750 11450
 Wire Wire Line
-	9500 8400 9500 8100
+	5550 11750 5550 11450
 Wire Wire Line
-	9600 2200 9600 7600
+	5650 5550 5650 10950
 Wire Wire Line
-	9000 9400 9000 9900
-Connection ~ 9000 9900
+	5050 12750 5050 13250
+Connection ~ 5050 13250
 Wire Wire Line
-	9000 9900 9600 9900
+	5050 13250 5650 13250
 Wire Wire Line
-	9600 9600 9600 9900
-Connection ~ 9600 9900
-Connection ~ 10100 12350
+	5650 12950 5650 13250
+Connection ~ 5650 13250
+Connection ~ 6150 15700
 Wire Wire Line
-	6950 12350 10100 12350
+	3000 15700 6150 15700
 Wire Wire Line
-	10100 12350 10700 12350
+	6150 15700 6750 15700
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED7
 U 1 1 60E6EF36
-P 10100 11850
-F 0 "LED7" V 10100 11520 50  0000 R CNN
-F 1 "LED_CRGB" V 10055 11520 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 10100 11800 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 10100 11800 50  0001 C CNN
-F 4 "LED" H 10100 11850 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10100 11850 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10100 11850 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 10100 11850 50  0001 C CNN "Price"
-F 8 "LSC" H 10100 11850 50  0001 C CNN "Family"
-	1    10100 11850
+P 6150 15200
+F 0 "LED7" V 6150 14870 50  0000 R CNN
+F 1 "LED_CRGB" V 6105 14870 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 6150 15150 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 6150 15150 50  0001 C CNN
+F 4 "LED" H 6150 15200 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 6150 15200 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 6150 15200 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 6150 15200 50  0001 C CNN "Price"
+F 8 "LSC" H 6150 15200 50  0001 C CNN "Family"
+	1    6150 15200
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J7
 U 1 1 60E6EF3C
-P 10100 10350
-F 0 "J7" V 10150 10530 50  0000 L CNN
-F 1 "2x03" V 10195 10530 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10100 10350 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 10100 10350 50  0001 C CNN
-F 4 "Pin Header" H 10100 10350 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10100 10350 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10100 10350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 10100 10350 50  0001 C CNN "Price"
-F 8 "LSC" H 10100 10350 50  0001 C CNN "Family"
-	1    10100 10350
+P 6150 13700
+F 0 "J7" V 6200 13880 50  0000 L CNN
+F 1 "2x03" V 6245 13880 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6150 13700 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 6150 13700 50  0001 C CNN
+F 4 "Pin Header" H 6150 13700 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 6150 13700 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 6150 13700 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 6150 13700 50  0001 C CNN "Price"
+F 8 "LSC" H 6150 13700 50  0001 C CNN "Family"
+	1    6150 13700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 60E6EF42
-P 10200 11100
-F 0 "R7" H 10270 11146 50  0000 L CNN
-F 1 "80 Ohm" H 10270 11055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10130 11100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 10200 11100 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10200 11100 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 10200 11100 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10200 11100 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 10200 11100 50  0001 C CNN "Price"
-F 8 "LSC" H 10200 11100 50  0001 C CNN "Family"
-	1    10200 11100
+P 6250 14450
+F 0 "R7" H 6320 14496 50  0000 L CNN
+F 1 "80 Ohm" H 6320 14405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6180 14450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 6250 14450 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 6250 14450 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 6250 14450 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 6250 14450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 6250 14450 50  0001 C CNN "Price"
+F 8 "LSC" H 6250 14450 50  0001 C CNN "Family"
+	1    6250 14450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10000 10150 10000 10050
+	6050 13500 6050 13400
 Wire Wire Line
-	10000 10050 10100 10050
+	6050 13400 6150 13400
 Wire Wire Line
-	10100 10050 10100 10150
-Connection ~ 10100 10050
+	6150 13400 6150 13500
+Connection ~ 6150 13400
 Wire Wire Line
-	10100 10050 10200 10050
+	6150 13400 6250 13400
 Wire Wire Line
-	10200 10050 10200 10150
+	6250 13400 6250 13500
 Wire Wire Line
-	10100 12050 10100 12350
+	6150 15400 6150 15700
 Wire Wire Line
-	10200 10650 10200 10950
+	6250 14000 6250 14300
 Wire Wire Line
-	10100 10650 10100 11550
+	6150 14000 6150 14900
 Wire Wire Line
-	10000 10650 10000 11550
+	6050 14000 6050 14900
 Wire Wire Line
-	10200 11250 10200 11550
+	6250 14600 6250 14900
 Wire Wire Line
-	10100 2200 10100 10050
+	6150 5550 6150 13400
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED8
 U 1 1 60E9E708
-P 10700 10450
-F 0 "LED8" V 10700 10120 50  0000 R CNN
-F 1 "LED_CRGB" V 10655 10120 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 10700 10400 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 10700 10400 50  0001 C CNN
-F 4 "LED" H 10700 10450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10700 10450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10700 10450 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 10700 10450 50  0001 C CNN "Price"
-F 8 "LSC" H 10700 10450 50  0001 C CNN "Family"
-	1    10700 10450
+P 6750 13800
+F 0 "LED8" V 6750 13470 50  0000 R CNN
+F 1 "LED_CRGB" V 6705 13470 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 6750 13750 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 6750 13750 50  0001 C CNN
+F 4 "LED" H 6750 13800 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 6750 13800 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 6750 13800 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 6750 13800 50  0001 C CNN "Price"
+F 8 "LSC" H 6750 13800 50  0001 C CNN "Family"
+	1    6750 13800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J8
 U 1 1 60E9E70E
-P 10700 11950
-F 0 "J8" V 10750 11762 50  0000 R CNN
-F 1 "2x03" V 10795 12130 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10700 11950 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 10700 11950 50  0001 C CNN
-F 4 "Pin Header" H 10700 11950 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10700 11950 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10700 11950 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 10700 11950 50  0001 C CNN "Price"
-F 8 "LSC" H 10700 11950 50  0001 C CNN "Family"
-	1    10700 11950
+P 6750 15300
+F 0 "J8" V 6800 15112 50  0000 R CNN
+F 1 "2x03" V 6845 15480 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6750 15300 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 6750 15300 50  0001 C CNN
+F 4 "Pin Header" H 6750 15300 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 6750 15300 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 6750 15300 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 6750 15300 50  0001 C CNN "Price"
+F 8 "LSC" H 6750 15300 50  0001 C CNN "Family"
+	1    6750 15300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 60E9E714
-P 10600 11200
-F 0 "R8" H 10670 11246 50  0000 L CNN
-F 1 "80 Ohm" H 10670 11155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10530 11200 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 10600 11200 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10600 11200 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 10600 11200 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10600 11200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 10600 11200 50  0001 C CNN "Price"
-F 8 "LSC" H 10600 11200 50  0001 C CNN "Family"
-	1    10600 11200
+P 6650 14550
+F 0 "R8" H 6720 14596 50  0000 L CNN
+F 1 "80 Ohm" H 6720 14505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6580 14550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 6650 14550 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 6650 14550 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 6650 14550 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 6650 14550 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 6650 14550 50  0001 C CNN "Price"
+F 8 "LSC" H 6650 14550 50  0001 C CNN "Family"
+	1    6650 14550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10800 12150 10800 12250
+	6850 15500 6850 15600
 Wire Wire Line
-	10800 12250 10700 12250
+	6850 15600 6750 15600
 Wire Wire Line
-	10700 12250 10700 12150
-Connection ~ 10700 12250
+	6750 15600 6750 15500
+Connection ~ 6750 15600
 Wire Wire Line
-	10700 12250 10600 12250
+	6750 15600 6650 15600
 Wire Wire Line
-	10600 12250 10600 12150
+	6650 15600 6650 15500
 Wire Wire Line
-	10600 11650 10600 11350
+	6650 15000 6650 14700
 Wire Wire Line
-	10700 11650 10700 10750
+	6750 15000 6750 14100
 Wire Wire Line
-	10800 11650 10800 10750
+	6850 15000 6850 14100
 Wire Wire Line
-	10600 11050 10600 10750
+	6650 14400 6650 14100
 Wire Wire Line
-	10700 2200 10700 10250
+	6750 5550 6750 13600
 Wire Wire Line
-	10700 12250 10700 12350
-Connection ~ 10700 12350
+	6750 15600 6750 15700
+Connection ~ 6750 15700
 Wire Wire Line
-	10700 12350 13850 12350
+	6750 15700 9900 15700
 Wire Wire Line
-	8550 7200 11350 7200
+	4600 10550 7400 10550
 Wire Wire Line
-	6900 4600 11350 4600
+	2950 7950 3600 7950
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED9
 U 1 1 60F2416C
-P 11350 6550
-F 0 "LED9" V 11350 6220 50  0000 R CNN
-F 1 "LED_CRGB" V 11305 6220 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 11350 6500 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 11350 6500 50  0001 C CNN
-F 4 "LED" H 11350 6550 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 11350 6550 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 11350 6550 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 11350 6550 50  0001 C CNN "Price"
-F 8 "LSC" H 11350 6550 50  0001 C CNN "Family"
-	1    11350 6550
+P 7400 9900
+F 0 "LED9" V 7400 9570 50  0000 R CNN
+F 1 "LED_CRGB" V 7355 9570 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 7400 9850 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 7400 9850 50  0001 C CNN
+F 4 "LED" H 7400 9900 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 7400 9900 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 7400 9900 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 7400 9900 50  0001 C CNN "Price"
+F 8 "LSC" H 7400 9900 50  0001 C CNN "Family"
+	1    7400 9900
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J9
 U 1 1 60F24172
-P 11350 5050
-F 0 "J9" V 11400 5230 50  0000 L CNN
-F 1 "2x03" V 11445 5230 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 11350 5050 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 11350 5050 50  0001 C CNN
-F 4 "Pin Header" H 11350 5050 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 11350 5050 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 11350 5050 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 11350 5050 50  0001 C CNN "Price"
-F 8 "LSC" H 11350 5050 50  0001 C CNN "Family"
-	1    11350 5050
+P 7400 8400
+F 0 "J9" V 7450 8580 50  0000 L CNN
+F 1 "2x03" V 7495 8580 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7400 8400 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 7400 8400 50  0001 C CNN
+F 4 "Pin Header" H 7400 8400 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 7400 8400 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 7400 8400 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 7400 8400 50  0001 C CNN "Price"
+F 8 "LSC" H 7400 8400 50  0001 C CNN "Family"
+	1    7400 8400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 60F24178
-P 11450 5800
-F 0 "R9" H 11520 5846 50  0000 L CNN
-F 1 "80 Ohm" H 11520 5755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11380 5800 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 11450 5800 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11450 5800 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 11450 5800 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11450 5800 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 11450 5800 50  0001 C CNN "Price"
-F 8 "LSC" H 11450 5800 50  0001 C CNN "Family"
-	1    11450 5800
+P 7500 9150
+F 0 "R9" H 7570 9196 50  0000 L CNN
+F 1 "80 Ohm" H 7570 9105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7430 9150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 7500 9150 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 7500 9150 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 7500 9150 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 7500 9150 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 7500 9150 50  0001 C CNN "Price"
+F 8 "LSC" H 7500 9150 50  0001 C CNN "Family"
+	1    7500 9150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	11250 4850 11250 4750
+	7300 8200 7300 8100
 Wire Wire Line
-	11250 4750 11350 4750
+	7300 8100 7400 8100
 Wire Wire Line
-	11350 4750 11350 4850
-Connection ~ 11350 4750
+	7400 8100 7400 8200
+Connection ~ 7400 8100
 Wire Wire Line
-	11350 4750 11450 4750
+	7400 8100 7500 8100
 Wire Wire Line
-	11450 4750 11450 4850
+	7500 8100 7500 8200
 Wire Wire Line
-	11450 5350 11450 5650
+	7500 8700 7500 9000
 Wire Wire Line
-	11350 5350 11350 6250
+	7400 8700 7400 9600
 Wire Wire Line
-	11250 5350 11250 6250
+	7300 8700 7300 9600
 Wire Wire Line
-	11450 5950 11450 6250
+	7500 9300 7500 9600
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED10
 U 1 1 60F4E332
-P 12050 5150
-F 0 "LED10" V 12050 4820 50  0000 R CNN
-F 1 "LED_CRGB" V 12005 4820 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 12050 5100 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 12050 5100 50  0001 C CNN
-F 4 "LED" H 12050 5150 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12050 5150 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12050 5150 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 12050 5150 50  0001 C CNN "Price"
-F 8 "LSC" H 12050 5150 50  0001 C CNN "Family"
-	1    12050 5150
+P 8100 8500
+F 0 "LED10" V 8100 8170 50  0000 R CNN
+F 1 "LED_CRGB" V 8055 8170 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 8100 8450 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 8100 8450 50  0001 C CNN
+F 4 "LED" H 8100 8500 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 8100 8500 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 8100 8500 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 8100 8500 50  0001 C CNN "Price"
+F 8 "LSC" H 8100 8500 50  0001 C CNN "Family"
+	1    8100 8500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J10
 U 1 1 60F4E338
-P 12050 6650
-F 0 "J10" V 12100 6462 50  0000 R CNN
-F 1 "2x03" V 12145 6830 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 12050 6650 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 12050 6650 50  0001 C CNN
-F 4 "Pin Header" H 12050 6650 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12050 6650 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12050 6650 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 12050 6650 50  0001 C CNN "Price"
-F 8 "LSC" H 12050 6650 50  0001 C CNN "Family"
-	1    12050 6650
+P 8100 10000
+F 0 "J10" V 8150 9812 50  0000 R CNN
+F 1 "2x03" V 8195 10180 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8100 10000 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 8100 10000 50  0001 C CNN
+F 4 "Pin Header" H 8100 10000 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 8100 10000 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 8100 10000 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 8100 10000 50  0001 C CNN "Price"
+F 8 "LSC" H 8100 10000 50  0001 C CNN "Family"
+	1    8100 10000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 60F4E33E
-P 11950 5900
-F 0 "R10" H 12020 5946 50  0000 L CNN
-F 1 "80 Ohm" H 12020 5855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11880 5900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 11950 5900 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11950 5900 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 11950 5900 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11950 5900 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 11950 5900 50  0001 C CNN "Price"
-F 8 "LSC" H 11950 5900 50  0001 C CNN "Family"
-	1    11950 5900
+P 8000 9250
+F 0 "R10" H 8070 9296 50  0000 L CNN
+F 1 "80 Ohm" H 8070 9205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7930 9250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 8000 9250 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8000 9250 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 8000 9250 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8000 9250 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 8000 9250 50  0001 C CNN "Price"
+F 8 "LSC" H 8000 9250 50  0001 C CNN "Family"
+	1    8000 9250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 6850 12150 6950
+	8200 10200 8200 10300
 Wire Wire Line
-	12150 6950 12050 6950
+	8200 10300 8100 10300
 Wire Wire Line
-	12050 6950 12050 6850
-Connection ~ 12050 6950
+	8100 10300 8100 10200
+Connection ~ 8100 10300
 Wire Wire Line
-	12050 6950 11950 6950
+	8100 10300 8000 10300
 Wire Wire Line
-	11950 6950 11950 6850
+	8000 10300 8000 10200
 Wire Wire Line
-	11950 6350 11950 6050
+	8000 9700 8000 9400
 Wire Wire Line
-	12050 6350 12050 5450
+	8100 9700 8100 8800
 Wire Wire Line
-	12150 6350 12150 5450
+	8200 9700 8200 8800
 Wire Wire Line
-	11950 5750 11950 5450
+	8000 9100 8000 8800
 Wire Wire Line
-	11350 4600 11350 4750
-Connection ~ 11350 4600
+	7400 7950 7400 8100
+Connection ~ 7400 7950
 Wire Wire Line
-	11350 4600 12050 4600
+	7400 7950 8100 7950
 Wire Wire Line
-	12050 4600 12050 4950
-Connection ~ 12050 4600
+	8100 7950 8100 8300
+Connection ~ 8100 7950
 Wire Wire Line
-	12050 4600 12750 4600
+	8100 7950 8800 7950
 Wire Wire Line
-	11350 6750 11350 7200
-Connection ~ 11350 7200
+	7400 10100 7400 10550
+Connection ~ 7400 10550
 Wire Wire Line
-	11350 7200 12050 7200
+	7400 10550 8100 10550
 Wire Wire Line
-	12050 6950 12050 7200
-Connection ~ 12050 7200
+	8100 10300 8100 10550
+Connection ~ 8100 10550
 Wire Wire Line
-	12050 7200 14900 7200
+	8100 10550 10950 10550
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED11
 U 1 1 61046365
-P 12750 9200
-F 0 "LED11" V 12750 8870 50  0000 R CNN
-F 1 "LED_CRGB" V 12705 8870 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 12750 9150 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 12750 9150 50  0001 C CNN
-F 4 "LED" H 12750 9200 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12750 9200 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12750 9200 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 12750 9200 50  0001 C CNN "Price"
-F 8 "LSC" H 12750 9200 50  0001 C CNN "Family"
-	1    12750 9200
+P 8800 12550
+F 0 "LED11" V 8800 12220 50  0000 R CNN
+F 1 "LED_CRGB" V 8755 12220 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 8800 12500 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 8800 12500 50  0001 C CNN
+F 4 "LED" H 8800 12550 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 8800 12550 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 8800 12550 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 8800 12550 50  0001 C CNN "Price"
+F 8 "LSC" H 8800 12550 50  0001 C CNN "Family"
+	1    8800 12550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J11
 U 1 1 6104636B
-P 12750 7700
-F 0 "J11" V 12800 7880 50  0000 L CNN
-F 1 "2x03" V 12845 7880 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 12750 7700 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 12750 7700 50  0001 C CNN
-F 4 "Pin Header" H 12750 7700 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12750 7700 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12750 7700 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 12750 7700 50  0001 C CNN "Price"
-F 8 "LSC" H 12750 7700 50  0001 C CNN "Family"
-	1    12750 7700
+P 8800 11050
+F 0 "J11" V 8850 11230 50  0000 L CNN
+F 1 "2x03" V 8895 11230 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8800 11050 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 8800 11050 50  0001 C CNN
+F 4 "Pin Header" H 8800 11050 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 8800 11050 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 8800 11050 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 8800 11050 50  0001 C CNN "Price"
+F 8 "LSC" H 8800 11050 50  0001 C CNN "Family"
+	1    8800 11050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 61046371
-P 12850 8450
-F 0 "R11" H 12920 8496 50  0000 L CNN
-F 1 "80 Ohm" H 12920 8405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 12780 8450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 12850 8450 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12850 8450 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 12850 8450 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12850 8450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 12850 8450 50  0001 C CNN "Price"
-F 8 "LSC" H 12850 8450 50  0001 C CNN "Family"
-	1    12850 8450
+P 8900 11800
+F 0 "R11" H 8970 11846 50  0000 L CNN
+F 1 "80 Ohm" H 8970 11755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8830 11800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 8900 11800 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8900 11800 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 8900 11800 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8900 11800 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 8900 11800 50  0001 C CNN "Price"
+F 8 "LSC" H 8900 11800 50  0001 C CNN "Family"
+	1    8900 11800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	12650 7500 12650 7400
+	8700 10850 8700 10750
 Wire Wire Line
-	12650 7400 12750 7400
+	8700 10750 8800 10750
 Wire Wire Line
-	12750 7400 12750 7500
-Connection ~ 12750 7400
+	8800 10750 8800 10850
+Connection ~ 8800 10750
 Wire Wire Line
-	12750 7400 12850 7400
+	8800 10750 8900 10750
 Wire Wire Line
-	12850 7400 12850 7500
+	8900 10750 8900 10850
 Wire Wire Line
-	12850 8000 12850 8300
+	8900 11350 8900 11650
 Wire Wire Line
-	12750 8000 12750 8900
+	8800 11350 8800 12250
 Wire Wire Line
-	12650 8000 12650 8900
+	8700 11350 8700 12250
 Wire Wire Line
-	12850 8600 12850 8900
+	8900 11950 8900 12250
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED12
 U 1 1 6106DED5
-P 13350 7800
-F 0 "LED12" V 13350 7470 50  0000 R CNN
-F 1 "LED_CRGB" V 13305 7470 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 13350 7750 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 13350 7750 50  0001 C CNN
-F 4 "LED" H 13350 7800 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 13350 7800 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 13350 7800 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 13350 7800 50  0001 C CNN "Price"
-F 8 "LSC" H 13350 7800 50  0001 C CNN "Family"
-	1    13350 7800
+P 9400 11150
+F 0 "LED12" V 9400 10820 50  0000 R CNN
+F 1 "LED_CRGB" V 9355 10820 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 9400 11100 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 9400 11100 50  0001 C CNN
+F 4 "LED" H 9400 11150 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9400 11150 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9400 11150 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 9400 11150 50  0001 C CNN "Price"
+F 8 "LSC" H 9400 11150 50  0001 C CNN "Family"
+	1    9400 11150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J12
 U 1 1 6106DEDB
-P 13350 9300
-F 0 "J12" V 13400 9112 50  0000 R CNN
-F 1 "2x03" V 13445 9480 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 13350 9300 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 13350 9300 50  0001 C CNN
-F 4 "Pin Header" H 13350 9300 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 13350 9300 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 13350 9300 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 13350 9300 50  0001 C CNN "Price"
-F 8 "LSC" H 13350 9300 50  0001 C CNN "Family"
-	1    13350 9300
+P 9400 12650
+F 0 "J12" V 9450 12462 50  0000 R CNN
+F 1 "2x03" V 9495 12830 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9400 12650 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 9400 12650 50  0001 C CNN
+F 4 "Pin Header" H 9400 12650 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9400 12650 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9400 12650 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 9400 12650 50  0001 C CNN "Price"
+F 8 "LSC" H 9400 12650 50  0001 C CNN "Family"
+	1    9400 12650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 6106DEE1
-P 13250 8550
-F 0 "R12" H 13320 8596 50  0000 L CNN
-F 1 "80 Ohm" H 13320 8505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 13180 8550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 13250 8550 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 13250 8550 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 13250 8550 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 13250 8550 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 13250 8550 50  0001 C CNN "Price"
-F 8 "LSC" H 13250 8550 50  0001 C CNN "Family"
-	1    13250 8550
+P 9300 11900
+F 0 "R12" H 9370 11946 50  0000 L CNN
+F 1 "80 Ohm" H 9370 11855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9230 11900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 9300 11900 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 9300 11900 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 9300 11900 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 9300 11900 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 9300 11900 50  0001 C CNN "Price"
+F 8 "LSC" H 9300 11900 50  0001 C CNN "Family"
+	1    9300 11900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13450 9500 13450 9600
+	9500 12850 9500 12950
 Wire Wire Line
-	13450 9600 13350 9600
+	9500 12950 9400 12950
 Wire Wire Line
-	13350 9600 13350 9500
-Connection ~ 13350 9600
+	9400 12950 9400 12850
+Connection ~ 9400 12950
 Wire Wire Line
-	13350 9600 13250 9600
+	9400 12950 9300 12950
 Wire Wire Line
-	13250 9600 13250 9500
+	9300 12950 9300 12850
 Wire Wire Line
-	13250 9000 13250 8700
+	9300 12350 9300 12050
 Wire Wire Line
-	13350 9000 13350 8100
+	9400 12350 9400 11450
 Wire Wire Line
-	13450 9000 13450 8100
+	9500 12350 9500 11450
 Wire Wire Line
-	13250 8400 13250 8100
+	9300 11750 9300 11450
 Wire Wire Line
-	12750 4600 12750 7400
+	8800 7950 8800 10750
 Wire Wire Line
-	13350 4600 13350 7600
+	9400 7950 9400 10950
 Wire Wire Line
-	12750 9400 12750 9900
-Connection ~ 12750 9900
+	8800 12750 8800 13250
+Connection ~ 8800 13250
 Wire Wire Line
-	13350 9600 13350 9900
-Connection ~ 13350 9900
+	9400 12950 9400 13250
+Connection ~ 9400 13250
 Wire Wire Line
-	13350 9900 14900 9900
+	9400 13250 10950 13250
 Wire Wire Line
-	12750 9900 13350 9900
+	8800 13250 9400 13250
 Wire Wire Line
-	9600 9900 12750 9900
+	5650 13250 8800 13250
 Wire Wire Line
-	14450 12250 14450 12350
+	10500 15600 10500 15700
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED13
 U 1 1 61155544
-P 13850 11850
-F 0 "LED13" V 13850 11520 50  0000 R CNN
-F 1 "LED_CRGB" V 13805 11520 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 13850 11800 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 13850 11800 50  0001 C CNN
-F 4 "LED" H 13850 11850 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 13850 11850 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 13850 11850 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 13850 11850 50  0001 C CNN "Price"
-F 8 "LSC" H 13850 11850 50  0001 C CNN "Family"
-	1    13850 11850
+P 9900 15200
+F 0 "LED13" V 9900 14870 50  0000 R CNN
+F 1 "LED_CRGB" V 9855 14870 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 9900 15150 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 9900 15150 50  0001 C CNN
+F 4 "LED" H 9900 15200 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9900 15200 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 9900 15200 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 9900 15200 50  0001 C CNN "Price"
+F 8 "LSC" H 9900 15200 50  0001 C CNN "Family"
+	1    9900 15200
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J13
 U 1 1 6115554A
-P 13850 10350
-F 0 "J13" V 13900 10530 50  0000 L CNN
-F 1 "2x03" V 13945 10530 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 13850 10350 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 13850 10350 50  0001 C CNN
-F 4 "Pin Header" H 13850 10350 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 13850 10350 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 13850 10350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 13850 10350 50  0001 C CNN "Price"
-F 8 "LSC" H 13850 10350 50  0001 C CNN "Family"
-	1    13850 10350
+P 9900 13700
+F 0 "J13" V 9950 13880 50  0000 L CNN
+F 1 "2x03" V 9995 13880 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9900 13700 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 9900 13700 50  0001 C CNN
+F 4 "Pin Header" H 9900 13700 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9900 13700 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 9900 13700 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 9900 13700 50  0001 C CNN "Price"
+F 8 "LSC" H 9900 13700 50  0001 C CNN "Family"
+	1    9900 13700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 61155550
-P 13950 11100
-F 0 "R13" H 14020 11146 50  0000 L CNN
-F 1 "80 Ohm" H 14020 11055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 13880 11100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 13950 11100 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 13950 11100 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 13950 11100 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 13950 11100 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 13950 11100 50  0001 C CNN "Price"
-F 8 "LSC" H 13950 11100 50  0001 C CNN "Family"
-	1    13950 11100
+P 10000 14450
+F 0 "R13" H 10070 14496 50  0000 L CNN
+F 1 "80 Ohm" H 10070 14405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9930 14450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 10000 14450 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10000 14450 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 10000 14450 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10000 14450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 10000 14450 50  0001 C CNN "Price"
+F 8 "LSC" H 10000 14450 50  0001 C CNN "Family"
+	1    10000 14450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13750 10150 13750 10050
+	9800 13500 9800 13400
 Wire Wire Line
-	13750 10050 13850 10050
+	9800 13400 9900 13400
 Wire Wire Line
-	13850 10050 13850 10150
-Connection ~ 13850 10050
+	9900 13400 9900 13500
+Connection ~ 9900 13400
 Wire Wire Line
-	13850 10050 13950 10050
+	9900 13400 10000 13400
 Wire Wire Line
-	13950 10050 13950 10150
+	10000 13400 10000 13500
 Wire Wire Line
-	13850 12050 13850 12350
+	9900 15400 9900 15700
 Wire Wire Line
-	13950 10650 13950 10950
+	10000 14000 10000 14300
 Wire Wire Line
-	13850 10650 13850 11550
+	9900 14000 9900 14900
 Wire Wire Line
-	13750 10650 13750 11550
+	9800 14000 9800 14900
 Wire Wire Line
-	13950 11250 13950 11550
+	10000 14600 10000 14900
 Wire Wire Line
-	13850 4600 13850 10050
+	9900 7950 9900 13400
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED14
 U 1 1 6117A084
-P 14450 10450
-F 0 "LED14" V 14450 10120 50  0000 R CNN
-F 1 "LED_CRGB" V 14405 10120 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 14450 10400 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 14450 10400 50  0001 C CNN
-F 4 "LED" H 14450 10450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 14450 10450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 14450 10450 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 14450 10450 50  0001 C CNN "Price"
-F 8 "LSC" H 14450 10450 50  0001 C CNN "Family"
-	1    14450 10450
+P 10500 13800
+F 0 "LED14" V 10500 13470 50  0000 R CNN
+F 1 "LED_CRGB" V 10455 13470 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 10500 13750 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 10500 13750 50  0001 C CNN
+F 4 "LED" H 10500 13800 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10500 13800 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10500 13800 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 10500 13800 50  0001 C CNN "Price"
+F 8 "LSC" H 10500 13800 50  0001 C CNN "Family"
+	1    10500 13800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J14
 U 1 1 6117A08A
-P 14450 11950
-F 0 "J14" V 14500 11762 50  0000 R CNN
-F 1 "2x03" V 14545 12130 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 14450 11950 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 14450 11950 50  0001 C CNN
-F 4 "Pin Header" H 14450 11950 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 14450 11950 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 14450 11950 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 14450 11950 50  0001 C CNN "Price"
-F 8 "LSC" H 14450 11950 50  0001 C CNN "Family"
-	1    14450 11950
+P 10500 15300
+F 0 "J14" V 10550 15112 50  0000 R CNN
+F 1 "2x03" V 10595 15480 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10500 15300 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 10500 15300 50  0001 C CNN
+F 4 "Pin Header" H 10500 15300 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10500 15300 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10500 15300 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 10500 15300 50  0001 C CNN "Price"
+F 8 "LSC" H 10500 15300 50  0001 C CNN "Family"
+	1    10500 15300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R14
 U 1 1 6117A090
-P 14350 11200
-F 0 "R14" H 14420 11246 50  0000 L CNN
-F 1 "80 Ohm" H 14420 11155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 14280 11200 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 14350 11200 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 14350 11200 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 14350 11200 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 14350 11200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 14350 11200 50  0001 C CNN "Price"
-F 8 "LSC" H 14350 11200 50  0001 C CNN "Family"
-	1    14350 11200
+P 10400 14550
+F 0 "R14" H 10470 14596 50  0000 L CNN
+F 1 "80 Ohm" H 10470 14505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10330 14550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 10400 14550 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10400 14550 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 10400 14550 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10400 14550 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 10400 14550 50  0001 C CNN "Price"
+F 8 "LSC" H 10400 14550 50  0001 C CNN "Family"
+	1    10400 14550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14550 12150 14550 12250
+	10600 15500 10600 15600
 Wire Wire Line
-	14550 12250 14450 12250
+	10600 15600 10500 15600
 Wire Wire Line
-	14450 12250 14450 12150
-Connection ~ 14450 12250
+	10500 15600 10500 15500
+Connection ~ 10500 15600
 Wire Wire Line
-	14450 12250 14350 12250
+	10500 15600 10400 15600
 Wire Wire Line
-	14350 12250 14350 12150
+	10400 15600 10400 15500
 Wire Wire Line
-	14350 11650 14350 11350
+	10400 15000 10400 14700
 Wire Wire Line
-	14450 11650 14450 10750
+	10500 15000 10500 14100
 Wire Wire Line
-	14550 11650 14550 10750
+	10600 15000 10600 14100
 Wire Wire Line
-	14350 11050 14350 10750
+	10400 14400 10400 14100
 Wire Wire Line
-	14450 4600 14450 10250
+	10500 7950 10500 13600
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED15
 U 1 1 611BB1BA
-P 14900 9200
-F 0 "LED15" V 14900 8870 50  0000 R CNN
-F 1 "LED_CRGB" V 14855 8870 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 14900 9150 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 14900 9150 50  0001 C CNN
-F 4 "LED" H 14900 9200 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 14900 9200 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 14900 9200 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 14900 9200 50  0001 C CNN "Price"
-F 8 "LSC" H 14900 9200 50  0001 C CNN "Family"
-	1    14900 9200
+P 10950 12550
+F 0 "LED15" V 10950 12220 50  0000 R CNN
+F 1 "LED_CRGB" V 10905 12220 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 10950 12500 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 10950 12500 50  0001 C CNN
+F 4 "LED" H 10950 12550 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10950 12550 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 10950 12550 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 10950 12550 50  0001 C CNN "Price"
+F 8 "LSC" H 10950 12550 50  0001 C CNN "Family"
+	1    10950 12550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J15
 U 1 1 611BB1C0
-P 14900 7700
-F 0 "J15" V 14950 7880 50  0000 L CNN
-F 1 "2x03" V 14995 7880 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 14900 7700 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 14900 7700 50  0001 C CNN
-F 4 "Pin Header" H 14900 7700 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 14900 7700 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 14900 7700 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 14900 7700 50  0001 C CNN "Price"
-F 8 "LSC" H 14900 7700 50  0001 C CNN "Family"
-	1    14900 7700
+P 10950 11050
+F 0 "J15" V 11000 11230 50  0000 L CNN
+F 1 "2x03" V 11045 11230 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10950 11050 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 10950 11050 50  0001 C CNN
+F 4 "Pin Header" H 10950 11050 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10950 11050 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 10950 11050 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 10950 11050 50  0001 C CNN "Price"
+F 8 "LSC" H 10950 11050 50  0001 C CNN "Family"
+	1    10950 11050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R15
 U 1 1 611BB1C6
-P 15000 8450
-F 0 "R15" H 15070 8496 50  0000 L CNN
-F 1 "80 Ohm" H 15070 8405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 14930 8450 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 15000 8450 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 15000 8450 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 15000 8450 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 15000 8450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 15000 8450 50  0001 C CNN "Price"
-F 8 "LSC" H 15000 8450 50  0001 C CNN "Family"
-	1    15000 8450
+P 11050 11800
+F 0 "R15" H 11120 11846 50  0000 L CNN
+F 1 "80 Ohm" H 11120 11755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10980 11800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 11050 11800 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11050 11800 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 11050 11800 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11050 11800 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 11050 11800 50  0001 C CNN "Price"
+F 8 "LSC" H 11050 11800 50  0001 C CNN "Family"
+	1    11050 11800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	14800 7500 14800 7400
+	10850 10850 10850 10750
 Wire Wire Line
-	14800 7400 14900 7400
+	10850 10750 10950 10750
 Wire Wire Line
-	14900 7400 14900 7500
-Connection ~ 14900 7400
+	10950 10750 10950 10850
+Connection ~ 10950 10750
 Wire Wire Line
-	14900 7400 15000 7400
+	10950 10750 11050 10750
 Wire Wire Line
-	15000 7400 15000 7500
+	11050 10750 11050 10850
 Wire Wire Line
-	15000 8000 15000 8300
+	11050 11350 11050 11650
 Wire Wire Line
-	14900 8000 14900 8900
+	10950 11350 10950 12250
 Wire Wire Line
-	14800 8000 14800 8900
+	10850 11350 10850 12250
 Wire Wire Line
-	15000 8600 15000 8900
+	11050 11950 11050 12250
 Wire Wire Line
-	14900 7200 14900 7400
+	10950 10550 10950 10750
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED16
 U 1 1 611DA6B6
-P 15500 7800
-F 0 "LED16" V 15500 7470 50  0000 R CNN
-F 1 "LED_CRGB" V 15455 7470 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 15500 7750 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 15500 7750 50  0001 C CNN
-F 4 "LED" H 15500 7800 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 15500 7800 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 15500 7800 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 15500 7800 50  0001 C CNN "Price"
-F 8 "LSC" H 15500 7800 50  0001 C CNN "Family"
-	1    15500 7800
+P 11550 11150
+F 0 "LED16" V 11550 10820 50  0000 R CNN
+F 1 "LED_CRGB" V 11505 10820 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 11550 11100 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 11550 11100 50  0001 C CNN
+F 4 "LED" H 11550 11150 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 11550 11150 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 11550 11150 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 11550 11150 50  0001 C CNN "Price"
+F 8 "LSC" H 11550 11150 50  0001 C CNN "Family"
+	1    11550 11150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J16
 U 1 1 611DA6BC
-P 15500 9300
-F 0 "J16" V 15550 9112 50  0000 R CNN
-F 1 "2x03" V 15595 9480 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 15500 9300 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 15500 9300 50  0001 C CNN
-F 4 "Pin Header" H 15500 9300 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 15500 9300 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 15500 9300 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 15500 9300 50  0001 C CNN "Price"
-F 8 "LSC" H 15500 9300 50  0001 C CNN "Family"
-	1    15500 9300
+P 11550 12650
+F 0 "J16" V 11600 12462 50  0000 R CNN
+F 1 "2x03" V 11645 12830 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 11550 12650 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 11550 12650 50  0001 C CNN
+F 4 "Pin Header" H 11550 12650 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 11550 12650 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 11550 12650 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 11550 12650 50  0001 C CNN "Price"
+F 8 "LSC" H 11550 12650 50  0001 C CNN "Family"
+	1    11550 12650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R16
 U 1 1 611DA6C2
-P 15400 8550
-F 0 "R16" H 15470 8596 50  0000 L CNN
-F 1 "80 Ohm" H 15470 8505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 15330 8550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 15400 8550 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 15400 8550 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 15400 8550 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 15400 8550 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 15400 8550 50  0001 C CNN "Price"
-F 8 "LSC" H 15400 8550 50  0001 C CNN "Family"
-	1    15400 8550
+P 11450 11900
+F 0 "R16" H 11520 11946 50  0000 L CNN
+F 1 "80 Ohm" H 11520 11855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11380 11900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 11450 11900 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11450 11900 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 11450 11900 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11450 11900 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 11450 11900 50  0001 C CNN "Price"
+F 8 "LSC" H 11450 11900 50  0001 C CNN "Family"
+	1    11450 11900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15600 9500 15600 9600
+	11650 12850 11650 12950
 Wire Wire Line
-	15600 9600 15500 9600
+	11650 12950 11550 12950
 Wire Wire Line
-	15500 9600 15500 9500
-Connection ~ 15500 9600
+	11550 12950 11550 12850
+Connection ~ 11550 12950
 Wire Wire Line
-	15500 9600 15400 9600
+	11550 12950 11450 12950
 Wire Wire Line
-	15400 9600 15400 9500
+	11450 12950 11450 12850
 Wire Wire Line
-	15400 9000 15400 8700
+	11450 12350 11450 12050
 Wire Wire Line
-	15500 9000 15500 8100
+	11550 12350 11550 11450
 Wire Wire Line
-	15600 9000 15600 8100
+	11650 12350 11650 11450
 Wire Wire Line
-	15400 8400 15400 8100
+	11450 11750 11450 11450
 Wire Wire Line
-	15500 7200 15500 7600
+	11550 10550 11550 10950
 Wire Wire Line
-	14900 9400 14900 9900
+	10950 12750 10950 13250
 Wire Wire Line
-	15500 9600 15500 9900
+	11550 12950 11550 13250
 Wire Wire Line
-	16650 12250 16650 12350
+	12700 15600 12700 15700
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED17
 U 1 1 6124A50C
-P 16050 11850
-F 0 "LED17" V 16050 11520 50  0000 R CNN
-F 1 "LED_CRGB" V 16005 11520 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 16050 11800 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 16050 11800 50  0001 C CNN
-F 4 "LED" H 16050 11850 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 16050 11850 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 16050 11850 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 16050 11850 50  0001 C CNN "Price"
-F 8 "LSC" H 16050 11850 50  0001 C CNN "Family"
-	1    16050 11850
+P 12100 15200
+F 0 "LED17" V 12100 14870 50  0000 R CNN
+F 1 "LED_CRGB" V 12055 14870 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 12100 15150 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 12100 15150 50  0001 C CNN
+F 4 "LED" H 12100 15200 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12100 15200 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12100 15200 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 12100 15200 50  0001 C CNN "Price"
+F 8 "LSC" H 12100 15200 50  0001 C CNN "Family"
+	1    12100 15200
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J17
 U 1 1 6124A512
-P 16050 10350
-F 0 "J17" V 16100 10530 50  0000 L CNN
-F 1 "2x03" V 16145 10530 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 16050 10350 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 16050 10350 50  0001 C CNN
-F 4 "Pin Header" H 16050 10350 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 16050 10350 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 16050 10350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 16050 10350 50  0001 C CNN "Price"
-F 8 "LSC" H 16050 10350 50  0001 C CNN "Family"
-	1    16050 10350
+P 12100 13700
+F 0 "J17" V 12150 13880 50  0000 L CNN
+F 1 "2x03" V 12195 13880 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 12100 13700 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 12100 13700 50  0001 C CNN
+F 4 "Pin Header" H 12100 13700 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12100 13700 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12100 13700 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 12100 13700 50  0001 C CNN "Price"
+F 8 "LSC" H 12100 13700 50  0001 C CNN "Family"
+	1    12100 13700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R17
 U 1 1 6124A518
-P 16150 11100
-F 0 "R17" H 16220 11146 50  0000 L CNN
-F 1 "80 Ohm" H 16220 11055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 16080 11100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 16150 11100 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 16150 11100 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 16150 11100 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 16150 11100 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 16150 11100 50  0001 C CNN "Price"
-F 8 "LSC" H 16150 11100 50  0001 C CNN "Family"
-	1    16150 11100
+P 12200 14450
+F 0 "R17" H 12270 14496 50  0000 L CNN
+F 1 "80 Ohm" H 12270 14405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 12130 14450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 12200 14450 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12200 14450 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 12200 14450 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12200 14450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 12200 14450 50  0001 C CNN "Price"
+F 8 "LSC" H 12200 14450 50  0001 C CNN "Family"
+	1    12200 14450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	15950 10150 15950 10050
+	12000 13500 12000 13400
 Wire Wire Line
-	15950 10050 16050 10050
+	12000 13400 12100 13400
 Wire Wire Line
-	16050 10050 16050 10150
-Connection ~ 16050 10050
+	12100 13400 12100 13500
+Connection ~ 12100 13400
 Wire Wire Line
-	16050 10050 16150 10050
+	12100 13400 12200 13400
 Wire Wire Line
-	16150 10050 16150 10150
+	12200 13400 12200 13500
 Wire Wire Line
-	16050 12050 16050 12350
+	12100 15400 12100 15700
 Wire Wire Line
-	16150 10650 16150 10950
+	12200 14000 12200 14300
 Wire Wire Line
-	16050 10650 16050 11550
+	12100 14000 12100 14900
 Wire Wire Line
-	15950 10650 15950 11550
+	12000 14000 12000 14900
 Wire Wire Line
-	16150 11250 16150 11550
+	12200 14600 12200 14900
 Wire Wire Line
-	16050 7200 16050 10050
+	12100 10550 12100 13400
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED18
 U 1 1 61265174
-P 16650 10450
-F 0 "LED18" V 16650 10120 50  0000 R CNN
-F 1 "LED_CRGB" V 16605 10120 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 16650 10400 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 16650 10400 50  0001 C CNN
-F 4 "LED" H 16650 10450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 16650 10450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 16650 10450 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 16650 10450 50  0001 C CNN "Price"
-F 8 "LSC" H 16650 10450 50  0001 C CNN "Family"
-	1    16650 10450
+P 12700 13800
+F 0 "LED18" V 12700 13470 50  0000 R CNN
+F 1 "LED_CRGB" V 12655 13470 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 12700 13750 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 12700 13750 50  0001 C CNN
+F 4 "LED" H 12700 13800 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12700 13800 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 12700 13800 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 12700 13800 50  0001 C CNN "Price"
+F 8 "LSC" H 12700 13800 50  0001 C CNN "Family"
+	1    12700 13800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J18
 U 1 1 6126517A
-P 16650 11950
-F 0 "J18" V 16700 11762 50  0000 R CNN
-F 1 "2x03" V 16745 12130 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 16650 11950 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 16650 11950 50  0001 C CNN
-F 4 "Pin Header" H 16650 11950 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 16650 11950 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 16650 11950 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 16650 11950 50  0001 C CNN "Price"
-F 8 "LSC" H 16650 11950 50  0001 C CNN "Family"
-	1    16650 11950
+P 12700 15300
+F 0 "J18" V 12750 15112 50  0000 R CNN
+F 1 "2x03" V 12795 15480 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 12700 15300 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 12700 15300 50  0001 C CNN
+F 4 "Pin Header" H 12700 15300 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12700 15300 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 12700 15300 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 12700 15300 50  0001 C CNN "Price"
+F 8 "LSC" H 12700 15300 50  0001 C CNN "Family"
+	1    12700 15300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R18
 U 1 1 61265180
-P 16550 11200
-F 0 "R18" H 16620 11246 50  0000 L CNN
-F 1 "80 Ohm" H 16620 11155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 16480 11200 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 16550 11200 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 16550 11200 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 16550 11200 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 16550 11200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 16550 11200 50  0001 C CNN "Price"
-F 8 "LSC" H 16550 11200 50  0001 C CNN "Family"
-	1    16550 11200
+P 12600 14550
+F 0 "R18" H 12670 14596 50  0000 L CNN
+F 1 "80 Ohm" H 12670 14505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 12530 14550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 12600 14550 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12600 14550 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 12600 14550 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12600 14550 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 12600 14550 50  0001 C CNN "Price"
+F 8 "LSC" H 12600 14550 50  0001 C CNN "Family"
+	1    12600 14550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16750 12150 16750 12250
+	12800 15500 12800 15600
 Wire Wire Line
-	16750 12250 16650 12250
+	12800 15600 12700 15600
 Wire Wire Line
-	16650 12250 16650 12150
-Connection ~ 16650 12250
+	12700 15600 12700 15500
+Connection ~ 12700 15600
 Wire Wire Line
-	16650 12250 16550 12250
+	12700 15600 12600 15600
 Wire Wire Line
-	16550 12250 16550 12150
+	12600 15600 12600 15500
 Wire Wire Line
-	16550 11650 16550 11350
+	12600 15000 12600 14700
 Wire Wire Line
-	16650 11650 16650 10750
+	12700 15000 12700 14100
 Wire Wire Line
-	16750 11650 16750 10750
+	12800 15000 12800 14100
 Wire Wire Line
-	16550 11050 16550 10750
+	12600 14400 12600 14100
 Wire Wire Line
-	16650 7200 16650 10250
+	12700 10550 12700 13600
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED19
 U 1 1 61290849
-P 17800 11850
-F 0 "LED19" V 17800 11520 50  0000 R CNN
-F 1 "LED_CRGB" V 17755 11520 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 17800 11800 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 17800 11800 50  0001 C CNN
-F 4 "LED" H 17800 11850 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 17800 11850 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 17800 11850 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 17800 11850 50  0001 C CNN "Price"
-F 8 "LSC" H 17800 11850 50  0001 C CNN "Family"
-	1    17800 11850
+P 13850 15200
+F 0 "LED19" V 13850 14870 50  0000 R CNN
+F 1 "LED_CRGB" V 13805 14870 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 13850 15150 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 13850 15150 50  0001 C CNN
+F 4 "LED" H 13850 15200 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 13850 15200 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 13850 15200 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 13850 15200 50  0001 C CNN "Price"
+F 8 "LSC" H 13850 15200 50  0001 C CNN "Family"
+	1    13850 15200
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J19
 U 1 1 6129084F
-P 17800 10350
-F 0 "J19" V 17850 10530 50  0000 L CNN
-F 1 "2x03" V 17895 10530 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 17800 10350 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 17800 10350 50  0001 C CNN
-F 4 "Pin Header" H 17800 10350 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 17800 10350 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 17800 10350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 17800 10350 50  0001 C CNN "Price"
-F 8 "LSC" H 17800 10350 50  0001 C CNN "Family"
-	1    17800 10350
+P 13850 13700
+F 0 "J19" V 13900 13880 50  0000 L CNN
+F 1 "2x03" V 13945 13880 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 13850 13700 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 13850 13700 50  0001 C CNN
+F 4 "Pin Header" H 13850 13700 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 13850 13700 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 13850 13700 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 13850 13700 50  0001 C CNN "Price"
+F 8 "LSC" H 13850 13700 50  0001 C CNN "Family"
+	1    13850 13700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R19
 U 1 1 61290855
-P 17900 11100
-F 0 "R19" H 17970 11146 50  0000 L CNN
-F 1 "80 Ohm" H 17970 11055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 17830 11100 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 17900 11100 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 17900 11100 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 17900 11100 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 17900 11100 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 17900 11100 50  0001 C CNN "Price"
-F 8 "LSC" H 17900 11100 50  0001 C CNN "Family"
-	1    17900 11100
+P 13950 14450
+F 0 "R19" H 14020 14496 50  0000 L CNN
+F 1 "80 Ohm" H 14020 14405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 13880 14450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 13950 14450 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 13950 14450 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 13950 14450 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 13950 14450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 13950 14450 50  0001 C CNN "Price"
+F 8 "LSC" H 13950 14450 50  0001 C CNN "Family"
+	1    13950 14450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	17700 10150 17700 10050
+	13750 13500 13750 13400
 Wire Wire Line
-	17700 10050 17800 10050
+	13750 13400 13850 13400
 Wire Wire Line
-	17800 10050 17800 10150
-Connection ~ 17800 10050
+	13850 13400 13850 13500
+Connection ~ 13850 13400
 Wire Wire Line
-	17800 10050 17900 10050
+	13850 13400 13950 13400
 Wire Wire Line
-	17900 10050 17900 10150
+	13950 13400 13950 13500
 Wire Wire Line
-	17800 12050 17800 12350
+	13850 15400 13850 15700
 Wire Wire Line
-	17900 10650 17900 10950
+	13950 14000 13950 14300
 Wire Wire Line
-	17800 10650 17800 11550
+	13850 14000 13850 14900
 Wire Wire Line
-	17700 10650 17700 11550
+	13750 14000 13750 14900
 Wire Wire Line
-	17900 11250 17900 11550
+	13950 14600 13950 14900
 Wire Wire Line
-	17800 9900 17800 10050
+	13850 13250 13850 13400
 $Comp
 L dk_LED-Indication-Discrete:WP154A4SUREQBFZGC LED20
 U 1 1 612A3B79
-P 18400 10450
-F 0 "LED20" V 18400 10120 50  0000 R CNN
-F 1 "LED_CRGB" V 18355 10120 50  0001 R CNN
-F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 18400 10400 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 18400 10400 50  0001 C CNN
-F 4 "LED" H 18400 10450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 18400 10450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 18400 10450 50  0001 C CNN "DK_Product_Page"
-F 7 "1,74" H 18400 10450 50  0001 C CNN "Price"
-F 8 "LSC" H 18400 10450 50  0001 C CNN "Family"
-	1    18400 10450
+P 14450 13800
+F 0 "LED20" V 14450 13470 50  0000 R CNN
+F 1 "LED_CRGB" V 14405 13470 50  0001 R CNN
+F 2 "digikey-footprints:LED_RGB_WP154A4SUREQBFZGC" H 14450 13750 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP154A4SUREQBFZGC.pdf" H 14450 13750 50  0001 C CNN
+F 4 "LED" H 14450 13800 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 14450 13800 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/kingbright/WP154A4SUREQBFZGC/754-1615-ND/3084119" H 14450 13800 50  0001 C CNN "DK_Product_Page"
+F 7 "1,74" H 14450 13800 50  0001 C CNN "Price"
+F 8 "LSC" H 14450 13800 50  0001 C CNN "Family"
+	1    14450 13800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J20
 U 1 1 612A3B7F
-P 18400 11950
-F 0 "J20" V 18450 11762 50  0000 R CNN
-F 1 "2x03" V 18495 12130 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 18400 11950 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 18400 11950 50  0001 C CNN
-F 4 "Pin Header" H 18400 11950 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 18400 11950 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 18400 11950 50  0001 C CNN "DK_Product_Page"
-F 7 "0,3" H 18400 11950 50  0001 C CNN "Price"
-F 8 "LSC" H 18400 11950 50  0001 C CNN "Family"
-	1    18400 11950
+P 14450 15300
+F 0 "J20" V 14500 15112 50  0000 R CNN
+F 1 "2x03" V 14545 15480 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 14450 15300 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf?__cf_chl_jschl_tk__=d85e3cdfb425ea62d3d25b433f58f93bde08c4a9-1585162272-0-AVXPeCrvwVarUsKG2WftLjR8e42QrmqrWJPIB_wT1IFUcRlhCs4T9NSVPDXdDt27FrtnjU_tWAvQ_UFztBvBMaBbIBI1NOuuniCc4TACjs-MUJjW7rIluHGRFgn59-ImIBFq_Lbms156E23ounuw-7dmZu52LsFIw-S186NGZF4kc3Tem61VrMbaoz0vAWy4kVj0i4i16cLEN6COSvuewTXQ9B7JMKHB4NVuudT91To8JBsx6Ssd-QnnmqO7Ih8t1oxbmHyvul7N1jvnhNA9jPoPexapV-Bc9N31NgKdhYyhXE4AENT-hwwoG6bFmx2XIHHwH5fX8Sku3O1BuhMe5ZEuI33O3PTaT8wMsE1Q-76tJWsRdrX9ygNOLI1rwisYHA" H 14450 15300 50  0001 C CNN
+F 4 "Pin Header" H 14450 15300 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 14450 15300 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/amphenol-icc-fci/67997-206HLF/609-3234-ND/1878491" H 14450 15300 50  0001 C CNN "DK_Product_Page"
+F 7 "0,3" H 14450 15300 50  0001 C CNN "Price"
+F 8 "LSC" H 14450 15300 50  0001 C CNN "Family"
+	1    14450 15300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R20
 U 1 1 612A3B85
-P 18300 11200
-F 0 "R20" H 18370 11246 50  0000 L CNN
-F 1 "80 Ohm" H 18370 11155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18230 11200 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 18300 11200 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 18300 11200 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Resistor" H 18300 11200 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 18300 11200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,73" H 18300 11200 50  0001 C CNN "Price"
-F 8 "LSC" H 18300 11200 50  0001 C CNN "Family"
-	1    18300 11200
+P 14350 14550
+F 0 "R20" H 14420 14596 50  0000 L CNN
+F 1 "80 Ohm" H 14420 14505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 14280 14550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 14350 14550 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 14350 14550 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Resistor" H 14350 14550 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 14350 14550 50  0001 C CNN "DK_Product_Page"
+F 7 "0,73" H 14350 14550 50  0001 C CNN "Price"
+F 8 "LSC" H 14350 14550 50  0001 C CNN "Family"
+	1    14350 14550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18500 12150 18500 12250
+	14550 15500 14550 15600
 Wire Wire Line
-	18500 12250 18400 12250
+	14550 15600 14450 15600
 Wire Wire Line
-	18400 12250 18400 12150
-Connection ~ 18400 12250
+	14450 15600 14450 15500
+Connection ~ 14450 15600
 Wire Wire Line
-	18400 12250 18300 12250
+	14450 15600 14350 15600
 Wire Wire Line
-	18300 12250 18300 12150
+	14350 15600 14350 15500
 Wire Wire Line
-	18300 11650 18300 11350
+	14350 15000 14350 14700
 Wire Wire Line
-	18400 11650 18400 10750
+	14450 15000 14450 14100
 Wire Wire Line
-	18500 11650 18500 10750
+	14550 15000 14550 14100
 Wire Wire Line
-	18300 11050 18300 10750
+	14350 14400 14350 14100
 Wire Wire Line
-	18400 12250 18400 12350
+	14450 15600 14450 15700
 Wire Wire Line
-	18400 9900 18400 10250
+	14450 13250 14450 13600
 Wire Wire Line
-	6900 2200 7550 2200
+	2950 5550 3600 5550
 Wire Wire Line
-	7550 2500 7550 2200
-Connection ~ 7550 2200
+	3600 5850 3600 5550
+Connection ~ 3600 5550
 Wire Wire Line
-	7550 2200 7950 2200
-Connection ~ 14350 1400
-Wire Wire Line
-	14350 1400 13900 1400
-Connection ~ 14650 1400
-Wire Wire Line
-	14350 1400 14650 1400
-Wire Wire Line
-	14350 1850 14350 1400
-Connection ~ 14650 2400
-Wire Wire Line
-	14350 2400 14350 2150
-Wire Wire Line
-	14650 2400 14350 2400
+	3600 5550 4000 5550
 $Comp
-L Diode:1N4148 D1
-U 1 1 5E91004B
-P 14350 2000
-F 0 "D1" V 14304 2079 50  0000 L CNN
-F 1 "1N4148" V 14395 2079 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 14350 1825 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 14350 2000 50  0001 C CNN
-F 4 "Diode" H 14350 2000 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" H 14350 2000 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" H 14350 2000 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 14350 2000 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 14350 2000 50  0001 C CNN "Family"
-	1    14350 2000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15250 2600 15250 2400
-Connection ~ 15250 2600
-Wire Wire Line
-	16350 2600 15250 2600
-Wire Wire Line
-	16350 2050 16350 2600
-Wire Wire Line
-	15300 1550 15300 1750
-Connection ~ 15300 1550
-Wire Wire Line
-	16350 1550 15300 1550
-Wire Wire Line
-	16350 1950 16350 1550
-Wire Wire Line
-	15250 2400 15100 2400
-Wire Wire Line
-	15250 2750 15250 2600
-Wire Wire Line
-	15100 2750 15250 2750
-Wire Wire Line
-	14650 2750 14800 2750
-Wire Wire Line
-	14650 2400 14650 2750
-Wire Wire Line
-	14800 2400 14650 2400
-Wire Wire Line
-	14650 1400 14800 1400
-Wire Wire Line
-	14650 1750 14650 1400
-Wire Wire Line
-	14800 1750 14650 1750
-Wire Wire Line
-	15300 1750 15100 1750
-Wire Wire Line
-	15300 1400 15300 1550
-Wire Wire Line
-	15100 1400 15300 1400
-$Comp
-L Device:CP C1
-U 1 1 5E846172
-P 14950 1750
-F 0 "C1" V 14695 1750 50  0000 C CNN
-F 1 "10uF" V 14786 1750 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 14988 1600 50  0001 C CNN
-F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 14950 1750 50  0001 C CNN
-F 4 "Elko" H 14950 1750 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 14950 1750 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 14950 1750 50  0001 C CNN "DK_Product_Page"
-F 7 "0,28" H 14950 1750 50  0001 C CNN "Price"
-F 8 "Reset" H 14950 1750 50  0001 C CNN "Family"
-	1    14950 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP C2
-U 1 1 5E831B00
-P 14950 2750
-F 0 "C2" V 14695 2750 50  0000 C CNN
-F 1 "10uF" V 14786 2750 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 14988 2600 50  0001 C CNN
-F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 14950 2750 50  0001 C CNN
-F 4 "Elko" H 14950 2750 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 14950 2750 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 14950 2750 50  0001 C CNN "DK_Product_Page"
-F 7 "0,28" H 14950 2750 50  0001 C CNN "Price"
-F 8 "Reset" H 14950 2750 50  0001 C CNN "Family"
-	1    14950 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R27
-U 1 1 5E81FFE4
-P 14950 2400
-F 0 "R27" H 15020 2446 50  0000 L CNN
-F 1 "10k Ohm" H 15020 2355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 14880 2400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 14950 2400 50  0001 C CNN
-F 4 "Resistor" H 14950 2400 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 14950 2400 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 14950 2400 50  0001 C CNN "DK_Product_Page"
-F 7 "0,41" H 14950 2400 50  0001 C CNN "Price"
-F 8 "Reset" H 14950 2400 50  0001 C CNN "Family"
-	1    14950 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R26
-U 1 1 5E7FC21F
-P 14950 1400
-F 0 "R26" H 15020 1446 50  0000 L CNN
-F 1 "10k Ohm" H 15020 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 14880 1400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 14950 1400 50  0001 C CNN
-F 4 "Resistor" H 14950 1400 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 14950 1400 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 14950 1400 50  0001 C CNN "DK_Product_Page"
-F 7 "0,41" H 14950 1400 50  0001 C CNN "Price"
-F 8 "Reset" H 14950 1400 50  0001 C CNN "Family"
-	1    14950 1400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J22
-U 1 1 5E7B9A5D
-P 16550 1950
-F 0 "J22" H 16468 1625 50  0000 C CNN
-F 1 "1x02" H 16468 1716 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 16550 1950 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 16550 1950 50  0001 C CNN
-F 4 "Pin Header" H 16550 1950 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 16550 1950 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 16550 1950 50  0001 C CNN "DK_Product_Page"
-F 7 "0,55" H 16550 1950 50  0001 C CNN "Price"
-F 8 "Reset" H 16550 1950 50  0001 C CNN "Family"
-	1    16550 1950
+L Connector:Conn_01x01_Male J26
+U 1 1 5E8C2806
+P 17550 5100
+F 0 "J26" H 17658 5281 50  0000 C CNN
+F 1 "1x01" H 17650 5200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17550 5100 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 17550 5100 50  0001 C CNN
+F 4 "Pin Header" H 17550 5100 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17550 5100 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17550 5100 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 17550 5100 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 17550 5100 50  0001 C CNN "Family"
+	1    17550 5100
 	1    0    0    -1  
 $EndComp
+Connection ~ 18800 2650
+Wire Wire Line
+	18800 2500 18800 2650
+Wire Wire Line
+	18600 2500 18800 2500
+Wire Wire Line
+	16650 3200 17650 3200
+Connection ~ 18000 3800
+Wire Wire Line
+	18000 4450 18000 3800
+Wire Wire Line
+	18800 4450 18000 4450
+Wire Wire Line
+	18800 4300 18800 4450
+Wire Wire Line
+	18600 2850 18600 2950
+Wire Wire Line
+	18800 2850 18600 2850
+Wire Wire Line
+	18800 2650 18800 2850
+Wire Wire Line
+	18750 2650 18800 2650
+Wire Wire Line
+	20600 5750 17400 5750
+Wire Wire Line
+	20600 4000 20600 5750
+Wire Wire Line
+	18400 3200 18400 3300
+Wire Wire Line
+	19350 3200 18400 3200
+Wire Wire Line
+	19350 3700 19350 3200
+Wire Wire Line
+	20000 3700 19350 3700
+Wire Wire Line
+	19700 4000 20000 4000
+Wire Wire Line
+	19700 3250 19700 4000
+Wire Wire Line
+	20850 3250 19700 3250
+Wire Wire Line
+	20850 3700 20850 3250
+Wire Wire Line
+	20600 3700 20850 3700
+Connection ~ 19250 5100
+Wire Wire Line
+	20300 5100 19250 5100
+Wire Wire Line
+	20300 4300 20300 5100
+Connection ~ 17750 5100
+Connection ~ 19300 2950
+Wire Wire Line
+	17750 5600 17750 5100
+Wire Wire Line
+	19500 5600 17750 5600
+Wire Wire Line
+	19500 2950 19500 5600
+Wire Wire Line
+	19300 2950 19500 2950
+Wire Wire Line
+	18150 5100 18600 5100
+Wire Wire Line
+	17750 4300 17750 5100
+Wire Wire Line
+	17750 5100 17850 5100
+Connection ~ 18600 5100
+Wire Wire Line
+	19250 3800 19000 3800
+Wire Wire Line
+	19250 5100 19250 3800
+Wire Wire Line
+	18600 5100 19250 5100
+Wire Wire Line
+	18600 5100 18600 4900
+Wire Wire Line
+	18400 4300 17750 4300
+Wire Wire Line
+	18600 4300 18600 4600
+Connection ~ 17650 2650
+Wire Wire Line
+	20300 2200 20300 3400
+Wire Wire Line
+	17650 2200 20300 2200
+Wire Wire Line
+	17650 2650 17650 2200
+Connection ~ 17650 3200
+Wire Wire Line
+	18000 3800 18200 3800
+Wire Wire Line
+	18000 3200 18000 3800
+Wire Wire Line
+	17650 3200 18000 3200
+Wire Wire Line
+	18800 3100 18800 3300
+Wire Wire Line
+	19300 3100 18800 3100
+Wire Wire Line
+	19300 2950 19300 3100
+Wire Wire Line
+	19100 2950 19300 2950
+Wire Wire Line
+	18600 2950 18600 3300
+Connection ~ 18600 2950
+Wire Wire Line
+	18800 2950 18600 2950
+Wire Wire Line
+	17650 2650 18450 2650
+Wire Wire Line
+	17650 3200 17650 2650
 $Comp
-L Device:CP C3
-U 1 1 5E931F46
-P 19700 4500
-F 0 "C3" V 19445 4500 50  0000 C CNN
-F 1 "10uF" V 19536 4500 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 19738 4350 50  0001 C CNN
-F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 19700 4500 50  0001 C CNN
-F 4 "Elko" H 19700 4500 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 19700 4500 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 19700 4500 50  0001 C CNN "DK_Product_Page"
-F 7 "0,28" H 19700 4500 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 19700 4500 50  0001 C CNN "Family"
-	1    19700 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_POT R29
-U 1 1 5E8D21F5
-P 20300 2050
-F 0 "R29" H 20231 2096 50  0000 R CNN
-F 1 "10k Ohm linear" H 20231 2005 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 20300 2050 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/385126.pdf" H 20300 2050 50  0001 C CNN
-F 4 "Potentiometer" H 20300 2050 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602" H 20300 2050 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602" H 20300 2050 50  0001 C CNN "DK_Product_Page"
-F 7 "10,19" H 20300 2050 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 20300 2050 50  0001 C CNN "Family"
-	1    20300 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Timer:NE555 U2
-U 1 1 5EA46745
-P 20300 3200
-F 0 "U2" V 20346 2756 50  0000 R CNN
-F 1 "NE555" V 20255 2756 50  0000 R CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 20300 3200 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ne555.pdf" H 20300 3200 50  0001 C CNN
-F 4 "IC" H 20300 3200 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057" H 20300 3200 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057" H 20300 3200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,40" H 20300 3200 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 20300 3200 50  0001 C CNN "Family"
-	1    20300 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L dk_Logic-Buffers-Drivers-Receivers-Transceivers:SN74LVC2G17DBVR_Discontinued U3
-U 1 1 5EA4819D
-P 22000 3200
-F 0 "U3" H 22000 3803 60  0000 C CNN
-F 1 "SN74LVC2GU04DCKR" H 22000 3697 60  0000 C CNN
-F 2 "https://www.ti.com/lit/ds/symlink/sn74lvc2gu04.pdf" H 22200 3400 60  0001 L CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 22200 3500 60  0001 L CNN
-F 4 "" H 22200 3600 60  0001 L CNN "Digi-Key_PN"
-F 5 "" H 22200 3700 60  0001 L CNN "MPN"
-F 6 "IC" H 22200 3800 60  0001 L CNN "Category"
-F 7 "CPU Brake" H 22200 3900 60  0001 L CNN "Family"
-F 8 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2G14DBVR/296-13010-2-ND/479731" H 22200 4000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "" H 22200 4100 60  0001 L CNN "DK_Detail_Page"
-F 10 "" H 22200 4200 60  0001 L CNN "Description"
-F 11 "" H 22200 4300 60  0001 L CNN "Manufacturer"
-F 12 "" H 22200 4400 60  0001 L CNN "Status"
-F 13 "https://www.digikey.de/product-detail/de/texas-instruments/SN74LVC2GU04DCKR/296-13277-1-ND/484490" H 22000 3200 50  0001 C CNN "DK_Product_Page"
-F 14 "0,28" H 22000 3200 50  0001 C CNN "Price"
-	1    22000 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 5EA4C511
-P 20650 2350
-F 0 "R28" H 20720 2396 50  0000 L CNN
-F 1 "150 Ohm" H 20720 2305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 20580 2350 50  0001 C CNN
-F 3 "https://riedon.com/media/pdf/UB.pdf" H 20650 2350 50  0001 C CNN
-F 4 "Resistor" H 20650 2350 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604" H 20650 2350 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604" H 20650 2350 50  0001 C CNN "DK_Product_Page"
-F 7 "0,85" H 20650 2350 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 20650 2350 50  0001 C CNN "Family"
-	1    20650 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J25
-U 1 1 5EA768C3
-P 18900 5150
-F 0 "J25" H 19008 5331 50  0000 C CNN
-F 1 "1x01" H 19000 5250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 18900 5150 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 18900 5150 50  0001 C CNN
-F 4 "Pin Header" H 18900 5150 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 18900 5150 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 18900 5150 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 18900 5150 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 18900 5150 50  0001 C CNN "Family"
-	1    18900 5150
+L Connector:Conn_01x01_Male J24
+U 1 1 5EAD1DB5
+P 16450 3200
+F 0 "J24" H 16558 3381 50  0000 C CNN
+F 1 "1x01" H 16550 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16450 3200 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 16450 3200 50  0001 C CNN
+F 4 "Pin Header" H 16450 3200 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 16450 3200 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 16450 3200 50  0001 C CNN "Family"
+	1    16450 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 5EAB8B01
-P 20300 4150
-F 0 "C4" H 20415 4241 50  0000 L CNN
-F 1 "10nF" H 20415 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 20415 4059 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/28535/vy2series.pdf" H 20300 4150 50  0001 C CNN
-F 4 "https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836" H 20300 4150 50  0001 C CNN "DK_Datasheet_Link"
-F 5 "Kondensator" H 20300 4150 50  0001 C CNN "Category"
-F 6 "https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836" H 20300 4150 50  0001 C CNN "DK_Product_Page"
-F 7 "0,44" H 20300 4150 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 20300 4150 50  0001 C CNN "Family"
-	1    20300 4150
+P 18600 4750
+F 0 "C4" H 18715 4841 50  0000 L CNN
+F 1 "10nF" H 18715 4750 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 18715 4659 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/28535/vy2series.pdf" H 18600 4750 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836" H 18600 4750 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Kondensator" H 18600 4750 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836" H 18600 4750 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 18600 4750 50  0001 C CNN "Price"
+F 8 "AMP" H 18600 4750 50  0001 C CNN "Family"
+	1    18600 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J24
-U 1 1 5EAD1DB5
-P 18150 2600
-F 0 "J24" H 18258 2781 50  0000 C CNN
-F 1 "1x01" H 18250 2700 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 18150 2600 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 18150 2600 50  0001 C CNN
-F 4 "Pin Header" H 18150 2600 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 18150 2600 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 18150 2600 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 18150 2600 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 18150 2600 50  0001 C CNN "Family"
-	1    18150 2600
+L Connector:Conn_01x01_Male J25
+U 1 1 5EA768C3
+P 17200 5750
+F 0 "J25" H 17308 5931 50  0000 C CNN
+F 1 "1x01" H 17300 5850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17200 5750 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 17200 5750 50  0001 C CNN
+F 4 "Pin Header" H 17200 5750 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17200 5750 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17200 5750 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 17200 5750 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 17200 5750 50  0001 C CNN "Family"
+	1    17200 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	19350 2600 19350 2050
-Wire Wire Line
-	19350 2050 20150 2050
-Wire Wire Line
-	20500 2350 20300 2350
-Connection ~ 20300 2350
-Wire Wire Line
-	20300 2350 20300 2700
-Wire Wire Line
-	20800 2350 21000 2350
-Wire Wire Line
-	21000 2350 21000 2500
-Wire Wire Line
-	21000 2500 20500 2500
-Wire Wire Line
-	20500 2500 20500 2700
-Wire Wire Line
-	19350 2600 19700 2600
-Wire Wire Line
-	19700 2600 19700 3200
-Wire Wire Line
-	19700 3200 19900 3200
-Connection ~ 19350 2600
-Wire Wire Line
-	19350 2050 19350 1600
-Wire Wire Line
-	19350 1600 22000 1600
-Wire Wire Line
-	22000 1600 22000 2800
-Connection ~ 19350 2050
+$Comp
+L Device:R R28
+U 1 1 5EA4C511
+P 18950 2950
+F 0 "R28" H 19020 2996 50  0000 L CNN
+F 1 "150 Ohm" H 19020 2905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18880 2950 50  0001 C CNN
+F 3 "https://riedon.com/media/pdf/UB.pdf" H 18950 2950 50  0001 C CNN
+F 4 "Resistor" H 18950 2950 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604" H 18950 2950 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604" H 18950 2950 50  0001 C CNN "DK_Product_Page"
+F 7 "0,85" H 18950 2950 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 18950 2950 50  0001 C CNN "Family"
+	1    18950 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Logic-Buffers-Drivers-Receivers-Transceivers:SN74LVC2G17DBVR_Discontinued U3
+U 1 1 5EA4819D
+P 20300 3800
+F 0 "U3" H 20300 4403 60  0000 C CNN
+F 1 "SN74LVC2GU04DCKR" H 20300 4297 60  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W7.62mm" H 20500 4000 60  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf" H 20500 4100 60  0001 L CNN
+F 4 "" H 20500 4200 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 20500 4300 60  0001 L CNN "MPN"
+F 6 "IC" H 20500 4400 60  0001 L CNN "Category"
+F 7 "CPU Brake" H 20500 4500 60  0001 L CNN "Family"
+F 8 "https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2G14DBVR/296-13010-2-ND/479731" H 20500 4600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 20500 4700 60  0001 L CNN "DK_Detail_Page"
+F 10 "" H 20500 4800 60  0001 L CNN "Description"
+F 11 "" H 20500 4900 60  0001 L CNN "Manufacturer"
+F 12 "" H 20500 5000 60  0001 L CNN "Status"
+F 13 "https://www.digikey.de/product-detail/de/texas-instruments/SN74LVC2GU04DCKR/296-13277-1-ND/484490" H 20300 3800 50  0001 C CNN "DK_Product_Page"
+F 14 "0,28" H 20300 3800 50  0001 C CNN "Price"
+	1    20300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer:NE555 U2
+U 1 1 5EA46745
+P 18600 3800
+F 0 "U2" V 18646 3356 50  0000 R CNN
+F 1 "NE555" V 18555 3356 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 18600 3800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ne555.pdf" H 18600 3800 50  0001 C CNN
+F 4 "IC" H 18600 3800 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057" H 18600 3800 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057" H 18600 3800 50  0001 C CNN "DK_Product_Page"
+F 7 "0,40" H 18600 3800 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 18600 3800 50  0001 C CNN "Family"
+	1    18600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT R29
+U 1 1 5E8D21F5
+P 18600 2650
+F 0 "R29" H 18531 2696 50  0000 R CNN
+F 1 "10k Ohm linear" H 18531 2605 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 18600 2650 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/385126.pdf" H 18600 2650 50  0001 C CNN
+F 4 "Potentiometer" H 18600 2650 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602" H 18600 2650 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602" H 18600 2650 50  0001 C CNN "DK_Product_Page"
+F 7 "10,19" H 18600 2650 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 18600 2650 50  0001 C CNN "Family"
+	1    18600 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5E931F46
+P 18000 5100
+F 0 "C3" V 17745 5100 50  0000 C CNN
+F 1 "10uF" V 17836 5100 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 18038 4950 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 18000 5100 50  0001 C CNN
+F 4 "Elko" H 18000 5100 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 18000 5100 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 18000 5100 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 18000 5100 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 18000 5100 50  0001 C CNN "Family"
+	1    18000 5100
+	0    -1   -1   0   
+$EndComp
 $Comp
 L Connector:Conn_01x01_Male J23
 U 1 1 5E7F8CDB
-P 13700 1400
-F 0 "J23" H 13808 1581 50  0000 C CNN
-F 1 "1x01" H 13808 1490 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13700 1400 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 13700 1400 50  0001 C CNN
-F 4 "Pin Header" H 13700 1400 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 13700 1400 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 13700 1400 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 13700 1400 50  0001 C CNN "Price"
-F 8 "Reset" H 13700 1400 50  0001 C CNN "Family"
-	1    13700 1400
+P 17300 9400
+F 0 "J23" H 17408 9581 50  0000 C CNN
+F 1 "1x01" H 17408 9490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17300 9400 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 17300 9400 50  0001 C CNN
+F 4 "Pin Header" H 17300 9400 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17300 9400 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17300 9400 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 17300 9400 50  0001 C CNN "Price"
+F 8 "Reset" H 17300 9400 50  0001 C CNN "Family"
+	1    17300 9400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	20300 3700 20300 4000
-Wire Wire Line
-	20100 3700 19450 3700
-Wire Wire Line
-	20300 4500 20300 4300
-Wire Wire Line
-	20300 4500 20950 4500
-Wire Wire Line
-	20950 4500 20950 3200
-Wire Wire Line
-	20950 3200 20700 3200
-Connection ~ 20300 4500
-Wire Wire Line
-	19450 4500 19550 4500
-Wire Wire Line
-	19450 3700 19450 4500
-Wire Wire Line
-	19850 4500 20300 4500
-Wire Wire Line
-	21000 2350 21200 2350
-Wire Wire Line
-	21200 2350 21200 5000
-Wire Wire Line
-	21200 5000 19450 5000
-Wire Wire Line
-	19450 5000 19450 4500
-Connection ~ 21000 2350
-Connection ~ 19450 4500
-Wire Wire Line
-	22000 3700 22000 4500
-Wire Wire Line
-	22000 4500 20950 4500
-Connection ~ 20950 4500
-Wire Wire Line
-	22300 3100 22550 3100
-Wire Wire Line
-	22550 3100 22550 2650
-Wire Wire Line
-	22550 2650 21400 2650
-Wire Wire Line
-	21400 2650 21400 3400
-Wire Wire Line
-	21400 3400 21700 3400
-Wire Wire Line
-	21700 3100 21050 3100
-Wire Wire Line
-	21050 3100 21050 2600
-Wire Wire Line
-	21050 2600 20100 2600
-Wire Wire Line
-	20100 2600 20100 2700
-Wire Wire Line
-	22300 3400 22300 5150
-Wire Wire Line
-	22300 5150 19100 5150
-Wire Wire Line
-	20450 2050 20500 2050
-Wire Wire Line
-	20500 2050 20500 2250
-Wire Wire Line
-	20500 2250 20300 2250
-Wire Wire Line
-	20300 2250 20300 2350
-Wire Wire Line
-	20500 3700 20500 3850
-Wire Wire Line
-	20500 3850 19700 3850
-Wire Wire Line
-	19700 3850 19700 3200
-Connection ~ 19700 3200
-Wire Wire Line
-	18350 2600 19350 2600
-Wire Wire Line
-	20300 1900 20500 1900
-Wire Wire Line
-	20500 1900 20500 2050
-Connection ~ 20500 2050
 $Comp
-L Connector:Conn_01x01_Male J26
-U 1 1 5E8C2806
-P 19250 4500
-F 0 "J26" H 19358 4681 50  0000 C CNN
-F 1 "1x01" H 19350 4600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 19250 4500 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 19250 4500 50  0001 C CNN
-F 4 "Pin Header" H 19250 4500 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 19250 4500 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 19250 4500 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 19250 4500 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 19250 4500 50  0001 C CNN "Family"
-	1    19250 4500
+L Connector_Generic:Conn_01x02 J22
+U 1 1 5E7B9A5D
+P 20150 9950
+F 0 "J22" H 20068 9625 50  0000 C CNN
+F 1 "1x02" H 20068 9716 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 20150 9950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 20150 9950 50  0001 C CNN
+F 4 "Pin Header" H 20150 9950 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 20150 9950 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 20150 9950 50  0001 C CNN "DK_Product_Page"
+F 7 "0,55" H 20150 9950 50  0001 C CNN "Price"
+F 8 "Reset" H 20150 9950 50  0001 C CNN "Family"
+	1    20150 9950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R26
+U 1 1 5E7FC21F
+P 18550 9400
+F 0 "R26" H 18620 9446 50  0000 L CNN
+F 1 "10k Ohm" H 18620 9355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18480 9400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 18550 9400 50  0001 C CNN
+F 4 "Resistor" H 18550 9400 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 18550 9400 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 18550 9400 50  0001 C CNN "DK_Product_Page"
+F 7 "0,41" H 18550 9400 50  0001 C CNN "Price"
+F 8 "Reset" H 18550 9400 50  0001 C CNN "Family"
+	1    18550 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5E81FFE4
+P 18550 10400
+F 0 "R27" H 18620 10446 50  0000 L CNN
+F 1 "10k Ohm" H 18620 10355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18480 10400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 18550 10400 50  0001 C CNN
+F 4 "Resistor" H 18550 10400 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 18550 10400 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 18550 10400 50  0001 C CNN "DK_Product_Page"
+F 7 "0,41" H 18550 10400 50  0001 C CNN "Price"
+F 8 "Reset" H 18550 10400 50  0001 C CNN "Family"
+	1    18550 10400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5E831B00
+P 18550 10750
+F 0 "C2" V 18295 10750 50  0000 C CNN
+F 1 "10uF" V 18386 10750 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 18588 10600 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 18550 10750 50  0001 C CNN
+F 4 "Elko" H 18550 10750 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 18550 10750 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 18550 10750 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 18550 10750 50  0001 C CNN "Price"
+F 8 "Reset" H 18550 10750 50  0001 C CNN "Family"
+	1    18550 10750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5E846172
+P 18550 9750
+F 0 "C1" V 18295 9750 50  0000 C CNN
+F 1 "10uF" V 18386 9750 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 18588 9600 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 18550 9750 50  0001 C CNN
+F 4 "Elko" H 18550 9750 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 18550 9750 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 18550 9750 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 18550 9750 50  0001 C CNN "Price"
+F 8 "Reset" H 18550 9750 50  0001 C CNN "Family"
+	1    18550 9750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18700 9400 18900 9400
+Wire Wire Line
+	18900 9400 18900 9550
+Wire Wire Line
+	18900 9750 18700 9750
+Wire Wire Line
+	18400 9750 18250 9750
+Wire Wire Line
+	18250 9750 18250 9400
+Wire Wire Line
+	18250 9400 18400 9400
+Wire Wire Line
+	18400 10400 18250 10400
+Wire Wire Line
+	18250 10400 18250 10750
+Wire Wire Line
+	18250 10750 18400 10750
+Wire Wire Line
+	18700 10750 18850 10750
+Wire Wire Line
+	18850 10750 18850 10600
+Wire Wire Line
+	18850 10400 18700 10400
+Wire Wire Line
+	19950 9950 19950 9550
+Wire Wire Line
+	19950 9550 18900 9550
+Connection ~ 18900 9550
+Wire Wire Line
+	18900 9550 18900 9750
+Wire Wire Line
+	19950 10050 19950 10600
+Wire Wire Line
+	19950 10600 18850 10600
+Connection ~ 18850 10600
+Wire Wire Line
+	18850 10600 18850 10400
+$Comp
+L Diode:1N4148 D1
+U 1 1 5E91004B
+P 17950 10000
+F 0 "D1" V 17904 10079 50  0000 L CNN
+F 1 "1N4148" V 17995 10079 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 17950 9825 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 17950 10000 50  0001 C CNN
+F 4 "Diode" H 17950 10000 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" H 17950 10000 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" H 17950 10000 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 17950 10000 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 17950 10000 50  0001 C CNN "Family"
+	1    17950 10000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18250 10400 17950 10400
+Wire Wire Line
+	17950 10400 17950 10150
+Connection ~ 18250 10400
+Wire Wire Line
+	17950 9850 17950 9400
+Wire Wire Line
+	17950 9400 18250 9400
+Connection ~ 18250 9400
+Wire Wire Line
+	17950 9400 17500 9400
+Connection ~ 17950 9400
+Connection ~ 3600 7950
+Wire Wire Line
+	3600 7950 7400 7950
+$Comp
+L Device:R R30
+U 1 1 5EA35B11
+P 10450 2050
+F 0 "R30" H 10520 2096 50  0000 L CNN
+F 1 "18k Ohm" H 10520 2005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10380 2050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 10450 2050 50  0001 C CNN
+F 4 "Resistor" H 10450 2050 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 10450 2050 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 10450 2050 50  0001 C CNN "DK_Product_Page"
+F 7 "0,41" H 10450 2050 50  0001 C CNN "Price"
+F 8 "AMP" H 10450 2050 50  0001 C CNN "Family"
+	1    10450 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C5
+U 1 1 5EA520C8
+P 11050 2050
+F 0 "C5" V 10795 2050 50  0000 C CNN
+F 1 "10uF" V 10886 2050 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11088 1900 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 11050 2050 50  0001 C CNN
+F 4 "Elko" H 11050 2050 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 11050 2050 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 11050 2050 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 11050 2050 50  0001 C CNN "Price"
+F 8 "AMP" H 11050 2050 50  0001 C CNN "Family"
+	1    11050 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 5EA6DAC8
+P 10200 3150
+F 0 "C8" V 9945 3150 50  0000 C CNN
+F 1 "10uF" V 10036 3150 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10238 3000 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 10200 3150 50  0001 C CNN
+F 4 "Elko" H 10200 3150 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 10200 3150 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 10200 3150 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 10200 3150 50  0001 C CNN "Price"
+F 8 "AMP" H 10200 3150 50  0001 C CNN "Family"
+	1    10200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5EABF20E
+P 11750 3250
+F 0 "R31" H 11820 3296 50  0000 L CNN
+F 1 "10 Ohm" H 11820 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11680 3250 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 11750 3250 50  0001 C CNN
+F 4 "Resistor" H 11750 3250 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 11750 3250 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 11750 3250 50  0001 C CNN "DK_Product_Page"
+F 7 "0,53" H 11750 3250 50  0001 C CNN "Price"
+F 8 "AMP" H 11750 3250 50  0001 C CNN "Family"
+	1    11750 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5EADA1F7
+P 11050 2600
+F 0 "C6" V 10795 2600 50  0000 C CNN
+F 1 "470uF" V 10886 2600 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11088 2450 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf" H 11050 2600 50  0001 C CNN
+F 4 "Elko" H 11050 2600 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 11050 2600 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UVR1H471MHD1TO/493-12789-1-ND/4328413" H 11050 2600 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 11050 2600 50  0001 C CNN "Price"
+F 8 "AMP" H 11050 2600 50  0001 C CNN "Family"
+	1    11050 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5EAF5C89
+P 11750 2850
+F 0 "C7" H 11865 2941 50  0000 L CNN
+F 1 "100nF" H 11865 2850 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 11865 2759 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 11750 2850 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836" H 11750 2850 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Kondensator" H 11750 2850 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/de/kemet/C320C104K5R5TA7301/399-9870-1-ND/3726092" H 11750 2850 50  0001 C CNN "DK_Product_Page"
+F 7 "0,23" H 11750 2850 50  0001 C CNN "Price"
+F 8 "AMP" H 11750 2850 50  0001 C CNN "Family"
+	1    11750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Linear-Amplifiers-Audio:LM386N-4_NOPB U4
+U 1 1 5EB2DA92
+P 10200 2600
+F 0 "U4" H 10544 2653 60  0000 L CNN
+F 1 "LM386N-4_NOPB" H 10544 2547 60  0001 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 10400 2800 60  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm386.pdf" H 10400 2900 60  0001 L CNN
+F 4 "296-43960-5-ND" H 10400 3000 60  0001 L CNN "Digi-Key_PN"
+F 5 "LM386N-4/NOPB" H 10400 3100 60  0001 L CNN "MPN"
+F 6 "IC" H 10400 3200 60  0001 L CNN "Category"
+F 7 "AMP" H 10400 3300 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386" H 10400 3400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192" H 10400 3500 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC AMP AUDIO PWR 1W MONO AB 8DIP" H 10400 3600 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 10400 3700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10400 3800 60  0001 L CNN "Status"
+F 13 "https://www.digikey.de/product-detail/de/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192" H 10200 2600 50  0001 C CNN "DK_Product_Page"
+F 14 "1,02" H 10200 2600 50  0001 C CNN "Price"
+	1    10200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J30
+U 1 1 5EB4D403
+P 9150 3450
+F 0 "J30" H 9258 3631 50  0000 C CNN
+F 1 "1x01" H 9250 3550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9150 3450 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9150 3450 50  0001 C CNN
+F 4 "Pin Header" H 9150 3450 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 3450 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 3450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 9150 3450 50  0001 C CNN "Price"
+F 8 "AMP" H 9150 3450 50  0001 C CNN "Family"
+	1    9150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J29
+U 1 1 5EB685A1
+P 9150 2700
+F 0 "J29" H 9258 2881 50  0000 C CNN
+F 1 "1x01" H 9250 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9150 2700 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9150 2700 50  0001 C CNN
+F 4 "Pin Header" H 9150 2700 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 2700 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 2700 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 9150 2700 50  0001 C CNN "Price"
+F 8 "AMP" H 9150 2700 50  0001 C CNN "Family"
+	1    9150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2500 9600 2500
+Wire Wire Line
+	9600 2500 9600 2900
+Wire Wire Line
+	9600 3450 9450 3450
+Connection ~ 9600 3450
+Wire Wire Line
+	10000 2900 9600 2900
+Connection ~ 9600 2900
+Wire Wire Line
+	9600 2900 9600 3450
+Wire Wire Line
+	10200 2800 10200 3000
+Wire Wire Line
+	10500 2600 10900 2600
+Wire Wire Line
+	11200 2600 11750 2600
+Wire Wire Line
+	11750 2600 11750 2700
+Wire Wire Line
+	11750 3000 11750 3100
+Wire Wire Line
+	11200 2050 11750 2050
+Wire Wire Line
+	11750 2050 11750 2600
+Connection ~ 11750 2600
+Wire Wire Line
+	10900 2050 10600 2050
+Wire Wire Line
+	10300 2050 10200 2050
+Wire Wire Line
+	10200 2050 10200 2400
+Wire Wire Line
+	9900 2700 9350 2700
+Wire Wire Line
+	9600 3450 10200 3450
+Wire Wire Line
+	10200 3300 10200 3450
+NoConn ~ 10300 2400
+$Comp
+L Connector:Conn_01x01_Male J31
+U 1 1 5EC46B17
+P 9150 2250
+F 0 "J31" H 9258 2431 50  0000 C CNN
+F 1 "1x01" H 9250 2350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9150 2250 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9150 2250 50  0001 C CNN
+F 4 "Pin Header" H 9150 2250 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 2250 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 2250 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 9150 2250 50  0001 C CNN "Price"
+F 8 "AMP" H 9150 2250 50  0001 C CNN "Family"
+	1    9150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2300 10000 2250
+Wire Wire Line
+	10000 2250 9350 2250
+$Comp
+L Connector:Conn_01x01_Male J32
+U 1 1 5ECC17DD
+P 12450 2600
+F 0 "J32" H 12558 2781 50  0000 C CNN
+F 1 "1x01" H 12550 2700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 2600 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 2600 50  0001 C CNN
+F 4 "Pin Header" H 12450 2600 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 2600 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 2600 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 12450 2600 50  0001 C CNN "Price"
+F 8 "AMP" H 12450 2600 50  0001 C CNN "Family"
+	1    12450 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J34
+U 1 1 5ECDFA96
+P 12450 3550
+F 0 "J34" H 12558 3731 50  0000 C CNN
+F 1 "1x01" H 12550 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 3550 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 3550 50  0001 C CNN
+F 4 "Pin Header" H 12450 3550 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 3550 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 3550 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 12450 3550 50  0001 C CNN "Price"
+F 8 "AMP" H 12450 3550 50  0001 C CNN "Family"
+	1    12450 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11750 2600 12000 2600
+Wire Wire Line
+	12250 3550 12150 3550
+Wire Wire Line
+	11750 3550 11750 3400
+$Comp
+L Connector:Conn_01x01_Male J33
+U 1 1 5ED7B605
+P 12450 2450
+F 0 "J33" H 12558 2631 50  0000 C CNN
+F 1 "1x01" H 12550 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 2450 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 2450 50  0001 C CNN
+F 4 "Pin Header" H 12450 2450 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 2450 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 2450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 12450 2450 50  0001 C CNN "Price"
+F 8 "AMP" H 12450 2450 50  0001 C CNN "Family"
+	1    12450 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12250 2450 12000 2450
+Wire Wire Line
+	12000 2450 12000 2600
+Connection ~ 12000 2600
+Wire Wire Line
+	12000 2600 12250 2600
+$Comp
+L Device:R R32
+U 1 1 5EDD7AC1
+P 10450 3950
+F 0 "R32" H 10520 3996 50  0000 L CNN
+F 1 "18k Ohm" H 10520 3905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10380 3950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 10450 3950 50  0001 C CNN
+F 4 "Resistor" H 10450 3950 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 10450 3950 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 10450 3950 50  0001 C CNN "DK_Product_Page"
+F 7 "0,41" H 10450 3950 50  0001 C CNN "Price"
+F 8 "AMP" H 10450 3950 50  0001 C CNN "Family"
+	1    10450 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C9
+U 1 1 5EDD7ACC
+P 11050 3950
+F 0 "C9" V 10795 3950 50  0000 C CNN
+F 1 "10uF" V 10886 3950 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11088 3800 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 11050 3950 50  0001 C CNN
+F 4 "Elko" H 11050 3950 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 11050 3950 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 11050 3950 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 11050 3950 50  0001 C CNN "Price"
+F 8 "AMP" H 11050 3950 50  0001 C CNN "Family"
+	1    11050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C11
+U 1 1 5EDD7AD7
+P 10200 5050
+F 0 "C11" V 9945 5050 50  0000 C CNN
+F 1 "10uF" V 10036 5050 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10238 4900 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf" H 10200 5050 50  0001 C CNN
+F 4 "Elko" H 10200 5050 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 10200 5050 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 10200 5050 50  0001 C CNN "DK_Product_Page"
+F 7 "0,28" H 10200 5050 50  0001 C CNN "Price"
+F 8 "AMP" H 10200 5050 50  0001 C CNN "Family"
+	1    10200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5EDD7AE2
+P 11750 5150
+F 0 "R33" H 11820 5196 50  0000 L CNN
+F 1 "10 Ohm" H 11820 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11680 5150 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 11750 5150 50  0001 C CNN
+F 4 "Resistor" H 11750 5150 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 11750 5150 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 11750 5150 50  0001 C CNN "DK_Product_Page"
+F 7 "0,53" H 11750 5150 50  0001 C CNN "Price"
+F 8 "AMP" H 11750 5150 50  0001 C CNN "Family"
+	1    11750 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C10
+U 1 1 5EDD7AED
+P 11050 4500
+F 0 "C10" V 10795 4500 50  0000 C CNN
+F 1 "470uF" V 10886 4500 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11088 4350 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf" H 11050 4500 50  0001 C CNN
+F 4 "Elko" H 11050 4500 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141" H 11050 4500 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/de/nichicon/UVR1H471MHD1TO/493-12789-1-ND/4328413" H 11050 4500 50  0001 C CNN "DK_Product_Page"
+F 7 "0,60" H 11050 4500 50  0001 C CNN "Price"
+F 8 "AMP" H 11050 4500 50  0001 C CNN "Family"
+	1    11050 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5EDD7AF8
+P 11750 4750
+F 0 "C12" H 11865 4841 50  0000 L CNN
+F 1 "100nF" H 11865 4750 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 11865 4659 50  0001 L CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf" H 11750 4750 50  0001 C CNN
+F 4 "https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836" H 11750 4750 50  0001 C CNN "DK_Datasheet_Link"
+F 5 "Kondensator" H 11750 4750 50  0001 C CNN "Category"
+F 6 "https://www.digikey.de/product-detail/de/kemet/C320C104K5R5TA7301/399-9870-1-ND/3726092" H 11750 4750 50  0001 C CNN "DK_Product_Page"
+F 7 "0,23" H 11750 4750 50  0001 C CNN "Price"
+F 8 "AMP" H 11750 4750 50  0001 C CNN "Family"
+	1    11750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Linear-Amplifiers-Audio:LM386N-4_NOPB U5
+U 1 1 5EDD7B07
+P 10200 4500
+F 0 "U5" H 10544 4553 60  0000 L CNN
+F 1 "LM386N-4_NOPB" H 10544 4447 60  0001 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 10400 4700 60  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm386.pdf" H 10400 4800 60  0001 L CNN
+F 4 "296-43960-5-ND" H 10400 4900 60  0001 L CNN "Digi-Key_PN"
+F 5 "LM386N-4/NOPB" H 10400 5000 60  0001 L CNN "MPN"
+F 6 "IC" H 10400 5100 60  0001 L CNN "Category"
+F 7 "AMP" H 10400 5200 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386" H 10400 5300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192" H 10400 5400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC AMP AUDIO PWR 1W MONO AB 8DIP" H 10400 5500 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 10400 5600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10400 5700 60  0001 L CNN "Status"
+F 13 "https://www.digikey.de/product-detail/de/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192" H 10200 4500 50  0001 C CNN "DK_Product_Page"
+F 14 "1,02" H 10200 4500 50  0001 C CNN "Price"
+	1    10200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J36
+U 1 1 5EDD7B1D
+P 9150 4600
+F 0 "J36" H 9258 4781 50  0000 C CNN
+F 1 "1x01" H 9250 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9150 4600 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9150 4600 50  0001 C CNN
+F 4 "Pin Header" H 9150 4600 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 4600 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 4600 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 9150 4600 50  0001 C CNN "Price"
+F 8 "AMP" H 9150 4600 50  0001 C CNN "Family"
+	1    9150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4400 9600 4400
+Wire Wire Line
+	9600 4400 9600 4800
+Wire Wire Line
+	10000 4800 9600 4800
+Connection ~ 9600 4800
+Wire Wire Line
+	9600 4800 9600 5350
+Wire Wire Line
+	10200 4700 10200 4900
+Wire Wire Line
+	10500 4500 10900 4500
+Wire Wire Line
+	11200 4500 11750 4500
+Wire Wire Line
+	11750 4500 11750 4600
+Wire Wire Line
+	11750 4900 11750 5000
+Wire Wire Line
+	11200 3950 11750 3950
+Wire Wire Line
+	11750 3950 11750 4500
+Connection ~ 11750 4500
+Wire Wire Line
+	10900 3950 10600 3950
+Wire Wire Line
+	10300 3950 10200 3950
+Wire Wire Line
+	10200 3950 10200 4300
+Wire Wire Line
+	9900 4600 9350 4600
+Wire Wire Line
+	9600 5350 10200 5350
+Wire Wire Line
+	10200 5200 10200 5350
+NoConn ~ 10300 4300
+$Comp
+L Connector:Conn_01x01_Male J35
+U 1 1 5EDD7B3E
+P 9150 4150
+F 0 "J35" H 9258 4331 50  0000 C CNN
+F 1 "1x01" H 9250 4250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9150 4150 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9150 4150 50  0001 C CNN
+F 4 "Pin Header" H 9150 4150 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 4150 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 4150 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 9150 4150 50  0001 C CNN "Price"
+F 8 "AMP" H 9150 4150 50  0001 C CNN "Family"
+	1    9150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4200 10000 4150
+Wire Wire Line
+	10000 4150 9350 4150
+$Comp
+L Connector:Conn_01x01_Male J38
+U 1 1 5EDD7B4B
+P 12450 4500
+F 0 "J38" H 12558 4681 50  0000 C CNN
+F 1 "1x01" H 12550 4600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 4500 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 4500 50  0001 C CNN
+F 4 "Pin Header" H 12450 4500 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 4500 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 4500 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 12450 4500 50  0001 C CNN "Price"
+F 8 "AMP" H 12450 4500 50  0001 C CNN "Family"
+	1    12450 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J39
+U 1 1 5EDD7B56
+P 12450 5450
+F 0 "J39" H 12558 5631 50  0000 C CNN
+F 1 "1x01" H 12550 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 5450 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 5450 50  0001 C CNN
+F 4 "Pin Header" H 12450 5450 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 5450 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 5450 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 12450 5450 50  0001 C CNN "Price"
+F 8 "AMP" H 12450 5450 50  0001 C CNN "Family"
+	1    12450 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12250 5450 12150 5450
+Wire Wire Line
+	11750 5450 11750 5300
+Wire Wire Line
+	11750 4500 12250 4500
+Wire Wire Line
+	9600 4400 9450 4400
+Wire Wire Line
+	9450 4400 9450 3450
+Connection ~ 9600 4400
+Connection ~ 9450 3450
+Wire Wire Line
+	9450 3450 9350 3450
+Wire Wire Line
+	12150 5450 12150 3550
+Connection ~ 12150 5450
+Wire Wire Line
+	12150 5450 11750 5450
+Connection ~ 12150 3550
+Wire Wire Line
+	12150 3550 11750 3550
+Wire Wire Line
+	11750 3550 10200 3550
+Wire Wire Line
+	10200 3550 10200 3450
+Connection ~ 11750 3550
+Connection ~ 10200 3450
+Wire Wire Line
+	11750 5450 10200 5450
+Wire Wire Line
+	10200 5450 10200 5350
+Connection ~ 11750 5450
+Connection ~ 10200 5350
 $EndSCHEMATC
