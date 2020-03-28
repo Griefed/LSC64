@@ -2347,51 +2347,8 @@ F 8 "AMP" H 12450 2600 50  0001 C CNN "Family"
 	1    12450 2600
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x01_Male J34
-U 1 1 5ECDFA96
-P 12450 3550
-F 0 "J34" H 12558 3731 50  0000 C CNN
-F 1 "1x01" H 12550 3650 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 3550 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 3550 50  0001 C CNN
-F 4 "Pin Header" H 12450 3550 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 3550 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 3550 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 12450 3550 50  0001 C CNN "Price"
-F 8 "AMP" H 12450 3550 50  0001 C CNN "Family"
-	1    12450 3550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11750 2600 12000 2600
-Wire Wire Line
-	12250 3550 12150 3550
 Wire Wire Line
 	11750 3550 11750 3400
-$Comp
-L Connector:Conn_01x01_Male J33
-U 1 1 5ED7B605
-P 12450 2450
-F 0 "J33" H 12558 2631 50  0000 C CNN
-F 1 "1x01" H 12550 2550 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 2450 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 2450 50  0001 C CNN
-F 4 "Pin Header" H 12450 2450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 2450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 2450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 12450 2450 50  0001 C CNN "Price"
-F 8 "AMP" H 12450 2450 50  0001 C CNN "Family"
-	1    12450 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12250 2450 12000 2450
-Wire Wire Line
-	12000 2450 12000 2600
-Connection ~ 12000 2600
-Wire Wire Line
-	12000 2600 12250 2600
 $Comp
 L Device:R R32
 U 1 1 5EDD7AC1
@@ -2599,24 +2556,6 @@ F 8 "AMP" H 12450 4500 50  0001 C CNN "Family"
 	1    12450 4500
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x01_Male J39
-U 1 1 5EDD7B56
-P 12450 5450
-F 0 "J39" H 12558 5631 50  0000 C CNN
-F 1 "1x01" H 12550 5550 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12450 5450 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 12450 5450 50  0001 C CNN
-F 4 "Pin Header" H 12450 5450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 5450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 12450 5450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 12450 5450 50  0001 C CNN "Price"
-F 8 "AMP" H 12450 5450 50  0001 C CNN "Family"
-	1    12450 5450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12250 5450 12150 5450
 Wire Wire Line
 	11750 5450 11750 5300
 Wire Wire Line
@@ -2631,10 +2570,8 @@ Wire Wire Line
 	9450 3450 9350 3450
 Wire Wire Line
 	12150 5450 12150 3550
-Connection ~ 12150 5450
 Wire Wire Line
 	12150 5450 11750 5450
-Connection ~ 12150 3550
 Wire Wire Line
 	12150 3550 11750 3550
 Wire Wire Line
@@ -2649,4 +2586,6 @@ Wire Wire Line
 	10200 5450 10200 5350
 Connection ~ 11750 5450
 Connection ~ 10200 5350
+Wire Wire Line
+	11750 2600 12250 2600
 $EndSCHEMATC
