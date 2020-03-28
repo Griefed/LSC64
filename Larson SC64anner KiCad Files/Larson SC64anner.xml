@@ -2,19 +2,19 @@
 <export version="D">
   <design>
     <source>G:\Zeug\Repositories\work\Larson SC64anner KiCad Files\Larson SC64anner.sch</source>
-    <date>27/03/2020 20:13:41</date>
+    <date>28/03/2020 17:30:58</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>LSC64</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>2.18</rev>
+        <date>2020-03-28</date>
         <source>Larson SC64anner.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
+        <comment number="1" value="Larson Scanner with RBG LEDs"/>
+        <comment number="2" value="Reset Button"/>
+        <comment number="3" value="CPU Brake"/>
+        <comment number="4" value="Headphone Amp"/>
       </title_block>
     </sheet>
   </design>
@@ -1024,172 +1024,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>612A3B85</tstamp>
     </comp>
-    <comp ref="D1">
-      <value>1N4148</value>
-      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</datasheet>
-      <fields>
-        <field name="Category">Diode</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
-        <field name="Family">CPU Brake</field>
-        <field name="Price">0,09</field>
-      </fields>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E91004B</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
-      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
-      <fields>
-        <field name="Category">Elko</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
-        <field name="Family">Reset</field>
-        <field name="Price">0,28</field>
-      </fields>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E846172</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
-      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
-      <fields>
-        <field name="Category">Elko</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
-        <field name="Family">Reset</field>
-        <field name="Price">0,28</field>
-      </fields>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E831B00</tstamp>
-    </comp>
-    <comp ref="R27">
-      <value>10k Ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf</datasheet>
-      <fields>
-        <field name="Category">Resistor</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
-        <field name="Family">Reset</field>
-        <field name="Price">0,41</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E81FFE4</tstamp>
-    </comp>
-    <comp ref="R26">
-      <value>10k Ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf</datasheet>
-      <fields>
-        <field name="Category">Resistor</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
-        <field name="Family">Reset</field>
-        <field name="Price">0,41</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E7FC21F</tstamp>
-    </comp>
-    <comp ref="J22">
-      <value>1x02</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=146256&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
-      <fields>
-        <field name="Category">Pin Header</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559</field>
-        <field name="Family">Reset</field>
-        <field name="Price">0,55</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E7B9A5D</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
-      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
-      <fields>
-        <field name="Category">Elko</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
-        <field name="Family">CPU Brake</field>
-        <field name="Price">0,28</field>
-      </fields>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E931F46</tstamp>
-    </comp>
-    <comp ref="R29">
-      <value>10k Ohm linear</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.bourns.com/docs/Product-Datasheets/385126.pdf</datasheet>
-      <fields>
-        <field name="Category">Potentiometer</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602</field>
-        <field name="Family">CPU Brake</field>
-        <field name="Price">10,19</field>
-      </fields>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8D21F5</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>NE555</value>
-      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
-      <fields>
-        <field name="Category">IC</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057</field>
-        <field name="Family">CPU Brake</field>
-        <field name="Price">0,40</field>
-      </fields>
-      <libsource lib="Timer" part="NE555" description="Precision Timers, DIP-8/SOIC-8"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA46745</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>SN74LVC2GU04DCKR</value>
-      <footprint>https://www.ti.com/lit/ds/symlink/sn74lvc2gu04.pdf</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf</datasheet>
-      <fields>
-        <field name="Category">IC</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2G14DBVR/296-13010-2-ND/479731</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/texas-instruments/SN74LVC2GU04DCKR/296-13277-1-ND/484490</field>
-        <field name="Family">CPU Brake</field>
-        <field name="Price">0,28</field>
-      </fields>
-      <libsource lib="dk_Logic-Buffers-Drivers-Receivers-Transceivers" part="SN74LVC2G17DBVR_Discontinued" description="IC BUF NON-INVERT 5.5V SOT23-6"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA4819D</tstamp>
-    </comp>
-    <comp ref="R28">
-      <value>150 Ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
-      <datasheet>https://riedon.com/media/pdf/UB.pdf</datasheet>
-      <fields>
-        <field name="Category">Resistor</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604</field>
-        <field name="Family">CPU Brake</field>
-        <field name="Price">0,85</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA4C511</tstamp>
-    </comp>
-    <comp ref="J25">
+    <comp ref="J26">
       <value>1x01</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
       <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
@@ -1202,22 +1037,7 @@
       </fields>
       <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA768C3</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>10nF</value>
-      <footprint>Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm</footprint>
-      <datasheet>http://www.vishay.com/docs/28535/vy2series.pdf</datasheet>
-      <fields>
-        <field name="Category">Kondensator</field>
-        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836</field>
-        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836</field>
-        <field name="Family">CPU Brake</field>
-        <field name="Price">0,44</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EAB8B01</tstamp>
+      <tstamp>5E8C2806</tstamp>
     </comp>
     <comp ref="J24">
       <value>1x01</value>
@@ -1234,6 +1054,111 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAD1DB5</tstamp>
     </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>http://www.vishay.com/docs/28535/vy2series.pdf</datasheet>
+      <fields>
+        <field name="Category">Kondensator</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAB8B01</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">CPU Brake</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA768C3</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>150 Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://riedon.com/media/pdf/UB.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604</field>
+        <field name="Family">CPU Brake</field>
+        <field name="Price">0,85</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA4C511</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVC2GU04DCKR</value>
+      <footprint>Package_DIP:SMDIP-6_W7.62mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf</datasheet>
+      <fields>
+        <field name="Category">IC</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC2G14DBVR/296-13010-2-ND/479731</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/texas-instruments/SN74LVC2GU04DCKR/296-13277-1-ND/484490</field>
+        <field name="Family">CPU Brake</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="dk_Logic-Buffers-Drivers-Receivers-Transceivers" part="SN74LVC2G17DBVR_Discontinued" description="IC BUF NON-INVERT 5.5V SOT23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA4819D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>NE555</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <fields>
+        <field name="Category">IC</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/texas-instruments/NE555P/296-NE555P-ND/277057</field>
+        <field name="Family">CPU Brake</field>
+        <field name="Price">0,40</field>
+      </fields>
+      <libsource lib="Timer" part="NE555" description="Precision Timers, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA46745</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k Ohm linear</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/385126.pdf</datasheet>
+      <fields>
+        <field name="Category">Potentiometer</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/bourns-inc/3852A-282-103AL/3852A-282-103AL-ND/1088602</field>
+        <field name="Family">CPU Brake</field>
+        <field name="Price">10,19</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8D21F5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="Family">CPU Brake</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E931F46</tstamp>
+    </comp>
     <comp ref="J23">
       <value>1x01</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
@@ -1249,7 +1174,208 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E7F8CDB</tstamp>
     </comp>
-    <comp ref="J26">
+    <comp ref="J22">
+      <value>1x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=146256&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559</field>
+        <field name="Family">Reset</field>
+        <field name="Price">0,55</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7B9A5D</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="Family">Reset</field>
+        <field name="Price">0,41</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7FC21F</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="Family">Reset</field>
+        <field name="Price">0,41</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E81FFE4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="Family">Reset</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E831B00</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="Family">Reset</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E846172</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Diode</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Family">CPU Brake</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E91004B</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>18k Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,41</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA35B11</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA520C8</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA6DAC8</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10 Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/FW.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,53</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EABF20E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UVR1H471MHD1TO/493-12789-1-ND/4328413</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EADA1F7</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf</datasheet>
+      <fields>
+        <field name="Category">Kondensator</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/kemet/C320C104K5R5TA7301/399-9870-1-ND/3726092</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAF5C89</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM386N-4_NOPB</value>
+      <footprint>digikey-footprints:DIP-8_W7.62mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm386.pdf</datasheet>
+      <fields>
+        <field name="Category">IC</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192</field>
+        <field name="Description">IC AMP AUDIO PWR 1W MONO AB 8DIP</field>
+        <field name="Digi-Key_PN">296-43960-5-ND</field>
+        <field name="Family">AMP</field>
+        <field name="MPN">LM386N-4/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Price">1,02</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Linear-Amplifiers-Audio" part="LM386N-4_NOPB" description="IC AMP AUDIO PWR 1W MONO AB 8DIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB2DA92</tstamp>
+    </comp>
+    <comp ref="J30">
       <value>1x01</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
       <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
@@ -1257,12 +1383,258 @@
         <field name="Category">Pin Header</field>
         <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
         <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
-        <field name="Family">CPU Brake</field>
+        <field name="Family">AMP</field>
         <field name="Price">0,09</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8C2806</tstamp>
+      <tstamp>5EB4D403</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB685A1</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC46B17</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECC17DD</tstamp>
+    </comp>
+    <comp ref="J34">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECDFA96</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED7B605</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>18k Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,41</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7AC1</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7ACC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-ukl.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,28</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7AD7</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10 Ohm</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/FW.pdf</datasheet>
+      <fields>
+        <field name="Category">Resistor</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,53</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7AE2</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-uvr.pdf</datasheet>
+      <fields>
+        <field name="Category">Elko</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/nichicon/UKL1C100KDD1TD/493-14344-1-ND/5699141</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/nichicon/UVR1H471MHD1TO/493-12789-1-ND/4328413</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,60</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7AED</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf</datasheet>
+      <fields>
+        <field name="Category">Kondensator</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/de/vishay-bc-components/VY2103M63Y5US63V0/BC2698-ND/2356836</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/kemet/C320C104K5R5TA7301/399-9870-1-ND/3726092</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7AF8</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM386N-4_NOPB</value>
+      <footprint>digikey-footprints:DIP-8_W7.62mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm386.pdf</datasheet>
+      <fields>
+        <field name="Category">IC</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/de/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192</field>
+        <field name="Description">IC AMP AUDIO PWR 1W MONO AB 8DIP</field>
+        <field name="Digi-Key_PN">296-43960-5-ND</field>
+        <field name="Family">AMP</field>
+        <field name="MPN">LM386N-4/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Price">1,02</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Linear-Amplifiers-Audio" part="LM386N-4_NOPB" description="IC AMP AUDIO PWR 1W MONO AB 8DIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7B07</tstamp>
+    </comp>
+    <comp ref="J36">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7B1D</tstamp>
+    </comp>
+    <comp ref="J35">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7B3E</tstamp>
+    </comp>
+    <comp ref="J38">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7B4B</tstamp>
+    </comp>
+    <comp ref="J39">
+      <value>1x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf</datasheet>
+      <fields>
+        <field name="Category">Pin Header</field>
+        <field name="DK_Datasheet_Link">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="DK_Product_Page">https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231</field>
+        <field name="Family">AMP</field>
+        <field name="Price">0,09</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD7B56</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1500,6 +1872,35 @@
         <pin num="4" name="G" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="dk_Linear-Amplifiers-Audio" part="LM386N-4_NOPB">
+      <description>IC AMP AUDIO PWR 1W MONO AB 8DIP</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM386N-4_NOPB</field>
+        <field name="Footprint">digikey-footprints:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386</field>
+        <field name="Digi-Key_PN">296-43960-5-ND</field>
+        <field name="MPN">LM386N-4/NOPB</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Linear - Amplifiers - Audio</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192</field>
+        <field name="Description">IC AMP AUDIO PWR 1W MONO AB 8DIP</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Gain" type="passive"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="Vs" type="power_in"/>
+        <pin num="7" name="BYPASS" type="output"/>
+        <pin num="8" name="Gain" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="dk_Logic-Buffers-Drivers-Receivers-Transceivers" part="SN74LVC2G17DBVR_Discontinued">
       <description>IC BUF NON-INVERT 5.5V SOT23-6</description>
       <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc2g17</docs>
@@ -1550,521 +1951,610 @@
     <library logical="dk_LED-Indication-Discrete">
       <uri>G:/Zeug/KiCAD/digikey-kicad-library-master/digikey-symbols/dk_LED-Indication-Discrete.lib</uri>
     </library>
+    <library logical="dk_Linear-Amplifiers-Audio">
+      <uri>G:/Zeug/KiCAD/digikey-kicad-library-master/digikey-symbols/dk_Linear-Amplifiers-Audio.lib</uri>
+    </library>
     <library logical="dk_Logic-Buffers-Drivers-Receivers-Transceivers">
       <uri>G:/Zeug/KiCAD/digikey-kicad-library-master/digikey-symbols/dk_Logic-Buffers-Drivers-Receivers-Transceivers.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J16-Pad4)">
-      <node ref="LED16" pin="3"/>
-      <node ref="J16" pin="4"/>
-    </net>
-    <net code="2" name="Net-(LED16-Pad1)">
-      <node ref="LED16" pin="1"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="3" name="Net-(J16-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="J16" pin="2"/>
-    </net>
-    <net code="4" name="Net-(J16-Pad6)">
-      <node ref="J16" pin="6"/>
-      <node ref="LED16" pin="4"/>
-    </net>
-    <net code="5" name="Net-(J15-Pad4)">
-      <node ref="J15" pin="4"/>
-      <node ref="LED15" pin="3"/>
-    </net>
-    <net code="6" name="Net-(J15-Pad6)">
-      <node ref="LED15" pin="4"/>
-      <node ref="J15" pin="6"/>
-    </net>
-    <net code="7" name="Net-(LED15-Pad1)">
-      <node ref="R15" pin="1"/>
-      <node ref="LED15" pin="1"/>
-    </net>
-    <net code="8" name="Net-(J15-Pad2)">
-      <node ref="J15" pin="2"/>
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="9" name="Net-(LED17-Pad1)">
-      <node ref="LED17" pin="1"/>
-      <node ref="R17" pin="1"/>
-    </net>
-    <net code="10" name="Net-(LED18-Pad1)">
-      <node ref="R18" pin="1"/>
-      <node ref="LED18" pin="1"/>
-    </net>
-    <net code="11" name="Net-(J18-Pad4)">
-      <node ref="J18" pin="4"/>
-      <node ref="LED18" pin="3"/>
-    </net>
-    <net code="12" name="Net-(J18-Pad6)">
-      <node ref="J18" pin="6"/>
-      <node ref="LED18" pin="4"/>
-    </net>
-    <net code="13" name="Net-(J18-Pad2)">
-      <node ref="J18" pin="2"/>
-      <node ref="R18" pin="2"/>
-    </net>
-    <net code="14" name="Net-(J17-Pad2)">
-      <node ref="R17" pin="2"/>
-      <node ref="J17" pin="2"/>
-    </net>
-    <net code="15" name="Net-(J17-Pad4)">
-      <node ref="J17" pin="4"/>
-      <node ref="LED17" pin="3"/>
-    </net>
-    <net code="16" name="Net-(J17-Pad6)">
-      <node ref="LED17" pin="4"/>
-      <node ref="J17" pin="6"/>
-    </net>
-    <net code="17" name="Net-(J12-Pad2)">
-      <node ref="R12" pin="2"/>
-      <node ref="J12" pin="2"/>
-    </net>
-    <net code="18" name="Net-(J12-Pad4)">
-      <node ref="LED12" pin="3"/>
-      <node ref="J12" pin="4"/>
-    </net>
-    <net code="19" name="Net-(J12-Pad6)">
-      <node ref="J12" pin="6"/>
-      <node ref="LED12" pin="4"/>
-    </net>
-    <net code="20" name="Net-(LED12-Pad1)">
-      <node ref="R12" pin="1"/>
-      <node ref="LED12" pin="1"/>
-    </net>
-    <net code="21" name="Net-(J11-Pad2)">
-      <node ref="R11" pin="2"/>
-      <node ref="J11" pin="2"/>
-    </net>
-    <net code="22" name="Net-(J11-Pad4)">
-      <node ref="LED11" pin="3"/>
-      <node ref="J11" pin="4"/>
-    </net>
-    <net code="23" name="Net-(J11-Pad6)">
-      <node ref="J11" pin="6"/>
-      <node ref="LED11" pin="4"/>
-    </net>
-    <net code="24" name="Net-(LED11-Pad1)">
-      <node ref="LED11" pin="1"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="25" name="Net-(J14-Pad4)">
-      <node ref="LED14" pin="3"/>
-      <node ref="J14" pin="4"/>
-    </net>
-    <net code="26" name="Net-(J14-Pad6)">
-      <node ref="J14" pin="6"/>
-      <node ref="LED14" pin="4"/>
-    </net>
-    <net code="27" name="Net-(LED14-Pad1)">
-      <node ref="R14" pin="1"/>
-      <node ref="LED14" pin="1"/>
-    </net>
-    <net code="28" name="Net-(J14-Pad2)">
-      <node ref="J14" pin="2"/>
-      <node ref="R14" pin="2"/>
-    </net>
-    <net code="29" name="Net-(J13-Pad4)">
-      <node ref="LED13" pin="3"/>
-      <node ref="J13" pin="4"/>
-    </net>
-    <net code="30" name="Net-(J13-Pad6)">
-      <node ref="J13" pin="6"/>
-      <node ref="LED13" pin="4"/>
-    </net>
-    <net code="31" name="Net-(LED13-Pad1)">
-      <node ref="R13" pin="1"/>
-      <node ref="LED13" pin="1"/>
-    </net>
-    <net code="32" name="Net-(J13-Pad2)">
-      <node ref="J13" pin="2"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="33" name="Net-(C3-Pad1)">
-      <node ref="U2" pin="6"/>
-      <node ref="R28" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J26" pin="1"/>
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="34" name="Net-(C2-Pad1)">
-      <node ref="R27" pin="2"/>
-      <node ref="J22" pin="2"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="35" name="Net-(R28-Pad1)">
-      <node ref="R28" pin="1"/>
-      <node ref="R29" pin="2"/>
-      <node ref="R29" pin="3"/>
-      <node ref="U2" pin="7"/>
-    </net>
-    <net code="36" name="Net-(J24-Pad1)">
-      <node ref="J24" pin="1"/>
-      <node ref="R29" pin="1"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="37" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="38" name="Net-(U2-Pad3)">
-      <node ref="U3" pin="1"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="39" name="Net-(C3-Pad2)">
-      <node ref="U3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C3" pin="2"/>
-    </net>
-    <net code="40" name="Net-(J25-Pad1)">
-      <node ref="U3" pin="4"/>
-      <node ref="J25" pin="1"/>
-    </net>
-    <net code="41" name="Net-(U3-Pad3)">
-      <node ref="U3" pin="6"/>
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="42" name="Net-(J19-Pad6)">
-      <node ref="J19" pin="6"/>
-      <node ref="LED19" pin="4"/>
-    </net>
-    <net code="43" name="Net-(LED19-Pad1)">
-      <node ref="LED19" pin="1"/>
-      <node ref="R19" pin="1"/>
-    </net>
-    <net code="44" name="Net-(J20-Pad4)">
-      <node ref="LED20" pin="3"/>
-      <node ref="J20" pin="4"/>
-    </net>
-    <net code="45" name="Net-(J19-Pad4)">
-      <node ref="LED19" pin="3"/>
-      <node ref="J19" pin="4"/>
-    </net>
-    <net code="46" name="Net-(J20-Pad6)">
-      <node ref="LED20" pin="4"/>
-      <node ref="J20" pin="6"/>
-    </net>
-    <net code="47" name="Net-(LED20-Pad1)">
-      <node ref="LED20" pin="1"/>
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="48" name="Net-(J20-Pad2)">
-      <node ref="J20" pin="2"/>
-      <node ref="R20" pin="2"/>
-    </net>
-    <net code="49" name="Net-(J19-Pad2)">
+    <net code="1" name="Net-(J19-Pad2)">
       <node ref="R19" pin="2"/>
       <node ref="J19" pin="2"/>
     </net>
-    <net code="50" name="Net-(C1-Pad1)">
+    <net code="2" name="Net-(J19-Pad4)">
+      <node ref="LED19" pin="3"/>
+      <node ref="J19" pin="4"/>
+    </net>
+    <net code="3" name="Net-(J19-Pad6)">
+      <node ref="J19" pin="6"/>
+      <node ref="LED19" pin="4"/>
+    </net>
+    <net code="4" name="Net-(LED19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="LED19" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J20-Pad4)">
+      <node ref="J20" pin="4"/>
+      <node ref="LED20" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J20-Pad6)">
+      <node ref="LED20" pin="4"/>
+      <node ref="J20" pin="6"/>
+    </net>
+    <net code="7" name="Net-(LED20-Pad1)">
+      <node ref="LED20" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J20-Pad2)">
+      <node ref="J20" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J18-Pad2)">
+      <node ref="J18" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J18-Pad4)">
+      <node ref="LED18" pin="3"/>
+      <node ref="J18" pin="4"/>
+    </net>
+    <net code="11" name="Net-(J18-Pad6)">
+      <node ref="J18" pin="6"/>
+      <node ref="LED18" pin="4"/>
+    </net>
+    <net code="12" name="Net-(LED18-Pad1)">
+      <node ref="LED18" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad3)">
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="14" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="15" name="Net-(J25-Pad1)">
+      <node ref="J25" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J15-Pad4)">
+      <node ref="LED15" pin="3"/>
+      <node ref="J15" pin="4"/>
+    </net>
+    <net code="18" name="Net-(LED15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="LED15" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J15-Pad6)">
+      <node ref="J15" pin="6"/>
+      <node ref="LED15" pin="4"/>
+    </net>
+    <net code="21" name="Net-(J16-Pad6)">
+      <node ref="J16" pin="6"/>
+      <node ref="LED16" pin="4"/>
+    </net>
+    <net code="22" name="Net-(J14-Pad4)">
+      <node ref="J14" pin="4"/>
+      <node ref="LED14" pin="3"/>
+    </net>
+    <net code="23" name="Net-(J14-Pad6)">
+      <node ref="J14" pin="6"/>
+      <node ref="LED14" pin="4"/>
+    </net>
+    <net code="24" name="Net-(LED14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="LED14" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J14-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J16-Pad4)">
+      <node ref="J16" pin="4"/>
+      <node ref="LED16" pin="3"/>
+    </net>
+    <net code="27" name="Net-(J17-Pad6)">
+      <node ref="LED17" pin="4"/>
+      <node ref="J17" pin="6"/>
+    </net>
+    <net code="28" name="Net-(LED17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="LED17" pin="1"/>
+    </net>
+    <net code="29" name="Net-(J17-Pad2)">
+      <node ref="J17" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="30" name="Net-(J17-Pad4)">
+      <node ref="LED17" pin="3"/>
+      <node ref="J17" pin="4"/>
+    </net>
+    <net code="31" name="Net-(LED16-Pad1)">
+      <node ref="LED16" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="32" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J31-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="J31" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="35" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C10-Pad2)">
+      <node ref="J38" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C11-Pad2)">
+      <node ref="J34" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R33" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J30" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J39" pin="1"/>
+    </net>
+    <net code="38" name="Net-(C10-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C12-Pad2)">
+      <node ref="R33" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="40" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="41" name="Net-(J29-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="J29" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C8-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C6-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C7-Pad2)">
+      <node ref="R31" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C5-Pad2)">
+      <node ref="J32" pin="1"/>
+      <node ref="J33" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="46" name="Net-(C5-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="48" name="Net-(J35-Pad1)">
+      <node ref="J35" pin="1"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="49" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="50" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="51" name="Net-(J36-Pad1)">
+      <node ref="J36" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="52" name="Net-(J24-Pad1)">
+      <node ref="U2" pin="8"/>
+      <node ref="R29" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J24" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="54" name="Net-(C3-Pad1)">
+      <node ref="J26" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="55" name="Net-(R28-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R29" pin="3"/>
+    </net>
+    <net code="56" name="Net-(C1-Pad1)">
       <node ref="J22" pin="1"/>
       <node ref="C1" pin="1"/>
       <node ref="R26" pin="2"/>
     </net>
-    <net code="51" name="Net-(C1-Pad2)">
-      <node ref="J23" pin="1"/>
+    <net code="57" name="Net-(C2-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J22" pin="2"/>
+    </net>
+    <net code="58" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C1-Pad2)">
       <node ref="R26" pin="1"/>
+      <node ref="J23" pin="1"/>
       <node ref="D1" pin="1"/>
       <node ref="C1" pin="2"/>
     </net>
-    <net code="52" name="Net-(C2-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="R27" pin="1"/>
-    </net>
-    <net code="53" name="Net-(J2-Pad2)">
-      <node ref="J2" pin="2"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="54" name="Net-(J2-Pad1)">
-      <node ref="J2" pin="3"/>
-      <node ref="J2" pin="5"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="55" name="Net-(J2-Pad6)">
-      <node ref="LED2" pin="4"/>
-      <node ref="J2" pin="6"/>
-    </net>
-    <net code="56" name="Net-(LED2-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="LED2" pin="1"/>
-    </net>
-    <net code="57" name="Net-(J2-Pad4)">
-      <node ref="J2" pin="4"/>
-      <node ref="LED2" pin="3"/>
-    </net>
-    <net code="58" name="Net-(J3-Pad6)">
-      <node ref="J3" pin="6"/>
-      <node ref="LED3" pin="4"/>
-    </net>
-    <net code="59" name="Net-(J21-Pad1)">
-      <node ref="U1" pin="4"/>
-      <node ref="J21" pin="1"/>
-    </net>
-    <net code="60" name="Net-(J21-Pad2)">
-      <node ref="J21" pin="2"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="61" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="62" name="Net-(J1-Pad2)">
-      <node ref="R1" pin="2"/>
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="63" name="Net-(J1-Pad4)">
-      <node ref="LED1" pin="3"/>
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="64" name="Net-(J1-Pad6)">
-      <node ref="LED1" pin="4"/>
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="65" name="Net-(LED1-Pad1)">
-      <node ref="LED1" pin="1"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="66" name="Net-(J4-Pad4)">
-      <node ref="LED4" pin="3"/>
-      <node ref="J4" pin="4"/>
-    </net>
-    <net code="67" name="Net-(J4-Pad6)">
-      <node ref="LED4" pin="4"/>
-      <node ref="J4" pin="6"/>
-    </net>
-    <net code="68" name="Net-(LED4-Pad1)">
-      <node ref="LED4" pin="1"/>
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="69" name="Net-(J4-Pad2)">
-      <node ref="R4" pin="2"/>
-      <node ref="J4" pin="2"/>
-    </net>
-    <net code="70" name="Net-(J3-Pad4)">
+    <net code="60" name="Net-(J3-Pad4)">
       <node ref="J3" pin="4"/>
       <node ref="LED3" pin="3"/>
     </net>
-    <net code="71" name="Net-(LED3-Pad1)">
+    <net code="61" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+      <node ref="LED3" pin="4"/>
+    </net>
+    <net code="62" name="Net-(LED3-Pad1)">
       <node ref="LED3" pin="1"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="72" name="Net-(J3-Pad2)">
+    <net code="63" name="Net-(J3-Pad2)">
       <node ref="R3" pin="2"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="73" name="Net-(R23-Pad1)">
-      <node ref="R23" pin="1"/>
-      <node ref="U1" pin="7"/>
+    <net code="64" name="Net-(J2-Pad4)">
+      <node ref="LED2" pin="3"/>
+      <node ref="J2" pin="4"/>
     </net>
-    <net code="74" name="Net-(R22-Pad2)">
-      <node ref="R22" pin="2"/>
-      <node ref="U1" pin="6"/>
+    <net code="65" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+      <node ref="LED2" pin="4"/>
     </net>
-    <net code="75" name="Net-(R24-Pad1)">
-      <node ref="R24" pin="1"/>
-      <node ref="U1" pin="2"/>
+    <net code="66" name="Net-(LED2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="LED2" pin="1"/>
     </net>
-    <net code="76" name="Net-(R25-Pad1)">
-      <node ref="R25" pin="1"/>
-      <node ref="U1" pin="3"/>
+    <net code="67" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="77" name="Net-(R21-Pad2)">
-      <node ref="R21" pin="2"/>
-      <node ref="U1" pin="5"/>
+    <net code="68" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="R4" pin="2"/>
     </net>
-    <net code="78" name="Net-(J9-Pad4)">
-      <node ref="LED9" pin="3"/>
-      <node ref="J9" pin="4"/>
-    </net>
-    <net code="79" name="Net-(LED9-Pad1)">
-      <node ref="R9" pin="1"/>
-      <node ref="LED9" pin="1"/>
-    </net>
-    <net code="80" name="Net-(J9-Pad2)">
-      <node ref="J9" pin="2"/>
-      <node ref="R9" pin="2"/>
-    </net>
-    <net code="81" name="Net-(J9-Pad6)">
-      <node ref="LED9" pin="4"/>
-      <node ref="J9" pin="6"/>
-    </net>
-    <net code="82" name="Net-(J8-Pad6)">
-      <node ref="LED8" pin="4"/>
-      <node ref="J8" pin="6"/>
-    </net>
-    <net code="83" name="Net-(LED8-Pad1)">
-      <node ref="LED8" pin="1"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="84" name="Net-(J8-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="J8" pin="2"/>
-    </net>
-    <net code="85" name="Net-(J8-Pad4)">
-      <node ref="J8" pin="4"/>
-      <node ref="LED8" pin="3"/>
-    </net>
-    <net code="86" name="Net-(J11-Pad1)">
-      <node ref="J9" pin="5"/>
-      <node ref="J9" pin="3"/>
-      <node ref="J9" pin="1"/>
-      <node ref="J11" pin="1"/>
-      <node ref="LED1" pin="2"/>
-      <node ref="R22" pin="1"/>
-      <node ref="LED10" pin="2"/>
-      <node ref="LED12" pin="2"/>
-      <node ref="J11" pin="3"/>
-      <node ref="LED14" pin="2"/>
-      <node ref="J11" pin="5"/>
-      <node ref="J13" pin="1"/>
-      <node ref="J13" pin="3"/>
-      <node ref="J13" pin="5"/>
-    </net>
-    <net code="87" name="Net-(J10-Pad4)">
-      <node ref="LED10" pin="3"/>
-      <node ref="J10" pin="4"/>
-    </net>
-    <net code="88" name="Net-(J10-Pad1)">
-      <node ref="J10" pin="1"/>
-      <node ref="R23" pin="2"/>
-      <node ref="LED3" pin="2"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J15" pin="3"/>
-      <node ref="J15" pin="5"/>
-      <node ref="J4" pin="5"/>
-      <node ref="LED16" pin="2"/>
-      <node ref="LED18" pin="2"/>
-      <node ref="J10" pin="5"/>
-      <node ref="LED9" pin="2"/>
-      <node ref="J10" pin="3"/>
-      <node ref="J15" pin="1"/>
-      <node ref="J17" pin="3"/>
-      <node ref="J17" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="J17" pin="5"/>
-    </net>
-    <net code="89" name="Net-(J10-Pad6)">
-      <node ref="LED10" pin="4"/>
-      <node ref="J10" pin="6"/>
-    </net>
-    <net code="90" name="Net-(LED10-Pad1)">
-      <node ref="R10" pin="1"/>
-      <node ref="LED10" pin="1"/>
-    </net>
-    <net code="91" name="Net-(J10-Pad2)">
-      <node ref="J10" pin="2"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="92" name="Net-(LED5-Pad1)">
-      <node ref="LED5" pin="1"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="93" name="Net-(J6-Pad6)">
-      <node ref="LED6" pin="4"/>
-      <node ref="J6" pin="6"/>
-    </net>
-    <net code="94" name="Net-(J6-Pad4)">
-      <node ref="LED6" pin="3"/>
-      <node ref="J6" pin="4"/>
-    </net>
-    <net code="95" name="Net-(J5-Pad6)">
+    <net code="69" name="Net-(J5-Pad6)">
       <node ref="LED5" pin="4"/>
       <node ref="J5" pin="6"/>
     </net>
-    <net code="96" name="Net-(LED6-Pad1)">
-      <node ref="R6" pin="1"/>
-      <node ref="LED6" pin="1"/>
+    <net code="70" name="Net-(LED5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="LED5" pin="1"/>
     </net>
-    <net code="97" name="Net-(J6-Pad2)">
-      <node ref="R6" pin="2"/>
-      <node ref="J6" pin="2"/>
-    </net>
-    <net code="98" name="Net-(J12-Pad1)">
-      <node ref="LED5" pin="2"/>
-      <node ref="LED11" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="J6" pin="3"/>
-      <node ref="J16" pin="1"/>
-      <node ref="J6" pin="5"/>
-      <node ref="J19" pin="1"/>
-      <node ref="LED20" pin="2"/>
-      <node ref="LED15" pin="2"/>
-      <node ref="J12" pin="5"/>
-      <node ref="J12" pin="3"/>
-      <node ref="J12" pin="1"/>
-      <node ref="J16" pin="5"/>
-      <node ref="R24" pin="2"/>
-      <node ref="J16" pin="3"/>
-      <node ref="J19" pin="3"/>
-      <node ref="J19" pin="5"/>
-    </net>
-    <net code="99" name="Net-(J5-Pad4)">
-      <node ref="J5" pin="4"/>
-      <node ref="LED5" pin="3"/>
-    </net>
-    <net code="100" name="Net-(J5-Pad2)">
-      <node ref="R5" pin="2"/>
+    <net code="71" name="Net-(J5-Pad2)">
       <node ref="J5" pin="2"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="101" name="Net-(LED7-Pad1)">
+    <net code="72" name="Net-(J5-Pad4)">
+      <node ref="LED5" pin="3"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="73" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+      <node ref="LED6" pin="3"/>
+    </net>
+    <net code="74" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+      <node ref="LED4" pin="3"/>
+    </net>
+    <net code="75" name="Net-(J4-Pad6)">
+      <node ref="LED4" pin="4"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="76" name="Net-(LED4-Pad1)">
+      <node ref="LED4" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="77" name="Net-(R22-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="78" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="79" name="Net-(J1-Pad4)">
+      <node ref="LED1" pin="3"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="80" name="Net-(J1-Pad6)">
+      <node ref="LED1" pin="4"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="81" name="Net-(R23-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="82" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="84" name="Net-(J21-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="J21" pin="1"/>
+    </net>
+    <net code="85" name="Net-(J21-Pad2)">
+      <node ref="J21" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="86" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="87" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="88" name="Net-(LED1-Pad1)">
+      <node ref="LED1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="89" name="Net-(J11-Pad4)">
+      <node ref="J11" pin="4"/>
+      <node ref="LED11" pin="3"/>
+    </net>
+    <net code="90" name="Net-(J11-Pad6)">
+      <node ref="J11" pin="6"/>
+      <node ref="LED11" pin="4"/>
+    </net>
+    <net code="91" name="Net-(LED11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="LED11" pin="1"/>
+    </net>
+    <net code="92" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="93" name="Net-(J10-Pad4)">
+      <node ref="J10" pin="4"/>
+      <node ref="LED10" pin="3"/>
+    </net>
+    <net code="94" name="Net-(J10-Pad6)">
+      <node ref="J10" pin="6"/>
+      <node ref="LED10" pin="4"/>
+    </net>
+    <net code="95" name="Net-(LED10-Pad1)">
+      <node ref="LED10" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="96" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="97" name="Net-(J10-Pad1)">
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J10" pin="3"/>
+      <node ref="LED9" pin="2"/>
+      <node ref="J10" pin="5"/>
+      <node ref="R23" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="LED18" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="LED16" pin="2"/>
+      <node ref="J17" pin="5"/>
+      <node ref="J17" pin="1"/>
+      <node ref="J17" pin="3"/>
+      <node ref="J15" pin="1"/>
+      <node ref="J15" pin="3"/>
+      <node ref="J15" pin="5"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="98" name="Net-(J13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="99" name="Net-(J13-Pad4)">
+      <node ref="LED13" pin="3"/>
+      <node ref="J13" pin="4"/>
+    </net>
+    <net code="100" name="Net-(J13-Pad6)">
+      <node ref="LED13" pin="4"/>
+      <node ref="J13" pin="6"/>
+    </net>
+    <net code="101" name="Net-(LED13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="LED13" pin="1"/>
+    </net>
+    <net code="102" name="Net-(J12-Pad4)">
+      <node ref="J12" pin="4"/>
+      <node ref="LED12" pin="3"/>
+    </net>
+    <net code="103" name="Net-(J12-Pad6)">
+      <node ref="J12" pin="6"/>
+      <node ref="LED12" pin="4"/>
+    </net>
+    <net code="104" name="Net-(LED12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="LED12" pin="1"/>
+    </net>
+    <net code="105" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="106" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4"/>
+      <node ref="LED7" pin="3"/>
+    </net>
+    <net code="107" name="Net-(J7-Pad6)">
+      <node ref="LED7" pin="4"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="108" name="Net-(LED7-Pad1)">
       <node ref="R7" pin="1"/>
       <node ref="LED7" pin="1"/>
     </net>
-    <net code="102" name="Net-(J1-Pad1)">
-      <node ref="J7" pin="5"/>
-      <node ref="J7" pin="3"/>
-      <node ref="J7" pin="1"/>
-      <node ref="LED8" pin="2"/>
-      <node ref="J5" pin="1"/>
-      <node ref="LED6" pin="2"/>
-      <node ref="J5" pin="5"/>
-      <node ref="J5" pin="3"/>
-      <node ref="LED4" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J3" pin="3"/>
-      <node ref="LED2" pin="2"/>
-      <node ref="J3" pin="5"/>
-      <node ref="J1" pin="1"/>
-      <node ref="R21" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="5"/>
-    </net>
-    <net code="103" name="Net-(J14-Pad1)">
-      <node ref="J18" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J8" pin="3"/>
-      <node ref="J8" pin="5"/>
-      <node ref="LED7" pin="2"/>
-      <node ref="R25" pin="2"/>
-      <node ref="LED13" pin="2"/>
-      <node ref="J14" pin="3"/>
-      <node ref="J14" pin="5"/>
-      <node ref="J14" pin="1"/>
-      <node ref="J20" pin="5"/>
-      <node ref="J20" pin="1"/>
-      <node ref="J20" pin="3"/>
-      <node ref="LED19" pin="2"/>
-      <node ref="J18" pin="3"/>
-      <node ref="J18" pin="5"/>
-      <node ref="LED17" pin="2"/>
-    </net>
-    <net code="104" name="Net-(J7-Pad2)">
+    <net code="109" name="Net-(J7-Pad2)">
       <node ref="R7" pin="2"/>
       <node ref="J7" pin="2"/>
     </net>
-    <net code="105" name="Net-(J7-Pad4)">
-      <node ref="LED7" pin="3"/>
-      <node ref="J7" pin="4"/>
+    <net code="110" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R21" pin="1"/>
+      <node ref="LED4" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="5"/>
+      <node ref="LED8" pin="2"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED6" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="106" name="Net-(J7-Pad6)">
-      <node ref="LED7" pin="4"/>
-      <node ref="J7" pin="6"/>
+    <net code="111" name="Net-(J12-Pad1)">
+      <node ref="J19" pin="1"/>
+      <node ref="J19" pin="3"/>
+      <node ref="J19" pin="5"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J12" pin="5"/>
+      <node ref="LED20" pin="2"/>
+      <node ref="LED11" pin="2"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J16" pin="1"/>
+      <node ref="J16" pin="3"/>
+      <node ref="R24" pin="2"/>
+      <node ref="J16" pin="5"/>
+      <node ref="LED15" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="112" name="Net-(J6-Pad6)">
+      <node ref="J6" pin="6"/>
+      <node ref="LED6" pin="4"/>
+    </net>
+    <net code="113" name="Net-(LED6-Pad1)">
+      <node ref="LED6" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="114" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="115" name="Net-(J11-Pad1)">
+      <node ref="LED10" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J9" pin="5"/>
+      <node ref="J2" pin="1"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="J13" pin="5"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J11" pin="5"/>
+      <node ref="LED12" pin="2"/>
+      <node ref="LED14" pin="2"/>
+    </net>
+    <net code="116" name="Net-(J9-Pad6)">
+      <node ref="LED9" pin="4"/>
+      <node ref="J9" pin="6"/>
+    </net>
+    <net code="117" name="Net-(LED9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="LED9" pin="1"/>
+    </net>
+    <net code="118" name="Net-(J9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="119" name="Net-(J9-Pad4)">
+      <node ref="LED9" pin="3"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="120" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
+      <node ref="LED8" pin="3"/>
+    </net>
+    <net code="121" name="Net-(J14-Pad1)">
+      <node ref="J20" pin="5"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J18" pin="5"/>
+      <node ref="J18" pin="1"/>
+      <node ref="LED19" pin="2"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J20" pin="1"/>
+      <node ref="J20" pin="3"/>
+      <node ref="LED7" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="LED17" pin="2"/>
+      <node ref="J18" pin="3"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J14" pin="5"/>
+      <node ref="J14" pin="3"/>
+      <node ref="LED13" pin="2"/>
+    </net>
+    <net code="122" name="Net-(J8-Pad6)">
+      <node ref="LED8" pin="4"/>
+      <node ref="J8" pin="6"/>
+    </net>
+    <net code="123" name="Net-(LED8-Pad1)">
+      <node ref="LED8" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="124" name="Net-(J8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="J8" pin="2"/>
     </net>
   </nets>
 </export>

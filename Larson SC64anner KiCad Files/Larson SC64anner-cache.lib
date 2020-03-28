@@ -250,6 +250,39 @@ X G 4 -300 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dk_Linear-Amplifiers-Audio_LM386N-4_NOPB
+#
+DEF dk_Linear-Amplifiers-Audio_LM386N-4_NOPB U 0 0 Y Y 1 F N
+F0 "U" -350 200 60 H V C CNN
+F1 "dk_Linear-Amplifiers-Audio_LM386N-4_NOPB" 100 -200 60 H V L CNN
+F2 "digikey-footprints:DIP-8_W7.62mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386" 200 300 60 H I L CNN
+F4 "296-43960-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LM386N-4/NOPB" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Linear - Amplifiers - Audio" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm386" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC AMP AUDIO PWR 1W MONO AB 8DIP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -150 -100 -100 -100 N
+P 2 0 1 0 -150 100 -100 100 N
+P 2 0 1 0 -125 -75 -125 -125 N
+P 2 0 1 0 100 100 100 50 N
+P 4 0 1 0 -200 200 -200 -200 200 0 -200 200 f
+X Gain 1 0 200 100 D 50 50 1 1 P
+X ~ 2 -300 100 100 R 50 50 1 1 I
+X ~ 3 -300 -100 100 R 50 50 1 1 I
+X GND 4 -200 -300 100 U 50 50 1 1 W
+X ~ 5 300 0 100 L 50 50 1 1 O
+X Vs 6 -200 300 100 D 50 50 1 1 W
+X BYPASS 7 0 -200 100 U 50 50 1 1 O
+X Gain 8 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # dk_Logic-Buffers-Drivers-Receivers-Transceivers_SN74LVC2G17DBVR_Discontinued
 #
 DEF dk_Logic-Buffers-Drivers-Receivers-Transceivers_SN74LVC2G17DBVR_Discontinued U 0 0 Y Y 1 F N
