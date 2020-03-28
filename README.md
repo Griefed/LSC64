@@ -1,4 +1,4 @@
-Larson Scanner C64C
+**Larson Scanner C64C**
 -----
 
 ## Features
@@ -67,8 +67,24 @@ For information about the pin layout of the power connector, check out: [C64 Exp
 
 ![Amp](Mono-Stereo-Headphone-Amp.PNG)
 
-Not shown on the schematic nor the pcb are the **4x3 rotary switch**(e.g.:[Symbol](Rotary_Switch4x3.PNG), [Datasheet, Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440) and the **potentiometer to change the volume**(e.g.:[Symbol](Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
+Not shown on the schematic nor the pcb are:
+- **4x3 rotary switch** (e.g.:[Symbol](Rotary_Switch4x3.PNG), [Datasheet, Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440)
+- **dual potentiometer to change the volume** (e.g.:[Symbol](Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
+- **Audio jack to plug in your headphones** (e.g.: [Datasheet](https://www.cuidevices.com/product/resource/sj1-351x.pdf), [Product page](https://www.digikey.de/product-detail/de/cui-devices/SJ1-3513/CP1-3513-ND/738683))
 
--
--
--
+**Stereo sound is ONLY available if you have either a dual SID or an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
+
+- Connect J31 to pin 7 & 9 of your rotary switch
+- Connect J29 to pin 2 of the dual potentiometer
+- Connect J30 to pin 2 of the [Audio Connector on your C64](https://www.c64-wiki.com/wiki/A/V_Jack)
+- Connect J35 to pin 12 of your rotary switch
+- Connect J36 to pin 5 of the dual potentiometer
+- Connect pin 15 & 16 of your rotary switch to pin 2 of [VR1](Amp_Power_Supply.PNG). **Boards with assembly no. 250469 have no VR1. Check beforehand!**
+- Connect pin 1 of the dual potentiometer to pin 3 of the [Audio Connector on your C64](https://www.c64-wiki.com/wiki/A/V_Jack)
+- Connect pin 4 of the dual potentiometer to pin 7 of the [Audio Connector on your C64](https://www.c64-wiki.com/wiki/A/V_Jack)
+- Connect pin 3 & 6 to pin 2 of the [Audio Connector on your C64](https://www.c64-wiki.com/wiki/A/V_Jack)
+- Connect J32 to pin 13 of your rotary switch
+- Connect J38 to pin 14 of your rotary switch
+- Connect pin 1 of your rotary switch to pin
+- Connect pin 3 of your rotary switch to pin
+- Connect pin 6 of your rotary switch to pin
