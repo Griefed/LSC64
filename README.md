@@ -67,7 +67,7 @@ For information about the pin layout of the power connector, check out: [C64 Exp
 
 ![Amp](Mono-Stereo-Headphone-Amp.PNG)
 
-Not shown on the schematic nor the pcb are the **4x3 rotary switch**(e.g.:[Symbol](Rotary_Switch4x3.PNG), [Datasheet, Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440) and the **potentiometer to change the volume**(e.g.:[Symbol](Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
+Not shown on the schematic nor the pcb are the **4x3 rotary switch**(e.g.: [Symbol](Rotary_Switch4x3.PNG), [Datasheet, Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440) and the **potentiometer to change the volume**(e.g.: [Symbol](Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
 
 -
 -
