@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "G:/Zeug/KiCAD/projects/Larson SC64anner/production/"))
+      (outputdirectory "../Files for PCB printing/"))
   )
 
   (net 0 "")
