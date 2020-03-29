@@ -7,7 +7,7 @@ A PCB to enhance your C64C with various things:
 - A Larson Scanner with RGB LEDs, so you can configure it to your liking!
 - An Expansion Port reset circuit. You just need to connect a button and off you go!
 - A CPU brake: Throttle your CPU and slow down your game during the really tricky bits!
-- Headphone-jack mono and stereo. Listen to the beautiful SID sounds with your headphones. Either in mono or in stereo, if you have a dual SID
+- Mono & Stereo Headphone Amp. Listen to the beautiful SID sounds with your headphones. Either in mono or in stereo, if you have a dual SID!
 
 ## Assembly
 
@@ -83,13 +83,16 @@ Not shown on the schematic nor the pcb are:
 - Connect pin 15 & 16 of your rotary switch to pin 2 of [VR1](Amp_Power_Supply.PNG). **Boards with assembly no. 250469 have no VR1. Check beforehand!**
 - Connect pin 1 of the dual potentiometer to pin 3 of the C64 A/V connector
 - Connect pin 4 of the dual potentiometer to pin 7 of the C64 A/V connector
-- Connect pin 3 & 6 to pin 2 of the C64 A/V connector
+- Connect pin 3 & 6 of the dual potentiometer to pin 2 of the C64 A/V connector or pin 3 of VR1
 - Connect J32 to pin 13 of your rotary switch
 - Connect J38 to pin 14 of your rotary switch
-- Connect pin 1 of your rotary switch to pin
-- Connect pin 3 of your rotary switch to pin
-- Connect pin 6 of your rotary switch to pin
+- Connect pin 1 of your rotary switch to pin 2(tip) & 3(ring) of your first headphone jack (mono sound)
+- Connect pin 1(sleeve) of your first headphone jack(mono) to pin 2 of the A/V connector or pin 3 of VR1
+- Connect pin 3 of your rotary switch to pin 2(tip) of your second headphone jack (stereo)
+- Connect pin 6 of your rotary switch to pin 3(ring) of your second headphone jack (stereo)
+- Connect pin 1(sleeve) of your second headphone jack(stereo) to pin 2 of the A/V connector or pin 3 of VR1
 
 For information about the pin layout of the A/V connector, check out [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)
 If you have a board with assembly no. 250469, you need to convert the 9V AC from the [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector) to DC using a [Rectifier](https://en.wikipedia.org/wiki/Rectifier).
+
 Special thanks to AntaBaka for the schematics and the idea [Headphone Amp Mono](http://pitsch.de/stuff/c64/index_amp.htm) and Minidisc.org for the stereo schematics [HeadBanger HEadphone Amp](http://www.minidisc.org/headbanger.html)
