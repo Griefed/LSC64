@@ -23,7 +23,7 @@ Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [Inter
 
 - Connect the top pin of J22 to pin C of the Expansion Port on your C64
 - Connect the bottom pin of J22 to pin 9 of the Expansion Port on your C64
-- Connect your switch to J23 and to pin 1 of the Expansion Port on your C64
+- Connect your [button](https://www.digikey.de/product-detail/de/e-switch/RP3502MABLK/EG1932-ND/280450?cur=EUR&lang=de) to J23 and to pin 1 of the Expansion Port on your C64
 
 For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
 
