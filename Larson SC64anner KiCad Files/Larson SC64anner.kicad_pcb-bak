@@ -4404,7 +4404,7 @@
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (path /5EDD7ACC)
-    (fp_text reference C9 (at -2.05 1 180) (layer F.SilkS)
+    (fp_text reference C9 (at -2.25 0.8 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10uF (at 1.25 3.75 90) (layer F.Fab)
