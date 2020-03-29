@@ -1,6 +1,6 @@
 **Larson Scanner C64C**
 -----
-![Social_Preview_small](Social_Preview_small.PNG)
+![Social_Preview](Social_Preview.PNG)
 ## Features
 
 A PCB to enhance your C64C with various things:
