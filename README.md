@@ -1,6 +1,6 @@
 **Larson Scanner C64C**
 -----
-![Logo_small](Logo_small.PNG)
+![Social_Preview_small](Social_Preview_small.PNG)
 ## Features
 
 A PCB to enhance your C64C with various things:
@@ -12,7 +12,7 @@ A PCB to enhance your C64C with various things:
 ## Assembly
 
 After getting the PCB printed the the printing service of your choice and getting all the parts from the vendor of your choice, take a good look at [the interactive BOM](https://github.com/Griefed/LSC64/blob/master/BOMinteractive.html).
-It's a nice interactive overview of the whole PCB, which helps you placing all your parts where they're supposed to be!
+It's a nice interactive overview of the whole PCB, which helps you placing all your parts where they're supposed to be! (You need to download )
 Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)
 
 ## Connecting your LSC64
@@ -73,7 +73,7 @@ Not shown on the schematic nor the pcb are:
 - **dual potentiometer to change the volume** (e.g.:[Symbol](Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
 - **Audio jack to plug in your headphones** (e.g.: [Datasheet](https://www.cuidevices.com/product/resource/sj1-351x.pdf), [Product page](https://www.digikey.de/product-detail/de/cui-devices/SJ1-3513/CP1-3513-ND/738683))
 
-**Stereo sound is ONLY available if you have either a dual SID or an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
+**Stereo sound REQUIRES an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
 
 - Connect J31 to pin 7 & 9 of your rotary switch
 - Connect J29 to pin 2 of the dual potentiometer
