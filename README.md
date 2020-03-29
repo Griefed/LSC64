@@ -1,6 +1,6 @@
 **Larson Scanner C64C**
 -----
-![Social_Preview](Social_Preview.PNG)
+![Social_Preview](images/Social_Preview.PNG)
 ## Features
 
 A PCB to enhance your C64C with various things:
@@ -11,7 +11,7 @@ A PCB to enhance your C64C with various things:
 
 ## Assembly
 
-After getting the PCB printed the the printing service of your choice and getting all the parts from the vendor of your choice, take a good look at [the interactive BOM](https://github.com/Griefed/LSC64/blob/master/BOMinteractive.html).
+After getting the PCB printed the the printing service of your choice and getting all the parts from the vendor of your choice, take a good look at [the interactive BOM](BOMinteractive.html).
 It's a nice interactive overview of the whole PCB, which helps you placing all your parts where they're supposed to be! (You need to download )
 Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)
 
@@ -19,7 +19,7 @@ Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [Inter
 
 ### The Reset Button
 
-![Reset](Expansionport-Deluxe-Reset.PNG)
+![Reset](images/Expansionport-Deluxe-Reset.PNG)
 
 - Connect the top pin of J22 to pin C of the Expansion Port on your C64
 - Connect the bottom pin of J22 to pin 9 of the Expansion Port on your C64
@@ -31,7 +31,7 @@ Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Delux
 
 ### Larson Scanner
 
-![Larson](Larson-Scanner.PNG)
+![Larson](images/Larson-Scanner.PNG)
 
 - Connect the left pin of J21 to pin 5 of the C64 power connector
 - Connect the right pin of J21 to pin 2 of the C64 power connector
@@ -54,7 +54,7 @@ Thanks to Luc Volders for the explanations and examples on how to build a charli
 
 ### CPU Brake
 
-![CPUBrake](NE555-CPU-Brake.PNG)
+![CPUBrake](images/NE555-CPU-Brake.PNG)
 
 - On/Off-Switch: Connect one pin of your switch to pin 2 of the Expansion Port on your C64 and the other pin of your switch to pin J24
 - Potentiometer: Connect terminal 1 to the right pin of R29, terminal 2 to the middle pin of R29, terminal 3 to the left pin of R29. For my german friends: Anfang an den rechten Pin von R29, Schleifer an den mittleren Pin und Ende an den linken Pin von R29
@@ -66,11 +66,11 @@ Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](ht
 
 ### Mono-Stereo Headphone examples
 
-![Amp](Mono-Stereo-Headphone-Amp.PNG)
+![Amp](images/Mono-Stereo-Headphone-Amp.PNG)
 
 Not shown on the schematic nor the pcb are:
-- **4x3 rotary switch** (e.g.:[Symbol](Rotary_Switch4x3.PNG), [Datasheet Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440)
-- **dual potentiometer to change the volume** (e.g.:[Symbol](Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
+- **4x3 rotary switch** (e.g.:[Symbol](images/Rotary_Switch4x3.PNG), [Datasheet Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440)
+- **dual potentiometer to change the volume** (e.g.:[Symbol](images/Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
 - **Audio jack to plug in your headphones** (e.g.: [Datasheet](https://www.cuidevices.com/product/resource/sj1-351x.pdf), [Product page](https://www.digikey.de/product-detail/de/cui-devices/SJ1-3513/CP1-3513-ND/738683))
 
 **Stereo sound REQUIRES an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
@@ -80,7 +80,7 @@ Not shown on the schematic nor the pcb are:
 - Connect J30 to pin 2 of the A/V connector
 - Connect J35 to pin 12 of your rotary switch
 - Connect J36 to pin 5 of the dual potentiometer
-- Connect pin 15 & 16 of your rotary switch to pin 2 of [VR1](Amp_Power_Supply.PNG). **Boards with assembly no. 250469 have no VR1. Check beforehand!**
+- Connect pin 15 & 16 of your rotary switch to pin 2 of [VR1](images/Amp_Power_Supply.PNG). **Boards with assembly no. 250469 have no VR1. Check beforehand!**
 - Connect pin 1 of the dual potentiometer to pin 3 of the C64 A/V connector
 - Connect pin 4 of the dual potentiometer to pin 7 of the C64 A/V connector
 - Connect pin 3 & 6 of the dual potentiometer to pin 2 of the C64 A/V connector or pin 3 of VR1
