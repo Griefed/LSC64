@@ -11,7 +11,7 @@ A PCB to enhance your C64C with various things:
 
 ## Assembly
 
-After getting the PCB printed the the printing service of your choice and getting all the parts from the vendor of your choice, take a good look at /Larscon SC64anner KiCad Files/bom/ibom.html.
+After getting the PCB printed the the printing service of your choice and getting all the parts from the vendor of your choice, take a good look at [the interactive BOM](BOMinteractive.html).
 It's a nice interactive overview of the whole PCB, which helps you placing all your parts where they're supposed to be!
 Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)
 
