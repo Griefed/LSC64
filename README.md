@@ -1,6 +1,7 @@
 **Larson Scanner C64C**
 -----
 **WIP**
+
 **This has yet to be tested IRL. I currently don't have the funds to procure the PCB and parts in order to build and test it. No guarantee on anything as of yet. Also, the code for the Attiny85 has yet to be written, reason: See above.**
 ![Social_Preview](images/Social_Preview.PNG)
 ## Features
