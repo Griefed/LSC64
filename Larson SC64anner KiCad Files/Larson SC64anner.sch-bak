@@ -162,8 +162,6 @@ Wire Wire Line
 	3250 12150 3250 13250
 Wire Wire Line
 	3000 12400 3000 15700
-Wire Wire Line
-	2200 10150 2200 5550
 Connection ~ 10950 13250
 $Comp
 L Device:R R21
@@ -242,22 +240,6 @@ Connection ~ 11550 13250
 Wire Wire Line
 	11550 13250 13850 13250
 $Comp
-L Connector_Generic:Conn_01x02 J21
-U 1 1 605FE02C
-P 700 11450
-F 0 "J21" H 618 11125 50  0000 C CNN
-F 1 "1x02" H 618 11216 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 700 11450 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 700 11450 50  0001 C CNN
-F 4 "Pin Header" H 700 11450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,55" H 700 11450 50  0001 C CNN "Price"
-F 8 "LSC" H 700 11450 50  0001 C CNN "Family"
-	1    700  11450
-	-1   0    0    1   
-$EndComp
-$Comp
 L MCU_Microchip_ATtiny:ATtiny85-20PU U1
 U 1 1 5E654218
 P 1600 11400
@@ -274,15 +256,9 @@ F 8 "LSC" H 1600 11400 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  11450 1000 11450
-Wire Wire Line
-	1000 11450 1000 12000
-Wire Wire Line
-	1000 12000 1600 12000
-Wire Wire Line
 	900  11350 1000 11350
 Wire Wire Line
-	1000 11350 1000 10800
+	1000 11350 1000 11250
 Wire Wire Line
 	1000 10800 1600 10800
 NoConn ~ 2200 11600
@@ -1696,29 +1672,11 @@ Wire Wire Line
 Connection ~ 3600 5550
 Wire Wire Line
 	3600 5550 4000 5550
-$Comp
-L Connector:Conn_01x01_Male J26
-U 1 1 5E8C2806
-P 17550 5100
-F 0 "J26" H 17658 5281 50  0000 C CNN
-F 1 "1x01" H 17650 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17550 5100 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 17550 5100 50  0001 C CNN
-F 4 "Pin Header" H 17550 5100 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17550 5100 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17550 5100 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 17550 5100 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 17550 5100 50  0001 C CNN "Family"
-	1    17550 5100
-	1    0    0    -1  
-$EndComp
 Connection ~ 18800 2650
 Wire Wire Line
 	18800 2500 18800 2650
 Wire Wire Line
 	18600 2500 18800 2500
-Wire Wire Line
-	16650 3200 17650 3200
 Connection ~ 18000 3800
 Wire Wire Line
 	18000 4450 18000 3800
@@ -1797,7 +1755,6 @@ Wire Wire Line
 	17650 2200 20300 2200
 Wire Wire Line
 	17650 2650 17650 2200
-Connection ~ 17650 3200
 Wire Wire Line
 	18000 3800 18200 3800
 Wire Wire Line
@@ -1821,22 +1778,6 @@ Wire Wire Line
 	17650 2650 18450 2650
 Wire Wire Line
 	17650 3200 17650 2650
-$Comp
-L Connector:Conn_01x01_Male J24
-U 1 1 5EAD1DB5
-P 16450 3200
-F 0 "J24" H 16558 3381 50  0000 C CNN
-F 1 "1x01" H 16550 3300 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16450 3200 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 16450 3200 50  0001 C CNN
-F 4 "Pin Header" H 16450 3200 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 16450 3200 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 16450 3200 50  0001 C CNN "Family"
-	1    16450 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C4
 U 1 1 5EAB8B01
@@ -2223,7 +2164,7 @@ U 1 1 5EB2DA92
 P 10200 2600
 F 0 "U4" H 10544 2653 60  0000 L CNN
 F 1 "LM386N-4_NOPB" H 10544 2547 60  0001 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 10400 2800 60  0001 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 10400 2800 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm386.pdf" H 10400 2900 60  0001 L CNN
 F 4 "296-43960-5-ND" H 10400 3000 60  0001 L CNN "Digi-Key_PN"
 F 5 "LM386N-4/NOPB" H 10400 3100 60  0001 L CNN "MPN"
@@ -2237,22 +2178,6 @@ F 12 "Active" H 10400 3800 60  0001 L CNN "Status"
 F 13 "https://www.digikey.de/product-detail/de/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192" H 10200 2600 50  0001 C CNN "DK_Product_Page"
 F 14 "1,02" H 10200 2600 50  0001 C CNN "Price"
 	1    10200 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J30
-U 1 1 5EB4D403
-P 9150 3450
-F 0 "J30" H 9258 3631 50  0000 C CNN
-F 1 "1x01" H 9250 3550 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9150 3450 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9150 3450 50  0001 C CNN
-F 4 "Pin Header" H 9150 3450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 3450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 3450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 9150 3450 50  0001 C CNN "Price"
-F 8 "AMP" H 9150 3450 50  0001 C CNN "Family"
-	1    9150 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2451,7 +2376,7 @@ U 1 1 5EDD7B07
 P 10200 4500
 F 0 "U5" H 10544 4553 60  0000 L CNN
 F 1 "LM386N-4_NOPB" H 10544 4447 60  0001 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 10400 4700 60  0001 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 10400 4700 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm386.pdf" H 10400 4800 60  0001 L CNN
 F 4 "296-43960-5-ND" H 10400 4900 60  0001 L CNN "Digi-Key_PN"
 F 5 "LM386N-4/NOPB" H 10400 5000 60  0001 L CNN "MPN"
@@ -2567,8 +2492,6 @@ Wire Wire Line
 Connection ~ 9600 4400
 Connection ~ 9450 3450
 Wire Wire Line
-	9450 3450 9350 3450
-Wire Wire Line
 	12150 5450 12150 3550
 Wire Wire Line
 	12150 5450 11750 5450
@@ -2588,4 +2511,118 @@ Connection ~ 11750 5450
 Connection ~ 10200 5350
 Wire Wire Line
 	11750 2600 12250 2600
+Wire Wire Line
+	17750 5100 14550 5100
+Wire Wire Line
+	14550 5100 14550 6150
+Wire Wire Line
+	8250 6150 8250 3450
+Wire Wire Line
+	8250 6150 14550 6150
+Wire Wire Line
+	8250 3450 9450 3450
+Wire Wire Line
+	600  12000 600  8700
+Wire Wire Line
+	600  3450 8250 3450
+Connection ~ 8250 3450
+Connection ~ 17650 3200
+Wire Wire Line
+	16650 3200 17650 3200
+$Comp
+L Connector:Conn_01x01_Male J24
+U 1 1 5EAD1DB5
+P 16450 3200
+F 0 "J24" H 16558 3381 50  0000 C CNN
+F 1 "1x01" H 16550 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16450 3200 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 16450 3200 50  0001 C CNN
+F 4 "Pin Header" H 16450 3200 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 16450 3200 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 16450 3200 50  0001 C CNN "Family"
+	1    16450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J26
+U 1 1 5E891EC2
+P 800 8500
+F 0 "J26" H 850 8917 50  0000 C CNN
+F 1 "2x05" H 850 8826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 800 8500 50  0001 C CNN
+F 3 "https://www.metz-connect.com/us/system/files/productfiles/Data_sheet_PR202XXVBDN.PDF" H 800 8500 50  0001 C CNN
+F 4 "GND" H 800 8500 50  0001 C CNN "Family"
+F 5 "https://www.digikey.de/product-detail/de/metz-connect-usa-inc/PR20205VBDN/1849-1002-ND/7794767" H 800 8500 50  0001 C CNN "DK_Product_Page"
+F 6 "0,15" H 800 8500 50  0001 C CNN "Price"
+	1    800  8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5550 2200 10150
+Wire Wire Line
+	600  8300 600  8150
+Wire Wire Line
+	600  8300 600  8400
+Connection ~ 600  8300
+Wire Wire Line
+	600  8400 600  8500
+Connection ~ 600  8400
+Wire Wire Line
+	600  8500 600  8600
+Connection ~ 600  8500
+Wire Wire Line
+	600  8600 600  8700
+Connection ~ 600  8600
+Connection ~ 600  8700
+Wire Wire Line
+	1100 8700 1100 8600
+Wire Wire Line
+	1100 8600 1100 8500
+Connection ~ 1100 8600
+Wire Wire Line
+	1100 8500 1100 8400
+Connection ~ 1100 8500
+Wire Wire Line
+	1100 8400 1100 8300
+Connection ~ 1100 8400
+Wire Wire Line
+	1100 8300 1100 8150
+Wire Wire Line
+	1100 8150 600  8150
+Connection ~ 1100 8300
+Connection ~ 600  8150
+Wire Wire Line
+	600  8150 600  3450
+Wire Wire Line
+	600  12000 1600 12000
+Text Notes 18350 8900 0    50   ~ 0
+Reset Button
+Text Notes 18600 2000 0    50   ~ 0
+CPU Brake
+Text Notes 10450 1500 0    50   ~ 0
+Headphone Amp
+Text Notes 7150 11550 0    50   ~ 0
+Larson Scanner
+$Comp
+L Connector_Generic:Conn_01x02 J21
+U 1 1 5EC97E7B
+P 700 11350
+F 0 "J21" H 618 11025 50  0000 C CNN
+F 1 "1x02" H 618 11116 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 700 11350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 700 11350 50  0001 C CNN
+F 4 "Pin Header" H 700 11350 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11350 50  0001 C CNN "DK_Product_Page"
+F 6 "LSC" H 700 11350 50  0001 C CNN "Family"
+F 7 "0,55" H 700 11350 50  0001 C CNN "Price"
+	1    700  11350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  11250 1000 11250
+Connection ~ 1000 11250
+Wire Wire Line
+	1000 11250 1000 10800
 $EndSCHEMATC

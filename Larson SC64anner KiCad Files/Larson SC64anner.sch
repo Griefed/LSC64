@@ -94,7 +94,7 @@ U 1 1 607D2065
 P 2950 10700
 F 0 "R22" H 3020 10746 50  0000 L CNN
 F 1 "10 Ohm" H 3020 10655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2880 10700 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 2880 10700 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 2950 10700 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 2950 10700 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 2950 10700 50  0001 C CNN "Category"
@@ -110,7 +110,7 @@ U 1 1 607E5EAC
 P 3450 11000
 F 0 "R23" H 3520 11046 50  0000 L CNN
 F 1 "10 Ohm" H 3520 10955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3380 11000 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 3380 11000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 3450 11000 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3450 11000 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 3450 11000 50  0001 C CNN "Category"
@@ -126,7 +126,7 @@ U 1 1 607F9CCD
 P 3250 12000
 F 0 "R24" H 3320 12046 50  0000 L CNN
 F 1 "10 Ohm" H 3320 11955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3180 12000 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 3180 12000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 3250 12000 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3250 12000 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 3250 12000 50  0001 C CNN "Category"
@@ -142,7 +142,7 @@ U 1 1 6080DBDB
 P 3000 12250
 F 0 "R25" H 3070 12296 50  0000 L CNN
 F 1 "10 Ohm" H 3070 12205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2930 12250 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 2930 12250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 3000 12250 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 3000 12250 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 3000 12250 50  0001 C CNN "Category"
@@ -162,8 +162,6 @@ Wire Wire Line
 	3250 12150 3250 13250
 Wire Wire Line
 	3000 12400 3000 15700
-Wire Wire Line
-	2200 10150 2200 5550
 Connection ~ 10950 13250
 $Comp
 L Device:R R21
@@ -171,7 +169,7 @@ U 1 1 607BE1DC
 P 2200 10300
 F 0 "R21" H 2270 10346 50  0000 L CNN
 F 1 "10 Ohm" H 2270 10255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2130 10300 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 2130 10300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 2200 10300 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/bourns-inc/FW10A10R0JA/FW10A10R0JACT-ND/3777394" H 2200 10300 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 2200 10300 50  0001 C CNN "Category"
@@ -207,7 +205,7 @@ U 1 1 5F63E54C
 P 3050 6700
 F 0 "R1" H 3120 6746 50  0000 L CNN
 F 1 "80 Ohm" H 3120 6655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2980 6700 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 2980 6700 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 3050 6700 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 3050 6700 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 3050 6700 50  0001 C CNN "Category"
@@ -242,22 +240,6 @@ Connection ~ 11550 13250
 Wire Wire Line
 	11550 13250 13850 13250
 $Comp
-L Connector_Generic:Conn_01x02 J21
-U 1 1 605FE02C
-P 700 11450
-F 0 "J21" H 618 11125 50  0000 C CNN
-F 1 "1x02" H 618 11216 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 700 11450 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 700 11450 50  0001 C CNN
-F 4 "Pin Header" H 700 11450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,55" H 700 11450 50  0001 C CNN "Price"
-F 8 "LSC" H 700 11450 50  0001 C CNN "Family"
-	1    700  11450
-	-1   0    0    1   
-$EndComp
-$Comp
 L MCU_Microchip_ATtiny:ATtiny85-20PU U1
 U 1 1 5E654218
 P 1600 11400
@@ -274,15 +256,9 @@ F 8 "LSC" H 1600 11400 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  11450 1000 11450
-Wire Wire Line
-	1000 11450 1000 12000
-Wire Wire Line
-	1000 12000 1600 12000
-Wire Wire Line
 	900  11350 1000 11350
 Wire Wire Line
-	1000 11350 1000 10800
+	1000 11350 1000 11250
 Wire Wire Line
 	1000 10800 1600 10800
 NoConn ~ 2200 11600
@@ -335,7 +311,7 @@ U 1 1 60AF376F
 P 3500 6800
 F 0 "R2" H 3570 6846 50  0000 L CNN
 F 1 "80 Ohm" H 3570 6755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3430 6800 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 3430 6800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 3500 6800 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 3500 6800 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 3500 6800 50  0001 C CNN "Category"
@@ -406,7 +382,7 @@ U 1 1 60B6099D
 P 4100 9250
 F 0 "R3" H 4170 9296 50  0000 L CNN
 F 1 "80 Ohm" H 4170 9205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4030 9250 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 4030 9250 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 4100 9250 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 4100 9250 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 4100 9250 50  0001 C CNN "Category"
@@ -476,7 +452,7 @@ U 1 1 60C374B8
 P 4500 9400
 F 0 "R4" H 4570 9446 50  0000 L CNN
 F 1 "80 Ohm" H 4570 9355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4430 9400 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 4430 9400 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 4500 9400 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 4500 9400 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 4500 9400 50  0001 C CNN "Category"
@@ -555,7 +531,7 @@ U 1 1 60D0BAB9
 P 5150 11800
 F 0 "R5" H 5220 11846 50  0000 L CNN
 F 1 "80 Ohm" H 5220 11755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5080 11800 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 5080 11800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 5150 11800 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 5150 11800 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 5150 11800 50  0001 C CNN "Category"
@@ -624,7 +600,7 @@ U 1 1 60D3DB2C
 P 5550 11900
 F 0 "R6" H 5620 11946 50  0000 L CNN
 F 1 "80 Ohm" H 5620 11855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5480 11900 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 5480 11900 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 5550 11900 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 5550 11900 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 5550 11900 50  0001 C CNN "Category"
@@ -706,7 +682,7 @@ U 1 1 60E6EF42
 P 6250 14450
 F 0 "R7" H 6320 14496 50  0000 L CNN
 F 1 "80 Ohm" H 6320 14405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6180 14450 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 6180 14450 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 6250 14450 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 6250 14450 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 6250 14450 50  0001 C CNN "Category"
@@ -777,7 +753,7 @@ U 1 1 60E9E714
 P 6650 14550
 F 0 "R8" H 6720 14596 50  0000 L CNN
 F 1 "80 Ohm" H 6720 14505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6580 14550 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 6580 14550 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 6650 14550 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 6650 14550 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 6650 14550 50  0001 C CNN "Category"
@@ -855,7 +831,7 @@ U 1 1 60F24178
 P 7500 9150
 F 0 "R9" H 7570 9196 50  0000 L CNN
 F 1 "80 Ohm" H 7570 9105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7430 9150 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 7430 9150 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 7500 9150 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 7500 9150 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 7500 9150 50  0001 C CNN "Category"
@@ -922,7 +898,7 @@ U 1 1 60F4E33E
 P 8000 9250
 F 0 "R10" H 8070 9296 50  0000 L CNN
 F 1 "80 Ohm" H 8070 9205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7930 9250 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 7930 9250 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 8000 9250 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8000 9250 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 8000 9250 50  0001 C CNN "Category"
@@ -1009,7 +985,7 @@ U 1 1 61046371
 P 8900 11800
 F 0 "R11" H 8970 11846 50  0000 L CNN
 F 1 "80 Ohm" H 8970 11755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8830 11800 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 8830 11800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 8900 11800 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 8900 11800 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 8900 11800 50  0001 C CNN "Category"
@@ -1076,7 +1052,7 @@ U 1 1 6106DEE1
 P 9300 11900
 F 0 "R12" H 9370 11946 50  0000 L CNN
 F 1 "80 Ohm" H 9370 11855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9230 11900 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 9230 11900 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 9300 11900 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 9300 11900 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 9300 11900 50  0001 C CNN "Category"
@@ -1161,7 +1137,7 @@ U 1 1 61155550
 P 10000 14450
 F 0 "R13" H 10070 14496 50  0000 L CNN
 F 1 "80 Ohm" H 10070 14405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9930 14450 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 9930 14450 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 10000 14450 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10000 14450 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 10000 14450 50  0001 C CNN "Category"
@@ -1232,7 +1208,7 @@ U 1 1 6117A090
 P 10400 14550
 F 0 "R14" H 10470 14596 50  0000 L CNN
 F 1 "80 Ohm" H 10470 14505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10330 14550 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 10330 14550 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 10400 14550 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 10400 14550 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 10400 14550 50  0001 C CNN "Category"
@@ -1301,7 +1277,7 @@ U 1 1 611BB1C6
 P 11050 11800
 F 0 "R15" H 11120 11846 50  0000 L CNN
 F 1 "80 Ohm" H 11120 11755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10980 11800 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 10980 11800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 11050 11800 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11050 11800 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 11050 11800 50  0001 C CNN "Category"
@@ -1370,7 +1346,7 @@ U 1 1 611DA6C2
 P 11450 11900
 F 0 "R16" H 11520 11946 50  0000 L CNN
 F 1 "80 Ohm" H 11520 11855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11380 11900 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 11380 11900 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 11450 11900 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 11450 11900 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 11450 11900 50  0001 C CNN "Category"
@@ -1445,7 +1421,7 @@ U 1 1 6124A518
 P 12200 14450
 F 0 "R17" H 12270 14496 50  0000 L CNN
 F 1 "80 Ohm" H 12270 14405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 12130 14450 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 12130 14450 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 12200 14450 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12200 14450 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 12200 14450 50  0001 C CNN "Category"
@@ -1516,7 +1492,7 @@ U 1 1 61265180
 P 12600 14550
 F 0 "R18" H 12670 14596 50  0000 L CNN
 F 1 "80 Ohm" H 12670 14505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 12530 14550 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 12530 14550 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 12600 14550 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 12600 14550 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 12600 14550 50  0001 C CNN "Category"
@@ -1585,7 +1561,7 @@ U 1 1 61290855
 P 13950 14450
 F 0 "R19" H 14020 14496 50  0000 L CNN
 F 1 "80 Ohm" H 14020 14405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 13880 14450 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 13880 14450 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 13950 14450 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 13950 14450 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 13950 14450 50  0001 C CNN "Category"
@@ -1656,7 +1632,7 @@ U 1 1 612A3B85
 P 14350 14550
 F 0 "R20" H 14420 14596 50  0000 L CNN
 F 1 "80 Ohm" H 14420 14505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 14280 14550 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 14280 14550 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31018/cmfind.pdf" H 14350 14550 50  0001 C CNN
 F 4 "https://www.digikey.de/product-detail/en/vishay-dale/CMF6080R000BHEB/CMF80.0FCCT-ND/3621880" H 14350 14550 50  0001 C CNN "DK_Datasheet_Link"
 F 5 "Resistor" H 14350 14550 50  0001 C CNN "Category"
@@ -1696,29 +1672,11 @@ Wire Wire Line
 Connection ~ 3600 5550
 Wire Wire Line
 	3600 5550 4000 5550
-$Comp
-L Connector:Conn_01x01_Male J26
-U 1 1 5E8C2806
-P 17550 5100
-F 0 "J26" H 17658 5281 50  0000 C CNN
-F 1 "1x01" H 17650 5200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 17550 5100 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 17550 5100 50  0001 C CNN
-F 4 "Pin Header" H 17550 5100 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17550 5100 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 17550 5100 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 17550 5100 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 17550 5100 50  0001 C CNN "Family"
-	1    17550 5100
-	1    0    0    -1  
-$EndComp
 Connection ~ 18800 2650
 Wire Wire Line
 	18800 2500 18800 2650
 Wire Wire Line
 	18600 2500 18800 2500
-Wire Wire Line
-	16650 3200 17650 3200
 Connection ~ 18000 3800
 Wire Wire Line
 	18000 4450 18000 3800
@@ -1797,7 +1755,6 @@ Wire Wire Line
 	17650 2200 20300 2200
 Wire Wire Line
 	17650 2650 17650 2200
-Connection ~ 17650 3200
 Wire Wire Line
 	18000 3800 18200 3800
 Wire Wire Line
@@ -1821,22 +1778,6 @@ Wire Wire Line
 	17650 2650 18450 2650
 Wire Wire Line
 	17650 3200 17650 2650
-$Comp
-L Connector:Conn_01x01_Male J24
-U 1 1 5EAD1DB5
-P 16450 3200
-F 0 "J24" H 16558 3381 50  0000 C CNN
-F 1 "1x01" H 16550 3300 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16450 3200 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 16450 3200 50  0001 C CNN
-F 4 "Pin Header" H 16450 3200 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 16450 3200 50  0001 C CNN "Price"
-F 8 "CPU Brake" H 16450 3200 50  0001 C CNN "Family"
-	1    16450 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C4
 U 1 1 5EAB8B01
@@ -1875,7 +1816,7 @@ U 1 1 5EA4C511
 P 18950 2950
 F 0 "R28" H 19020 2996 50  0000 L CNN
 F 1 "150 Ohm" H 19020 2905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18880 2950 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 18880 2950 50  0001 C CNN
 F 3 "https://riedon.com/media/pdf/UB.pdf" H 18950 2950 50  0001 C CNN
 F 4 "Resistor" H 18950 2950 50  0001 C CNN "Category"
 F 5 "https://www.digikey.de/product-detail/de/riedon/UB3C-150RF1/696-1023-ND/2176604" H 18950 2950 50  0001 C CNN "DK_Datasheet_Link"
@@ -1993,7 +1934,7 @@ U 1 1 5E7FC21F
 P 18550 9400
 F 0 "R26" H 18620 9446 50  0000 L CNN
 F 1 "10k Ohm" H 18620 9355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18480 9400 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 18480 9400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 18550 9400 50  0001 C CNN
 F 4 "Resistor" H 18550 9400 50  0001 C CNN "Category"
 F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 18550 9400 50  0001 C CNN "DK_Datasheet_Link"
@@ -2009,7 +1950,7 @@ U 1 1 5E81FFE4
 P 18550 10400
 F 0 "R27" H 18620 10446 50  0000 L CNN
 F 1 "10k Ohm" H 18620 10355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18480 10400 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 18480 10400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 18550 10400 50  0001 C CNN
 F 4 "Resistor" H 18550 10400 50  0001 C CNN "Category"
 F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 18550 10400 50  0001 C CNN "DK_Datasheet_Link"
@@ -2127,7 +2068,7 @@ U 1 1 5EA35B11
 P 10450 2050
 F 0 "R30" H 10520 2096 50  0000 L CNN
 F 1 "18k Ohm" H 10520 2005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10380 2050 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 10380 2050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 10450 2050 50  0001 C CNN
 F 4 "Resistor" H 10450 2050 50  0001 C CNN "Category"
 F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 10450 2050 50  0001 C CNN "DK_Datasheet_Link"
@@ -2175,7 +2116,7 @@ U 1 1 5EABF20E
 P 11750 3250
 F 0 "R31" H 11820 3296 50  0000 L CNN
 F 1 "10 Ohm" H 11820 3205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11680 3250 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 11680 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 11750 3250 50  0001 C CNN
 F 4 "Resistor" H 11750 3250 50  0001 C CNN "Category"
 F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 11750 3250 50  0001 C CNN "DK_Datasheet_Link"
@@ -2223,7 +2164,7 @@ U 1 1 5EB2DA92
 P 10200 2600
 F 0 "U4" H 10544 2653 60  0000 L CNN
 F 1 "LM386N-4_NOPB" H 10544 2547 60  0001 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 10400 2800 60  0001 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 10400 2800 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm386.pdf" H 10400 2900 60  0001 L CNN
 F 4 "296-43960-5-ND" H 10400 3000 60  0001 L CNN "Digi-Key_PN"
 F 5 "LM386N-4/NOPB" H 10400 3100 60  0001 L CNN "MPN"
@@ -2237,22 +2178,6 @@ F 12 "Active" H 10400 3800 60  0001 L CNN "Status"
 F 13 "https://www.digikey.de/product-detail/de/texas-instruments/LM386N-4-NOPB/296-43960-5-ND/148192" H 10200 2600 50  0001 C CNN "DK_Product_Page"
 F 14 "1,02" H 10200 2600 50  0001 C CNN "Price"
 	1    10200 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J30
-U 1 1 5EB4D403
-P 9150 3450
-F 0 "J30" H 9258 3631 50  0000 C CNN
-F 1 "1x01" H 9250 3550 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9150 3450 50  0001 C CNN
-F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9150 3450 50  0001 C CNN
-F 4 "Pin Header" H 9150 3450 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 3450 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 9150 3450 50  0001 C CNN "DK_Product_Page"
-F 7 "0,09" H 9150 3450 50  0001 C CNN "Price"
-F 8 "AMP" H 9150 3450 50  0001 C CNN "Family"
-	1    9150 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2355,7 +2280,7 @@ U 1 1 5EDD7AC1
 P 10450 3950
 F 0 "R32" H 10520 3996 50  0000 L CNN
 F 1 "18k Ohm" H 10520 3905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10380 3950 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 10380 3950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_FMP_1.pdf" H 10450 3950 50  0001 C CNN
 F 4 "Resistor" H 10450 3950 50  0001 C CNN "Category"
 F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 10450 3950 50  0001 C CNN "DK_Datasheet_Link"
@@ -2403,7 +2328,7 @@ U 1 1 5EDD7AE2
 P 11750 5150
 F 0 "R33" H 11820 5196 50  0000 L CNN
 F 1 "10 Ohm" H 11820 5105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 11680 5150 50  0001 C CNN
+F 2 "libraries:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_reduced_courtyard" V 11680 5150 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/FW.pdf" H 11750 5150 50  0001 C CNN
 F 4 "Resistor" H 11750 5150 50  0001 C CNN "Category"
 F 5 "https://www.digikey.de/product-detail/de/yageo/FMP300FTF73-10K/10KAVCT-ND/2208416" H 11750 5150 50  0001 C CNN "DK_Datasheet_Link"
@@ -2451,7 +2376,7 @@ U 1 1 5EDD7B07
 P 10200 4500
 F 0 "U5" H 10544 4553 60  0000 L CNN
 F 1 "LM386N-4_NOPB" H 10544 4447 60  0001 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 10400 4700 60  0001 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 10400 4700 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm386.pdf" H 10400 4800 60  0001 L CNN
 F 4 "296-43960-5-ND" H 10400 4900 60  0001 L CNN "Digi-Key_PN"
 F 5 "LM386N-4/NOPB" H 10400 5000 60  0001 L CNN "MPN"
@@ -2567,8 +2492,6 @@ Wire Wire Line
 Connection ~ 9600 4400
 Connection ~ 9450 3450
 Wire Wire Line
-	9450 3450 9350 3450
-Wire Wire Line
 	12150 5450 12150 3550
 Wire Wire Line
 	12150 5450 11750 5450
@@ -2588,4 +2511,118 @@ Connection ~ 11750 5450
 Connection ~ 10200 5350
 Wire Wire Line
 	11750 2600 12250 2600
+Wire Wire Line
+	17750 5100 14550 5100
+Wire Wire Line
+	14550 5100 14550 6150
+Wire Wire Line
+	8250 6150 8250 3450
+Wire Wire Line
+	8250 6150 14550 6150
+Wire Wire Line
+	8250 3450 9450 3450
+Wire Wire Line
+	600  12000 600  8700
+Wire Wire Line
+	600  3450 8250 3450
+Connection ~ 8250 3450
+Connection ~ 17650 3200
+Wire Wire Line
+	16650 3200 17650 3200
+$Comp
+L Connector:Conn_01x01_Male J24
+U 1 1 5EAD1DB5
+P 16450 3200
+F 0 "J24" H 16558 3381 50  0000 C CNN
+F 1 "1x01" H 16550 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 16450 3200 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 16450 3200 50  0001 C CNN
+F 4 "Pin Header" H 16450 3200 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 16450 3200 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 16450 3200 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 16450 3200 50  0001 C CNN "Family"
+	1    16450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J26
+U 1 1 5E891EC2
+P 800 8500
+F 0 "J26" H 850 8917 50  0000 C CNN
+F 1 "2x05" H 850 8826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 800 8500 50  0001 C CNN
+F 3 "https://www.metz-connect.com/us/system/files/productfiles/Data_sheet_PR202XXVBDN.PDF" H 800 8500 50  0001 C CNN
+F 4 "GND" H 800 8500 50  0001 C CNN "Family"
+F 5 "https://www.digikey.de/product-detail/de/metz-connect-usa-inc/PR20205VBDN/1849-1002-ND/7794767" H 800 8500 50  0001 C CNN "DK_Product_Page"
+F 6 "0,15" H 800 8500 50  0001 C CNN "Price"
+	1    800  8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5550 2200 10150
+Wire Wire Line
+	600  8300 600  8150
+Wire Wire Line
+	600  8300 600  8400
+Connection ~ 600  8300
+Wire Wire Line
+	600  8400 600  8500
+Connection ~ 600  8400
+Wire Wire Line
+	600  8500 600  8600
+Connection ~ 600  8500
+Wire Wire Line
+	600  8600 600  8700
+Connection ~ 600  8600
+Connection ~ 600  8700
+Wire Wire Line
+	1100 8700 1100 8600
+Wire Wire Line
+	1100 8600 1100 8500
+Connection ~ 1100 8600
+Wire Wire Line
+	1100 8500 1100 8400
+Connection ~ 1100 8500
+Wire Wire Line
+	1100 8400 1100 8300
+Connection ~ 1100 8400
+Wire Wire Line
+	1100 8300 1100 8150
+Wire Wire Line
+	1100 8150 600  8150
+Connection ~ 1100 8300
+Connection ~ 600  8150
+Wire Wire Line
+	600  8150 600  3450
+Wire Wire Line
+	600  12000 1600 12000
+Text Notes 18350 8900 0    50   ~ 0
+Reset Button
+Text Notes 18600 2000 0    50   ~ 0
+CPU Brake
+Text Notes 10450 1500 0    50   ~ 0
+Headphone Amp
+Text Notes 7150 11550 0    50   ~ 0
+Larson Scanner
+$Comp
+L Connector_Generic:Conn_01x02 J21
+U 1 1 5EC97E7B
+P 700 11350
+F 0 "J21" H 618 11025 50  0000 C CNN
+F 1 "1x02" H 618 11116 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 700 11350 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 700 11350 50  0001 C CNN
+F 4 "Pin Header" H 700 11350 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 700 11350 50  0001 C CNN "DK_Product_Page"
+F 6 "LSC" H 700 11350 50  0001 C CNN "Family"
+F 7 "0,55" H 700 11350 50  0001 C CNN "Price"
+	1    700  11350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  11250 1000 11250
+Connection ~ 1000 11250
+Wire Wire Line
+	1000 11250 1000 10800
 $EndSCHEMATC
