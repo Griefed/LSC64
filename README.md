@@ -76,7 +76,7 @@ Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](ht
 
 ![Amp](images/Mono-Stereo-Headphone-Amp.PNG)
 
-##CAUTION
+##### CAUTION
 - **Boards with assembly no. 250469 have no VR1. Check beforehand!**
 - **Stereo sound REQUIRES an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
 
