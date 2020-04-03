@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.5)-3"
     },
-    "CreationDate":  "2020-04-03T20:25:34+02:00"
+    "CreationDate":  "2020-04-04T00:09:43+02:00"
   },
   "GeneralSpecs":
   {
@@ -65,11 +65,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Larson SC64anner-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "Larson SC64anner-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
@@ -119,10 +114,6 @@
     {
       "Type":  "SolderPaste",
       "Notes":  "Layer B.Paste"
-    },
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
     }
   ]
 }
