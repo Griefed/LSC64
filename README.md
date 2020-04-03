@@ -30,8 +30,9 @@ So, to set the colours of the LED:
 
 | From                  | Of                   | To                        | Of                                                                                | Colour |
 |:----------------------|:--------------------:|:-------------------------:|----------------------------------------------------------------------------------:|:------:|
-| Any of J21            | LSC64                | Pin 5                     | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)|        |
-| J21                   | LSC64                | J24                       | LSC64                                                                             |        |
+| Any of J21            | LSC64                | Pin 5                     | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)| -x-    |
+| Any of J21            | LSC64                | J24                       | LSC64                                                                             | -x-    |
+| Any of J26            | LSC64                | Pin 2                     | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)| -x-    |
 | J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Left      | LSC64                                                                             | Red    |
 | J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Middle    | LSC64                                                                             | Blue   |
 | J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Right     | LSC64                                                                             | Green  |
@@ -40,20 +41,18 @@ So, to set the colours of the LED:
 
 **I recommend you only have one colour per LED enabled at all times.**
 
-Thanks to Luc Volders for the explanations and examples on how to build a charlieplexed Larson Scanner: [Luc's Tech Blog post about his Larson Scanner](https://lucstechblog.blogspot.com/2017/09/charlieplexing.html)
+Special thanks to Luc Volders for the explanations and examples on how to build a charlieplexed Larson Scanner: [Luc's Tech Blog post about his Larson Scanner](https://lucstechblog.blogspot.com/2017/09/charlieplexing.html)
 
 ### The Reset Button
 
 ![Reset](images/Expansionport-Deluxe-Reset.PNG)
 
-| From          | Of                   | To                        | Of                                |
-|:--------------|:--------------------:|:-------------------------:|----------------------------------:|
-| J22           | LSC64                | Pin C (RESET)             | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
-| J27           | LSC64                | Pin 9 (EXROM)             | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
+| From          | Of                   | To                        | Of                                                                                                      |
+|:--------------|:--------------------:|:-------------------------:|--------------------------------------------------------------------------------------------------------:|
+| J22           | LSC64                | Pin C (RESET)             | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)                                      |
+| J27           | LSC64                | Pin 9 (EXROM)             | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)                                      |
 | J23           | LSC64                | Pin 1                     | [Button](https://www.digikey.de/product-detail/de/e-switch/RP3502MABLK/EG1932-ND/280450?cur=EUR&lang=de)|
 | Any of J26    | LSC64                | Pin 2                     | [Button](https://www.digikey.de/product-detail/de/e-switch/RP3502MABLK/EG1932-ND/280450?cur=EUR&lang=de)|
-
-For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
 
 Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Deluxe-Reset](http://pitsch.de/stuff/c64/index_c64.htm#A24)
 
@@ -61,13 +60,13 @@ Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Delux
 
 ![CPUBrake](images/NE555-CPU-Brake.PNG)
 
-| From          | Of                   | To                        | Of                                |
-|:--------------|:--------------------:|:-------------------------:|----------------------------------:|
-| Pin 1         | On/Off Switch        | J21                       | LSC64                             |
-| Pin 2         | On/Off Switch        | J24                       | LSC64                             |
-| Terminal 1    | Dual Potentiometer   | Right Pin R29             | LSC64                             |
-| Terminal 2    | Dual Potentiometer   | Middle Pin R29            | LSC64                             |
-| Terminal 3    | Dual Potentiometer   | Left Pin R29              | LSC64                             |
+| From          | Of                   | To                        | Of                                                                |
+|:--------------|:--------------------:|:-------------------------:|------------------------------------------------------------------:|
+| Pin 1         | On/Off Switch        | J21                       | LSC64                                                             |
+| Pin 2         | On/Off Switch        | J24                       | LSC64                                                             |
+| Terminal 1    | Dual Potentiometer   | Right Pin R29             | LSC64                                                             |
+| Terminal 2    | Dual Potentiometer   | Middle Pin R29            | LSC64                                                             |
+| Terminal 3    | Dual Potentiometer   | Left Pin R29              | LSC64                                                             |
 | J25           | LSC64                | Pin 4                     | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
 
 Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](http://pitsch.de/stuff/c64/index_c64.htm#A41)
@@ -80,23 +79,23 @@ Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](ht
 - **Boards with assembly no. 250469 have no VR1. Check beforehand!**
 - **Stereo sound REQUIRES an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
 
-| From          | Of                   | To                        | Of                                |
-|:--------------|:--------------------:|:-------------------------:|----------------------------------:|
-| J31           | LSC64                | Pin 7 & 9                 | Rotary Switch                     |
-| J29           | LSC64                | Pin 2                     | Dual Potentiometer                |
-| J35           | LSC64                | Pin 12                    | Rotary Switch                     |
-| J36           | LSC64                | Pin 5                     | Dual Potentiometer                |
-| Pin 15 & 16   | Rotary Switch        | Pin 2                     | [VR1](images/Amp_Power_Supply.PNG)|
+| From          | Of                   | To                        | Of                                                         |
+|:--------------|:--------------------:|:-------------------------:|-----------------------------------------------------------:|
+| J31           | LSC64                | Pin 7 & 9                 | Rotary Switch                                              |
+| J29           | LSC64                | Pin 2                     | Dual Potentiometer                                         |
+| J35           | LSC64                | Pin 12                    | Rotary Switch                                              |
+| J36           | LSC64                | Pin 5                     | Dual Potentiometer                                         |
+| Pin 15 & 16   | Rotary Switch        | Pin 2                     | [VR1](images/Amp_Power_Supply.PNG)                         |
 | Pin 1         | Dual Potentiometer   | Pin 3                     | [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
 | Pin 4         | Dual Potentiometer   | Pin 7                     | [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
-| Pin 3 & 6     | Dual Potentiometer   | Any of J26                | LSC64                             |
-| J32           | LSC64                | Pin 13                    | Rotary Switch                     |
-| J38           | LSC64                | Pin 14                    | Rotary Switch                     |
-| Pin 1         | Rotary Switch        | Pin 2 (Tip) & Pin 3 (Ring)| Headphone Jack Mono               |
-| Pin 1 (Sleeve)| Headphone Jack Mono  | Any of J26                | LSC64                             |
-| Pin 3         | Rotary Switch        | Pin 2 (Tip)               | Headphone Jack Stereo             |
-| Pin 6         | Rotary Switch        | Pin 3 (Ring)              | Headphone Jack Stereo             |
-| Pin 1 (Sleeve)| Headphone Jack Stereo| Any of J26                | LSC64                             |
+| Pin 3 & 6     | Dual Potentiometer   | Any of J26                | LSC64                                                      |
+| J32           | LSC64                | Pin 13                    | Rotary Switch                                              |
+| J38           | LSC64                | Pin 14                    | Rotary Switch                                              |
+| Pin 1         | Rotary Switch        | Pin 2 (Tip) & Pin 3 (Ring)| Headphone Jack Mono                                        |
+| Pin 1 (Sleeve)| Headphone Jack Mono  | Any of J26                | LSC64                                                      |
+| Pin 3         | Rotary Switch        | Pin 2 (Tip)               | Headphone Jack Stereo                                      |
+| Pin 6         | Rotary Switch        | Pin 3 (Ring)              | Headphone Jack Stereo                                      |
+| Pin 1 (Sleeve)| Headphone Jack Stereo| Any of J26                | LSC64                                                      |
 
 **Additional parts required but not listed in the InteractiveHtmlBom (They're not a physical part of the LSC64 PCB)**
 - **4x3 rotary switch** (e.g.:[Symbol](images/Rotary_Switch4x3.PNG), [Datasheet Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440)).
