@@ -8,7 +8,7 @@ A PCB to enhance your C64C with various things:
 - A Larson Scanner with RGB LEDs, so you can configure it to your liking!
 - An Expansion Port reset circuit. You just need to connect a button and off you go!
 - A CPU brake: Throttle your CPU and slow down your game during the really tricky bits!
-- Mono & Stereo Headphone Amp. Listen to the beautiful SID sounds with your headphones. Either in mono or in stereo, if you have a dual SID!
+- Mono & Stereo Headphone Amp. Listen to the beautiful SID sounds with your headphones. Either in mono or in stereo, if you have an FPGA SID!
 
 ## Assembly
 
