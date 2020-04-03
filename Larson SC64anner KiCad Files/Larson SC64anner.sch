@@ -1913,22 +1913,6 @@ F 8 "Reset" H 17300 9400 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J22
-U 1 1 5E7B9A5D
-P 20150 9950
-F 0 "J22" H 20068 9625 50  0000 C CNN
-F 1 "1x02" H 20068 9716 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 20150 9950 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=146256&DocType=Customer+Drawing&DocLang=English" H 20150 9950 50  0001 C CNN
-F 4 "Pin Header" H 20150 9950 50  0001 C CNN "Category"
-F 5 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 20150 9950 50  0001 C CNN "DK_Datasheet_Link"
-F 6 "https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5-146256-3/A121369-ND/1153559" H 20150 9950 50  0001 C CNN "DK_Product_Page"
-F 7 "0,55" H 20150 9950 50  0001 C CNN "Price"
-F 8 "Reset" H 20150 9950 50  0001 C CNN "Family"
-	1    20150 9950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R26
 U 1 1 5E7FC21F
 P 18550 9400
@@ -2017,14 +2001,10 @@ Wire Wire Line
 Wire Wire Line
 	18850 10400 18700 10400
 Wire Wire Line
-	19950 9950 19950 9550
-Wire Wire Line
 	19950 9550 18900 9550
 Connection ~ 18900 9550
 Wire Wire Line
 	18900 9550 18900 9750
-Wire Wire Line
-	19950 10050 19950 10600
 Wire Wire Line
 	19950 10600 18850 10600
 Connection ~ 18850 10600
@@ -2625,4 +2605,36 @@ Wire Wire Line
 Connection ~ 1000 11250
 Wire Wire Line
 	1000 11250 1000 10800
+$Comp
+L Connector:Conn_01x01_Male J22
+U 1 1 5E89EC9C
+P 20150 9550
+F 0 "J22" H 20258 9731 50  0000 C CNN
+F 1 "1x01" H 20250 9650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 20150 9550 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 20150 9550 50  0001 C CNN
+F 4 "Pin Header" H 20150 9550 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 20150 9550 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 20150 9550 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 20150 9550 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 20150 9550 50  0001 C CNN "Family"
+	1    20150 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J27
+U 1 1 5E8CA135
+P 20150 10600
+F 0 "J27" H 20258 10781 50  0000 C CNN
+F 1 "1x01" H 20250 10700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 20150 10600 50  0001 C CNN
+F 3 "http://www.adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 20150 10600 50  0001 C CNN
+F 4 "Pin Header" H 20150 10600 50  0001 C CNN "Category"
+F 5 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 20150 10600 50  0001 C CNN "DK_Datasheet_Link"
+F 6 "https://www.digikey.de/product-detail/en/adam-tech/PH1-01-UA/2057-PH1-01-UA-ND/9830231" H 20150 10600 50  0001 C CNN "DK_Product_Page"
+F 7 "0,09" H 20150 10600 50  0001 C CNN "Price"
+F 8 "CPU Brake" H 20150 10600 50  0001 C CNN "Family"
+	1    20150 10600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

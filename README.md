@@ -1,9 +1,6 @@
-**Larson Scanner C64C**
------
-**WIP**
-
-**This has yet to be tested IRL. I currently don't have the funds to procure the PCB and parts in order to build and test it. No guarantee on anything as of yet. Also, the code for the Attiny85 has yet to be written, reason: See above.**
 ![Social_Preview](images/Social_Preview.PNG)
+**This is still a WIP
+**This has yet to be tested IRL. I currently don't have the funds to procure the PCB and parts in order to build and test it. No guarantee on anything as of yet. Also, the code for the Attiny85 has yet to be written, reason: See above.**
 ## Features
 
 A PCB to enhance your C64C with various things:
@@ -24,18 +21,19 @@ Thanks to the Open Scope Project on GitHub for this amazing KiCad plugin: [Inter
 
 ![Larson](images/Larson-Scanner.PNG)
 
-- Connect the left pin of J21 to pin 5 of the C64 power connector
-- Connect any pin/pad of J26 to pin 2 of the C64 power connector
-
 For information about the pin layout of the power connector, check out: [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)
 
 The bottom 3 pins of J1 to J20 are all the same. The top 3 pins of J1 to J20 represent one colour of the RGB LED each.
 From left to right: red, blue green.
 So, to set the colours of the LED:
 
-- Red: Connect the bottom left pin to the top left pin.
-- Blue: Connect the bottom middle pin to the top middle pin.
-- Green: Connect the bottom right pin to the top right pin.
+| From                  | Of                   | To                        | Of                                                                                | Colour |
+|:----------------------|:--------------------:|:-------------------------:|----------------------------------------------------------------------------------:|:------:|
+| Any of J21            | LSC64                | Pin 5                     | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)|        |
+| J21                   | LSC64                | J24                       | LSC64                                                                             |        |
+| J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Left      | LSC64                                                                             | Red    |
+| J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Middle    | LSC64                                                                             | Blue   |
+| J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Right     | LSC64                                                                             | Green  |
 
 **Caution: Enabling more than one colour may result in the LED not lighting up at all. That is due to the output capacity of the Attiny85.**
 
@@ -47,9 +45,12 @@ Thanks to Luc Volders for the explanations and examples on how to build a charli
 
 ![Reset](images/Expansionport-Deluxe-Reset.PNG)
 
-- Connect the top pin of J22 to pin C of the Expansion Port on your C64
-- Connect the bottom pin of J22 to pin 9 of the Expansion Port on your C64
-- Connect your [button](https://www.digikey.de/product-detail/de/e-switch/RP3502MABLK/EG1932-ND/280450?cur=EUR&lang=de) to J23 and to any pin/pad of J26.
+| From          | Of                   | To                        | Of                                |
+|:--------------|:--------------------:|:-------------------------:|----------------------------------:|
+| J22           | LSC64                | Pin C (RESET)             | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
+| J27           | LSC64                | Pin 9 (EXROM)             | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
+| J23           | LSC64                | Pin 1                     | [Button](https://www.digikey.de/product-detail/de/e-switch/RP3502MABLK/EG1932-ND/280450?cur=EUR&lang=de)|
+| Any of J26    | LSC64                | Pin 2                     | [Button](https://www.digikey.de/product-detail/de/e-switch/RP3502MABLK/EG1932-ND/280450?cur=EUR&lang=de)|
 
 For information about the pin layout of the power connector, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
 
@@ -59,33 +60,34 @@ Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Delux
 
 ![CPUBrake](images/NE555-CPU-Brake.PNG)
 
-- On/Off-Switch: Connect your switch to one pin of J21 and one pin of J24
-- Potentiometer: Connect terminal 1 to the right pin of R29, terminal 2 to the middle pin of R29, terminal 3 to the left pin of R29. For my german friends: Anfang an den rechten Pin von R29, Schleifer an den mittleren Pin und Ende an den linken Pin von R29
-- Connect J25 to pin 4 of the Expansion Port on your C64
+| From          | Of                   | To                        | Of                                |
+|:--------------|:--------------------:|:-------------------------:|----------------------------------:|
+| Pin 1         | On/Off Switch        | J21                       | LSC64                             |
+| Pin 2         | On/Off Switch        | J24                       | LSC64                             |
+| Terminal 1    | Dual Potentiometer   | Right Pin R29             | LSC64                             |
+| Terminal 2    | Dual Potentiometer   | Middle Pin R29            | LSC64                             |
+| Terminal 3    | Dual Potentiometer   | Left Pin R29              | LSC64                             |
+| J25           | LSC64                | Pin 4                     | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
 
-For information about the pin layout of the Expansion Port, check out: [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)
 Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](http://pitsch.de/stuff/c64/index_c64.htm#A41)
 
 ### Mono-Stereo Headphone examples
 
 ![Amp](images/Mono-Stereo-Headphone-Amp.PNG)
 
-Additional parts needed and not shown on the schematic nor the pcb are:
-- **4x3 rotary switch** (e.g.:[Symbol](images/Rotary_Switch4x3.PNG), [Datasheet Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440)
-- **dual potentiometer to change the volume** (e.g.:[Symbol](images/Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
-- **Audio jack to plug in your headphones** (e.g.: [Datasheet](https://www.cuidevices.com/product/resource/sj1-351x.pdf), [Product page](https://www.digikey.de/product-detail/de/cui-devices/SJ1-3513/CP1-3513-ND/738683))
+##CAUTION
+- **Boards with assembly no. 250469 have no VR1. Check beforehand!**
+- **Stereo sound REQUIRES an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
 
-**Stereo sound REQUIRES an [FPGA SID](https://webstore.kryoflux.com/catalog/product_info.php?cPath=27&products_id=63&language=en)!**
-
-| From          | Of                   |    To                     | Of                                |
-|---------------|:--------------------:|:-------------------------:|----------------------------------:|
+| From          | Of                   | To                        | Of                                |
+|:--------------|:--------------------:|:-------------------------:|----------------------------------:|
 | J31           | LSC64                | Pin 7 & 9                 | Rotary Switch                     |
 | J29           | LSC64                | Pin 2                     | Dual Potentiometer                |
 | J35           | LSC64                | Pin 12                    | Rotary Switch                     |
 | J36           | LSC64                | Pin 5                     | Dual Potentiometer                |
 | Pin 15 & 16   | Rotary Switch        | Pin 2                     | [VR1](images/Amp_Power_Supply.PNG)|
-| Pin 1         | Dual Potentiometer   | Pin 3                     | C64 A/V Connector                 |
-| Pin 4         | Dual Potentiometer   | Pin 7                     | C64 A/V Connector                 |
+| Pin 1         | Dual Potentiometer   | Pin 3                     | [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
+| Pin 4         | Dual Potentiometer   | Pin 7                     | [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
 | Pin 3 & 6     | Dual Potentiometer   | Any of J26                | LSC64                             |
 | J32           | LSC64                | Pin 13                    | Rotary Switch                     |
 | J38           | LSC64                | Pin 14                    | Rotary Switch                     |
@@ -95,23 +97,9 @@ Additional parts needed and not shown on the schematic nor the pcb are:
 | Pin 6         | Rotary Switch        | Pin 3 (Ring)              | Headphone Jack Stereo             |
 | Pin 1 (Sleeve)| Headphone Jack Stereo| Any of J26                | LSC64                             |
 
-- Connect J31 to pin 7 & 9 of your rotary switch
-- Connect J29 to pin 2 of the dual potentiometer
-- Connect J35 to pin 12 of your rotary switch
-- Connect J36 to pin 5 of the dual potentiometer
-- Connect pin 15 & 16 of your rotary switch to pin 2 of [VR1](images/Amp_Power_Supply.PNG). **Boards with assembly no. 250469 have no VR1. Check beforehand!**
-- Connect pin 1 of the dual potentiometer to pin 3 of the C64 A/V connector
-- Connect pin 4 of the dual potentiometer to pin 7 of the C64 A/V connector
-- Connect pin 3 & 6 of the dual potentiometer to any pad/pin of J26
-- Connect J32 to pin 13 of your rotary switch
-- Connect J38 to pin 14 of your rotary switch
-- Connect pin 1 of your rotary switch to pin 2(tip) & 3(ring) of your first headphone jack (mono sound)
-- Connect pin 1(sleeve) of your first headphone jack(mono) to any pad/pin of J26
-- Connect pin 3 of your rotary switch to pin 2(tip) of your second headphone jack (stereo)
-- Connect pin 6 of your rotary switch to pin 3(ring) of your second headphone jack (stereo)
-- Connect pin 1(sleeve) of your second headphone jack(stereo) to any pad/pin of J26
-
-For information about the pin layout of the A/V connector, check out [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)
-If you have a board with assembly no. 250469, you need to convert the 9V AC from the [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector) to DC using a [Rectifier](https://en.wikipedia.org/wiki/Rectifier).
+**Additional parts required but not listed in the InteractiveHtmlBom (They're not a physical part of the LSC64 PCB)**
+- **4x3 rotary switch** (e.g.:[Symbol](images/Rotary_Switch4x3.PNG), [Datasheet Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440)
+- **dual potentiometer to change the volume** (e.g.:[Symbol](images/Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
+- **Audio jack to plug in your headphones** (e.g.: [Datasheet](https://www.cuidevices.com/product/resource/sj1-351x.pdf), [Product page](https://www.digikey.de/product-detail/de/cui-devices/SJ1-3513/CP1-3513-ND/738683))
 
 Special thanks to AntaBaka for the schematics and the idea [Headphone Amp Mono](http://pitsch.de/stuff/c64/index_amp.htm) and Minidisc.org for the stereo schematics [HeadBanger HEadphone Amp](http://www.minidisc.org/headbanger.html)
