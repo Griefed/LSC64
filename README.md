@@ -100,6 +100,6 @@ Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](ht
 **Additional parts required but not listed in the InteractiveHtmlBom (They're not a physical part of the LSC64 PCB)**
 - **4x3 rotary switch** (e.g.:[Symbol](images/Rotary_Switch4x3.PNG), [Datasheet Model A403](https://dznh3ojzb2azq.cloudfront.net/products/Rotary/A/documents/datasheet.pdf), [Product page](https://www.digikey.de/product-detail/de/c-k/A40315RNZQ/CKC7008-ND/181440)).
 - **dual potentiometer to change the volume** (e.g.:[Symbol](images/Dual_Potentiometer.PNG), [Datasheet](https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf), [Product page](https://www.digikey.de/product-detail/de/bourns-inc/PDB182-K430K-104A/PDB182-K430K-104A-ND/3780721)).
-- **Audio jack to plug in your headphones** (e.g.: [Datasheet](https://www.cuidevices.com/product/resource/sj1-351x.pdf), [Product page](https://www.digikey.de/product-detail/de/cui-devices/SJ1-3513/CP1-3513-ND/738683)).
+- **Audio jack to plug in your headphones** (e.g.: [Datasheet](https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_4832.2300.pdf), [Product page](https://www.digikey.de/product-detail/de/schurter-inc/4832-2300/486-3419-ND/1731055)).
 
 Special thanks to AntaBaka for the schematics and the idea [Headphone Amp Mono](http://pitsch.de/stuff/c64/index_amp.htm) and Minidisc.org for the stereo schematics [HeadBanger Headphone Amp](http://www.minidisc.org/headbanger.html)
