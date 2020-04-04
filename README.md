@@ -31,9 +31,9 @@ So, to set the colours of the LED:
 
 | From                  | Of                   | To                        | Of                                                                                | Colour |
 |:----------------------|:--------------------:|:-------------------------:|----------------------------------------------------------------------------------:|:------:|
-| Any of J21            | LSC64                | Pin 5                     | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)| -x-    |
+| Any of J21            | LSC64                | Pin 5 (+5V DC)            | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)| -x-    |
 | Any of J21            | LSC64                | J24                       | LSC64                                                                             | -x-    |
-| Any of J26            | LSC64                | Pin 2                     | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)| -x-    |
+| Any of J26            | LSC64                | Pin 2 (GND)               | [C64 Power Supply Connector](https://www.c64-wiki.com/wiki/Power_Supply_Connector)| -x-    |
 | J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Left      | LSC64                                                                             | Red    |
 | J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Middle    | LSC64                                                                             | Blue   |
 | J1 to J20 - Bottom Row| LSC64                | J1 to J20 - Top Right     | LSC64                                                                             | Green  |
@@ -68,7 +68,7 @@ Special thanks to AntaBaka for the schematics and the idea: [Expansionport-Delux
 | Terminal 1    | Dual Potentiometer   | Right Pin R29             | LSC64                                                             |
 | Terminal 2    | Dual Potentiometer   | Middle Pin R29            | LSC64                                                             |
 | Terminal 3    | Dual Potentiometer   | Left Pin R29              | LSC64                                                             |
-| J25           | LSC64                | Pin 4                     | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
+| J25           | LSC64                | Pin 4 (IRQ)               | [C64 Expansion Port](https://www.c64-wiki.com/wiki/Expansion_Port)|
 
 Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](http://pitsch.de/stuff/c64/index_c64.htm#A41)
 
@@ -87,8 +87,8 @@ Special thanks to AntaBaka for the schematics and the idea: [CPU Brake NE555](ht
 | J35           | LSC64                | Pin 12                    | Rotary Switch                                              |
 | J36           | LSC64                | Pin 5                     | Dual Potentiometer                                         |
 | Pin 15 & 16   | Rotary Switch        | Pin 2                     | [VR1](images/Amp_Power_Supply.PNG)                         |
-| Pin 1         | Dual Potentiometer   | Pin 3                     | [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
-| Pin 4         | Dual Potentiometer   | Pin 7                     | [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
+| Pin 1         | Dual Potentiometer   | Pin 3 (AUDIO_OUT)         | [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
+| Pin 4         | Dual Potentiometer   | Pin 7 (FPGA SID AUDIO OUT)| [C64 A/V connector](https://www.c64-wiki.com/wiki/A/V_Jack)|
 | Pin 3 & 6     | Dual Potentiometer   | Any of J26                | LSC64                                                      |
 | J32           | LSC64                | Pin 13                    | Rotary Switch                                              |
 | J38           | LSC64                | Pin 14                    | Rotary Switch                                              |
