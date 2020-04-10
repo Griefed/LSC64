@@ -2507,8 +2507,6 @@ Wire Wire Line
 	600  3450 8250 3450
 Connection ~ 8250 3450
 Connection ~ 17650 3200
-Wire Wire Line
-	16650 3200 17650 3200
 $Comp
 L Connector:Conn_01x01_Male J24
 U 1 1 5EAD1DB5
@@ -2637,4 +2635,6 @@ F 8 "CPU Brake" H 20150 10600 50  0001 C CNN "Family"
 	1    20150 10600
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	16650 3200 17650 3200
 $EndSCHEMATC
