@@ -2,6 +2,14 @@
 ![Social_Preview](images/social_preview_schematic.png)
 # **This is still a WIP**
 
+# Sources, GitHub, GitLab and Mirroring and all that good stuff
+
+Repositories on GitHub are now for issues only. I've set up my own installation of GitLab and moved all my repositories over to [Git.Griefed.de](https://git.griefed.de/users/Griefed/projects). Make sure to check there first for the latest code before opening an issue on GitHub.
+
+For questions, you can always join my [Discord server](https://discord.griefed.de) and talk to me there.
+
+---
+
 [[_TOC_]]
 
 **This has yet to be tested IRL. I currently don't have the funds to procure the PCB and parts in order to build and test it. No guarantee on anything as of yet. Also, the code for the Attiny85 has yet to be written, reason: See above.**
